@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/secureStateTest/static/css/main.cdb0ea30.css",
-    "main.js": "/secureStateTest/static/js/main.d4acbf31.js",
+    "main.css": "/secureStateTest/static/css/main.09d6c788.css",
+    "main.js": "/secureStateTest/static/js/main.23afd91c.js",
     "static/js/787.b911cd57.chunk.js": "/secureStateTest/static/js/787.b911cd57.chunk.js",
     "static/media/PentestMarketingVideo.mp4": "/secureStateTest/static/media/PentestMarketingVideo.973e1c44e9d9a3b7c224.mp4",
     "static/media/DEVELOPSecurity.gif": "/secureStateTest/static/media/DEVELOPSecurity.64a59e7f1b16e74c8c82.gif",
@@ -9,6 +9,7 @@
     "static/media/DESIGNSecurity.gif": "/secureStateTest/static/media/DESIGNSecurity.ec25395347b7bc0625a4.gif",
     "static/media/aws.png": "/secureStateTest/static/media/aws.8b09d50c973c0477681d.png",
     "static/media/Nintendo-Logo.png": "/secureStateTest/static/media/Nintendo-Logo.fcd198ea63d8b91a765d.png",
+    "static/media/SDLC.png": "/secureStateTest/static/media/SDLC.6deb35ef04d6137475f2.png",
     "static/media/ASPM.png": "/secureStateTest/static/media/ASPM.c962f205fdb10ac70dcb.png",
     "static/media/Report_Cover_Page.png": "/secureStateTest/static/media/Report_Cover_Page.c5493d6c5ad7edafb603.png",
     "static/media/Lap.png": "/secureStateTest/static/media/Lap.98c5f086e271c6a70718.png",
@@ -39,12 +40,12 @@
     "static/media/CapabilityGaplogo.svg": "/secureStateTest/static/media/CapabilityGaplogo.baddd10cd63b5155e3de018d478afbf8.svg",
     "static/media/SecurityDrivenDesign.svg": "/secureStateTest/static/media/SecurityDrivenDesign.5fa9809170a51fa73b9f2f539f99c942.svg",
     "index.html": "/secureStateTest/index.html",
-    "main.cdb0ea30.css.map": "/secureStateTest/static/css/main.cdb0ea30.css.map",
-    "main.d4acbf31.js.map": "/secureStateTest/static/js/main.d4acbf31.js.map",
+    "main.09d6c788.css.map": "/secureStateTest/static/css/main.09d6c788.css.map",
+    "main.23afd91c.js.map": "/secureStateTest/static/js/main.23afd91c.js.map",
     "787.b911cd57.chunk.js.map": "/secureStateTest/static/js/787.b911cd57.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdb0ea30.css",
-    "static/js/main.d4acbf31.js"
+    "static/css/main.09d6c788.css",
+    "static/js/main.23afd91c.js"
   ]
 }
