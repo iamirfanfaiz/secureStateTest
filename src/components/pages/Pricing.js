@@ -34,7 +34,7 @@ function Pricing() {
                                 <div className='plan-col'>
                                     <div className='head d-flex align-items-start flex-column'>
                                         <div className='fs-md'>Select Plan</div>
-                                        <button className='btn btn-secondary mt-3'>Monthly</button>
+                                        <button className='btn btn-primary mt-3'>Monthly</button>
                                     </div>
 
                                     <div className='body'>
@@ -53,7 +53,7 @@ function Pricing() {
                                             </li>
                                             <li>
                                                 <span className='feature'>
-                                                    Code Review
+                                                    Security Review
                                                 </span>
 
                                             </li>
@@ -117,7 +117,7 @@ function Pricing() {
                                             </li>
                                             <li className='justify-content-center d-none d-md-block text-center'>
                                                 <span className='feature d-none'>
-                                                    Code Review
+                                                    Security Review
                                                 </span>
                                                 <span className='d-none d-md-block text-center'>
                                                     <box-icon name='minus' color='#c9d3dd'></box-icon>
@@ -159,7 +159,7 @@ function Pricing() {
                                     </div>
 
                                     <div className='foot'>
-                                        <button className='btn btn-secondary'>SELECT PLAN</button>
+                                        <a href='https://www.securestate.io/demo' className='btn btn-primary'>SELECT PLAN</a>
                                     </div>
 
                                 </div>
@@ -190,7 +190,7 @@ function Pricing() {
                                             </li>
                                             <li className='justify-content-center'>
                                                 <span className='feature d-block d-sm-block d-md-none'>
-                                                    Code Review
+                                                    Security Review
                                                 </span>
                                                 <span className='d-none d-md-block text-center'>
                                                     <box-icon name='check' color='#000'></box-icon>
@@ -232,7 +232,7 @@ function Pricing() {
                                     </div>
 
                                     <div className='foot'>
-                                        <button className='btn btn-secondary'>SELECT PLAN</button>
+                                        <a href='https://www.securestate.io/demo' className='btn btn-primary'>SELECT PLAN</a>
                                     </div>
 
                                 </div>
@@ -263,7 +263,7 @@ function Pricing() {
                                             </li>
                                             <li className='justify-content-center'>
                                                 <span className='feature d-block d-sm-block d-md-none'>
-                                                    Code Review
+                                                    Security Review
                                                 </span>
                                                 <span className='d-none d-md-block text-center'>
                                                     <box-icon name='check' color='#000'></box-icon>
@@ -305,7 +305,7 @@ function Pricing() {
                                     </div>
 
                                     <div className='foot'>
-                                        <button className='btn btn-secondary'>SELECT PLAN</button>
+                                        <a href='https://www.securestate.io/demo' className='btn btn-primary'>SELECT PLAN</a>
                                     </div>
 
                                 </div>
@@ -327,15 +327,15 @@ function Pricing() {
 
                 <div className='container pt-5'>
                     <div className='row align-items-center'>
-                        <div className='col-md-6 offset-md-3'>
+                        <div className='col-md-12'>
 
-                            <h2 className='fw-700 text-center mb-4'>
+                            <h2 className='fw-700 text-center mb-2 color-orange'>
                                 Frequently Asked Questions
                             </h2>
 
-                            <p className='text-center mute'>
+                            {/* <p className='text-center mute'>
                                 Use this section to reassure customers by proactively addressing their questions and concerns.
-                            </p>
+                            </p> */}
 
                         </div>
 
@@ -344,7 +344,7 @@ function Pricing() {
 
             </section>
 
-            <section className='py-5 d-flex align-items-center'>
+            <section className='pb-5 d-flex align-items-center'>
 
                 <div className='container'>
                     <div className='row align-items-center'>
@@ -352,47 +352,50 @@ function Pricing() {
 
                             <Accordion defaultActiveKey="0">
                                 <Accordion.Item eventKey="0">
-                                    <Accordion.Header>Can I add on additional services?</Accordion.Header>
+                                    <Accordion.Header>What integrations do you offer?</Accordion.Header>
                                     <Accordion.Body>
                                         <p className='mute'>
-                                            We provide flexible pricing and only charge you for what you use, and we take the size and complexity of your application into account.
+                                        We are constantly working on integrations to add to our platform from popular bug tracking tools, dynamic analysis security tools, static analysis security tools and other application security tools.
                                         </p>
 
                                         <p className='mute'>
-                                            Services that can be purchased as add-ons including Threat Modeling, Penetration Testing, Vulnerability Assessments and Automated Testing.
+                                        To see what we have we have to offer, or suggest one email <a href='mailto:support@securestate.io'>support@securestate.io</a>
                                         </p>
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="1">
-                                    <Accordion.Header>What Integrations do you have?</Accordion.Header>
+                                    <Accordion.Header>What if I don't know what security I need?</Accordion.Header>
                                     <Accordion.Body>
-                                        <p className='mute'>What Integrations do you have?</p>
+                                        <p className='mute'>Not a problem! Our mission is to simplify the cybersecurity process and create an easy way for product leaders to integrate security and prove it.</p>
+                                    
+                                        <p className='mute'>
+                                        We provide 3 subscription levels that each offer their own level of security based on your needs and risk appetite.  
+                                        </p>
+                                        <p className='mute'>
+                                        We will provide a free consultation to help determine what's the best option.  Schedule a call now! <a href='https://calendly.com/securestate/lets-talk-security' target='_blank'>https://calendly.com/securestate/lets-talk-security</a>
+                                            </p>
+                                    
+                                    
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="2">
-                                    <Accordion.Header>What If I dont know what security I need?</Accordion.Header>
-                                    <Accordion.Body>
-                                        <p className='mute'>What If I dont know what security I need?</p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="3">
-                                    <Accordion.Header>How many hours of manual testing am I entitled to?</Accordion.Header>
-                                    <Accordion.Body>
-                                        <p className='mute'>How many hours of manual testing am I entitled to?</p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="4">
                                     <Accordion.Header>What about my existing security tools?</Accordion.Header>
                                     <Accordion.Body>
-                                        <p className='mute'>What about my existing security tools?</p>
+                                        <p className='mute'>
+                                        Our DevSecOps platform integrates with many of the most popular security tools to enable you to continue to leverage your existing security solutions.
+                                            </p>
                                     </Accordion.Body>
                                 </Accordion.Item>
-                                <Accordion.Item eventKey="5">
-                                    <Accordion.Header>What if I dont have a security team?</Accordion.Header>
+
+
+                                <Accordion.Item eventKey="3">
+                                    <Accordion.Header>What if I don't have my own developers to implement fixes?</Accordion.Header>
                                     <Accordion.Body>
-                                        <p className='mute'>What if I dont have a security team?</p>
+                                        <p className='mute'>
+                                        We do not offer remediation services but have a partner network to help connect you with an experienced and qualified engineer. </p>
                                     </Accordion.Body>
                                 </Accordion.Item>
+                           
                             </Accordion>
 
                         </div>

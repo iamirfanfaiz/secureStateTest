@@ -19,12 +19,12 @@ function Operate() {
                             </h1>
 
                             <p>
-                                Make data driven decisions from actionable data and have access to testers to clarify findings and recommedations
+                            Reduce the time from find to fix using real time data and actionable intelligence to enable developers to efficiently remediate bugs.
                             </p>
 
-                            <button className='btn btn-primary'>
+                            <a href='https://www.securestate.io/demo' className='btn btn-primary'>
                                 Start a Pentest
-                            </button>
+                            </a>
                         </div>
                         <div className='col-md-6 d-flex justify-content-center'>
                             <img src={LapImage} className='img-fluid' />
@@ -116,7 +116,7 @@ function Operate() {
                             </h2>
 
                             <p className=''>
-                                We provide actionable data to help DevOps prirotize findings and ensure all findings are patched in the right order and provide utomted reminders
+                            The platform provides actionable intelligence to help DevOps prioritize findings and ensure all bugs are patched appropriately 
                             </p>
 
 
@@ -136,7 +136,7 @@ function Operate() {
 
                         <div className='col-12'>
                             <h2 className='fw-700 mb-5 color-light text-center'>
-                                Benfits
+                                Benefits
                             </h2>
                         </div>
 
@@ -190,9 +190,9 @@ function Operate() {
                             Findings are reported as they are discovered and provide the data you need to prioritize your risks & take action.  Our reporting includes data around severity, risk, finding details, and recommendations.
                             </p>
 
-                            <button className='btn btn-primary'>
+                            <a href='https://www.securestate.io/demo' className='btn btn-primary'>
                             Get a Pentest Today
-                            </button>
+                            </a>
 
 
 

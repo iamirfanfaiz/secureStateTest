@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import logoImage from '../../assets/images/logo-new.png'
+import SDLCImage from '../../assets/images/icons/SDLC.png'
 import DESIGNSecurity from '../../assets/images/icons/DESIGNSecurity.gif'
 import DEVELOPSecurity from '../../assets/images/icons/DEVELOPSecurity.gif'
 import OPERATESecurity from '../../assets/images/icons/OPERATESecurity.gif'
@@ -72,9 +73,9 @@ function Home() {
                                 Integrating security at every phase of the product development lifecycle
                             </p>
 
-                            <button className='btn btn-secondary'>
+                            <a href='https://www.securestate.io/demo' className='btn btn-secondary'>
                                 Learn more
-                            </button>
+                            </a>
                         </div>
 
                     </div>
@@ -85,7 +86,7 @@ function Home() {
                 <div className='container'>
                     <div className='row'>
                         <div className='col d-flex align-items-center justify-content-center'>
-                            <p className='mb-0 fw-600 mr-3'>Do you know your security posture?</p> <button className='btn btn-light'>Get a free Assessment</button>
+                            <p className='mb-0 fw-600 mr-3'>Do you know your security posture?</p> <a href='https://www.securestate.io/demo' className='btn btn-light'>Get a free Assessment</a>
                         </div>
                     </div>
                 </div>
@@ -110,10 +111,13 @@ function Home() {
                         </div>
                     </div>
 
+
                     <div className='row'>
+           
+
                         <div className='col-md-4'>
-                            <div className={toggleState === 1 ? "services-tab active" : "services-tab"}
-                                onClick={() => toggleTab(1)}>
+                            <div className={toggleState === 2 ? "services-tab active" : "services-tab"}
+                                onClick={() => toggleTab(2)}>
                                 <div className='image'>
                                     <img src={DesignwSecuritylogo} />
                                 </div>
@@ -123,8 +127,8 @@ function Home() {
 
                         </div>
                         <div className='col-md-4'>
-                            <div className={toggleState === 2 ? "services-tab active" : "services-tab"}
-                                onClick={() => toggleTab(2)}>
+                            <div className={toggleState === 3 ? "services-tab active" : "services-tab"}
+                                onClick={() => toggleTab(3)}>
                                 <div className='image'>
                                     <img src={DevelopwSecuritylogo} />
                                 </div>
@@ -135,8 +139,8 @@ function Home() {
 
                         </div>
                         <div className='col-md-4'>
-                            <div className={toggleState === 3 ? "services-tab active" : "services-tab"}
-                                onClick={() => toggleTab(3)}>
+                            <div className={toggleState === 4 ? "services-tab active" : "services-tab"}
+                                onClick={() => toggleTab(4)}>
                                 <div className='image'>
                                     <img src={OperatewSecuritylogo} />
                                 </div>
@@ -152,17 +156,24 @@ function Home() {
                                 <div
                                     className={toggleState === 1 ? "content  active" : "content"}
                                 >
+                                    <img src={SDLCImage} />
+
+                                </div>
+
+                                <div
+                                    className={toggleState === 2 ? "content  active" : "content"}
+                                >
                                     <img src={DESIGNSecurity} />
 
                                 </div>
                                 <div
-                                    className={toggleState === 2 ? "content  active" : "content"}
+                                    className={toggleState === 3 ? "content  active" : "content"}
                                 >
                                     <img src={DEVELOPSecurity} />
 
                                 </div>
                                 <div
-                                    className={toggleState === 3 ? "content  active" : "content"}
+                                    className={toggleState === 4 ? "content  active" : "content"}
                                 >
                                     <img src={OPERATESecurity} />
 
@@ -228,17 +239,17 @@ function Home() {
                     <div className='row mb-5'>
                         <div className='col-md-12 text-center'>
                             <h1 className='fw-700'>
-                                Our North Start
+                                Our North Star
                             </h1>
 
                             <h2>
                                 Securing the Software
                                 Development Lifecycle
                             </h2>
-                            <p>
+                            <h5>
                                 To protect your SDLC, we become an extension
                                 of it
-                            </p>
+                            </h5>
 
                         </div>
                     </div>

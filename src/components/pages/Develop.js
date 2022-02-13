@@ -26,9 +26,9 @@ function Develop() {
                                 Bring security to the table on day one with a design review before you write a single line of code.
                             </p>
 
-                            <button className='btn btn-primary'>
+                            <a href='https://www.securestate.io/demo' className='btn btn-primary'>
                                 Get a theat Model
-                            </button>
+                            </a>
                         </div>
                         <div className='col-md-6 d-flex justify-content-center'>
                             <img src={DesignwithSecutiyImage} className='img-fluid' />
@@ -109,11 +109,11 @@ function Develop() {
 
                             <div className='box d-flex align-items-center flex-column'>
                                 <img src={HowitWorksImage} width='80' />
-                                <p>
+                                <h5>
                                     Submit request
 
                                     on the asset
-                                </p>
+                                </h5>
                             </div>
 
 
@@ -125,18 +125,14 @@ function Develop() {
                                 <img src={HowitWorks2Image} width='80' />
 
 
-                                <p>
+                                <h5>
                                     Schedule design
 
                                     review with our
 
                                     security team
-                                </p>
+                                </h5>
                             </div>
-
-
-
-
 
                         </div>
 
@@ -146,11 +142,11 @@ function Develop() {
                                 <img src={HowitWorks3Image} width='80' />
 
 
-                                <p>
+                                <h5>
                                     Recieve threat
 
                                     model
-                                </p>
+                                </h5>
                             </div>
 
 
@@ -168,17 +164,17 @@ function Develop() {
                     <div className='row align-items-center py-4'>
                         <div className='col-md-8 offset-md-2 d-flex align-items-center flex-column justify-content-center'>
 
-                            <h2 className='fw-700 text-center'>
+                            {/* <h2 className='fw-700 text-center'>
                                 Sell Security as a Benefit
-                            </h2>
+                            </h2> */}
 
                             <p className='text-center'>
                                 Use security as a sales differentiator when speaking with prospective clients.  Most organizations wait until the end of the sales cycle, which creates an oppurtunity.
                             </p>
 
-                            <button className='btn btn-primary'>
+                            <a href='https://www.securestate.io/demo' className='btn btn-primary'>
                                 Learn More
-                            </button>
+                            </a>
 
 
 
@@ -283,9 +279,9 @@ function Develop() {
                             Security is cheaper if implemented earlier. Threat models provide an instant ROI by eliminating >90% of the common vulnerabilities discovered at the end of the development lifecycle.  Bugs found later in the lifecycle require additional developer hours and impact the release timeline.
                             </p>
 
-                            <button className='btn btn-primary'>
+                            <a href='https://www.securestate.io/demo' className='btn btn-primary'>
                             Start Threat Model
-                            </button>
+                            </a>
 
 
 

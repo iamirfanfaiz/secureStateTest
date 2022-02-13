@@ -25,9 +25,9 @@ function Design() {
                                 Centralize data from all your product security tools including DAST, SAST, SCA, Pentest and Threat Models in a single place
                             </p>
 
-                            <button className='btn btn-primary'>
+                            <a href='https://www.securestate.io/demo' className='btn btn-primary'>
                                 Get Secure
-                            </button>
+                            </a>
                         </div>
                         <div className='col-md-6 d-flex justify-content-center'>
                             <img src={ASPMImage} className='img-fluid' />
@@ -134,9 +134,9 @@ function Design() {
                                 Bring disparate data from your security toolset into a centralized platform.  Traditional security involves many tools and tons of unfiltered data, and results in ineffective action. Securestate brings all your data into a single place, empowering developers to effectively prioritize and mitigate security issues
                             </p>
 
-                            <button className='btn btn-primary'>
+                            <a href='https://www.securestate.io/demo' className='btn btn-primary'>
                                 Learn More
-                            </button>
+                            </a>
 
                         </div>
 

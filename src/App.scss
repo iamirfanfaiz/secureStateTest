@@ -311,7 +311,7 @@ a {
 
 .how-it-works {
   .box {
-    max-width: 210px;
+    max-width: 290px;
     width: 100%;
     margin: auto;
     text-align: center;
@@ -426,6 +426,7 @@ a {
           .feature {
             color: #798da3;
             font-size: 14px;
+            font-weight:500;
             @media only screen and (max-width: 768px) {
               text-align: center;
             }
@@ -444,8 +445,8 @@ a {
 }
 
 .accordion-button {
-  color: #3b4754 !important;
-  background-color: #eef1f5 !important;
+  color: #ffffff !important;
+  background-color: #fd7b33 !important;
   font-size: 14px;
   font-weight: 700;
 }
@@ -457,7 +458,7 @@ a {
 }
 
 .accordion-button::after {
-  filter: brightness(0.5);
+  filter: invert(1);
 }
 
 .accordion-item {
