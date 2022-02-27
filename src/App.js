@@ -11,8 +11,9 @@ import Operate from './components/pages/Operate';
 import Pricing from './components/pages/Pricing';
 import Platform from './components/pages/Platform';
 import Footer from './components/footer/Footer';
-
+import ScrollToTop from './components/pages/ScrollToTop';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
   return (
     <div>
       <Router>
+        <ScrollToTop/>
         <LoadingBar color='#f11946' ref={ref} />
         <NavBar />
         <Routes>
