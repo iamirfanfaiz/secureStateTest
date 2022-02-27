@@ -80,6 +80,26 @@ a {
 .header {
   min-height: 600px;
   padding-top: 60px;
+
+  .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    @media only screen and (max-width: 600px) {
+      align-items: start;
+   
+    }
+
+  }
+
+  h1{
+    @media only screen and (max-width: 600px) {
+      flex-direction: column;
+    }
+  }
+
 }
 
 .ribbon {
@@ -248,7 +268,8 @@ a {
 
 .devopstext {
   text-align: center !important;
-  width: 400px !important;
+  max-width: 400px !important;
+  width: 100%;
   min-height: 100px;
   margin: auto;
 }

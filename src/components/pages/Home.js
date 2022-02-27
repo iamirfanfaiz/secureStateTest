@@ -22,6 +22,9 @@ import { Tab, Row, Col, Nav } from 'react-bootstrap';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 import TextTransition, { presets } from "react-text-transition";
+import ActionableIntel from '../../assets/images/northstar/actionableintel.svg'
+import CapabilityGap from '../../assets/images/northstar/captabilityGaps.svg'
+import ShiftLefts from '../../assets/images/northstar/shiftlefts.svg'
 
 
 function Home() {
@@ -60,7 +63,7 @@ function Home() {
 
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-md-12 d-flex justify-content-center align-items-center flex-column'>
+                        <div className='col-md-12 heading'>
                             <h1 className='fw-700 d-flex justify-content-center'>
                                 Product Security,&nbsp;<TextTransition
                                     text={BannerText[index % BannerText.length]}
@@ -113,7 +116,7 @@ function Home() {
 
 
                     <div className='row'>
-           
+
 
                         <div className='col-md-4'>
                             <div className={toggleState === 2 ? "services-tab active" : "services-tab"}
@@ -156,7 +159,7 @@ function Home() {
                                 <div
                                     className={toggleState === 1 ? "content  active" : "content"}
                                 >
-                                    <img src={SDLCImage} />
+                                    <img src={SDLCImage} className='img-fluid' />
 
                                 </div>
 
@@ -262,34 +265,19 @@ function Home() {
                                     <Col sm={{ span: 5, offset: 1 }} offset>
                                         <Tab.Content>
                                             <Tab.Pane eventKey="first">
-                                                <p className='tab-content'>
-                                                    <strong>
-                                                        Shift Left: </strong>
-                                                    Bring security to the table
-                                                    on day one and eliminate
-                                                    vulnerabilities before they
-                                                    ever reach production. A
-                                                    bug discovered in design
-                                                    is a fraction of the cost
-                                                    when discovered in
-                                                    production
-                                                </p>
+                                                <div className='d-flex justify-content-center'>
+                                                    <img src={ShiftLefts} alt='ShiftLefts' className='img-fluid' />
+                                                </div>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="second">
-                                                <p>
-                                                    <strong>
-                                                        Capability Gap: </strong> Most security teams can't get past the capability gap of standard testing at the end of the development lifecycle, our tools help integrate security earlier in the design and development phases
-                                                </p>
+                                                <div className='d-flex justify-content-center'>
+                                                    <img src={CapabilityGap} alt='CapabilityGap' className='img-fluid' />
+                                                </div>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="third">
-                                                <p>
-                                                    <strong>
-                                                        Actionable Intelligence: </strong>
-                                                    Findings reported on the
-                                                    platform come with actionable recommendations that
-                                                    give developers the tools and guidance to quickly
-                                                    remediate bugs to focus on development
-                                                </p>
+                                                <div className='d-flex justify-content-center'>
+                                                    <img src={ActionableIntel} alt='ActionableIntel' className='img-fluid' />
+                                                </div>
                                             </Tab.Pane>
                                         </Tab.Content>
                                     </Col>
