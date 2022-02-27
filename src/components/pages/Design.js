@@ -59,7 +59,7 @@ function Design() {
 
                     <div className='row mt-5'>
                         <div className='col-md-6'>
-                            <div className='panel'>
+                            <div className='panel mt-3'>
                                 <h3>Without Securestate</h3>
                                 <ul>
                                     <li>
@@ -90,7 +90,7 @@ function Design() {
                             </div>
                         </div>
                         <div className='col-md-6'>
-                            <div className='panel'>
+                            <div className='panel mt-3'>
                                 <h3>With Securestate</h3>
                                 <ul>
                                     <li>
@@ -145,7 +145,7 @@ function Design() {
 
                         <div className='col-md-6 d-flex align-items-center justify-content-center'>
                             <Slide direction='right' triggerOnce='ture'>
-                                <img src={CentralizeDataImage} className='img-fluid' width={300} />
+                                <img src={CentralizeDataImage} className='img-fluid mt-3' width={300} />
                             </Slide>
                         </div>
 
@@ -160,7 +160,7 @@ function Design() {
 
                         <div className='col-md-6 d-flex align-items-center justify-content-center'>
                         <Slide direction='left' triggerOnce='ture'>
-                            <img src={PrioritzeRiskImage} className='img-fluid' width={300} />
+                            <img src={PrioritzeRiskImage} className='img-fluid mb-3' width={300} />
                             </Slide>
                         </div>
 
@@ -209,7 +209,7 @@ function Design() {
 
                         <div className='col-md-6 d-flex align-items-center justify-content-center'>
                         <Slide direction='right' triggerOnce='ture'>
-                            <img src={ActionalbleRecommendationsImage} className='img-fluid' />
+                            <img src={ActionalbleRecommendationsImage} className='img-fluid mt-3' />
                             </Slide>
                         </div>
 

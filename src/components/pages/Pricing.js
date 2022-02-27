@@ -1,4 +1,6 @@
 import React from 'react';
+import { Slide } from "react-awesome-reveal";
+
 import Accordion from 'react-bootstrap/Accordion';
 function Pricing() {
     return (
@@ -29,288 +31,291 @@ function Pricing() {
                     <div className='row'>
                         <div className='col-md-12'>
 
-                            <div className='plan'>
+                            <Slide direction='up' triggerOnce='true'>
+                                <div className='plan'>
 
-                                <div className='plan-col'>
-                                    <div className='head d-flex align-items-start flex-column'>
-                                        <div className='fs-md'>Select Plan</div>
-                                        <button className='btn btn-primary mt-3'>Monthly</button>
+                                    <div className='plan-col'>
+                                        <div className='head d-flex align-items-start flex-column'>
+                                            <div className='fs-md'>Select Plan</div>
+                                            <button className='btn btn-primary mt-3'>Monthly</button>
+                                        </div>
+
+                                        <div className='body'>
+                                            <ul className='features'>
+                                                <li>
+                                                    <span className='feature'>
+                                                        Application Security Posture Management
+                                                    </span>
+
+                                                </li>
+                                                <li>
+                                                    <span className='feature'>
+                                                        Vulnerability Assessment
+                                                    </span>
+
+                                                </li>
+                                                <li>
+                                                    <span className='feature'>
+                                                        Security Review
+                                                    </span>
+
+                                                </li>
+                                                <li>
+                                                    <span className='feature'>
+                                                        Penetration Testing
+                                                    </span>
+
+                                                </li>
+                                                <li>
+                                                    <span className='feature'>
+                                                        Threat Modeling
+                                                    </span>
+
+                                                </li>
+                                                <li>
+                                                    <span className='feature'>
+                                                        Quarterly Business Reviews
+                                                    </span>
+
+                                                </li>
+                                                <li>
+                                                    <span className='feature'>
+                                                        Cybersecurity Program Manager
+                                                    </span>
+
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div className='foot'>
+
+                                        </div>
+
                                     </div>
 
-                                    <div className='body'>
-                                        <ul className='features'>
-                                            <li>
-                                                <span className='feature'>
-                                                    Application Security Posture Management
-                                                </span>
+                                    <div className='plan-col'>
+                                        <div className='head d-flex align-items-center flex-column'>
+                                            <div className='fs-xs'>Operate</div>
+                                            <div className='fs-lg'><sup>$</sup>199</div>
+                                            <div className='fs-xs mute'>Starting at /app</div>
+                                        </div>
 
-                                            </li>
-                                            <li>
-                                                <span className='feature'>
-                                                    Vulnerability Assessment
-                                                </span>
+                                        <div className='body'>
+                                            <ul className='features'>
+                                                <li className='justify-content-center'>
+                                                    <span className='feature d-block d-sm-block d-md-none'>
+                                                        Application Security Posture Management
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='check' color='#000'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center'>
+                                                    <span className='feature d-block d-sm-block d-md-none'>
+                                                        Vulnerability Assessment
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='check' color='#000'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center d-none d-md-block text-center'>
+                                                    <span className='feature d-none'>
+                                                        Security Review
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='minus' color='#c9d3dd'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center d-none d-md-block text-center'>
+                                                    <span className='feature d-none'>
+                                                        Penetration Testing
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='minus' color='#c9d3dd'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center d-none d-md-block text-center'>
+                                                    <span className='feature d-none'>
+                                                        Threat Modeling
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='minus' color='#c9d3dd'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center d-none d-md-block text-center'>
+                                                    <span className='feature d-none'>
+                                                        Quarterly Business Reviews
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='minus' color='#c9d3dd'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center d-none d-md-block text-center'>
+                                                    <span className='feature d-none'>
+                                                        Cybersecurity Program Manager
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='minus' color='#c9d3dd'></box-icon>
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
 
-                                            </li>
-                                            <li>
-                                                <span className='feature'>
-                                                    Security Review
-                                                </span>
+                                        <div className='foot'>
+                                            <a href='https://www.securestate.io/demo' className='btn btn-primary'>SELECT PLAN</a>
+                                        </div>
 
-                                            </li>
-                                            <li>
-                                                <span className='feature'>
-                                                    Penetration Testing
-                                                </span>
-
-                                            </li>
-                                            <li>
-                                                <span className='feature'>
-                                                    Threat Modeling
-                                                </span>
-
-                                            </li>
-                                            <li>
-                                                <span className='feature'>
-                                                    Quarterly Business Reviews
-                                                </span>
-
-                                            </li>
-                                            <li>
-                                                <span className='feature'>
-                                                    Cybersecurity Program Manager
-                                                </span>
-
-                                            </li>
-                                        </ul>
                                     </div>
+                                    <div className='plan-col'>
+                                        <div className='head d-flex align-items-center flex-column'>
+                                            <div className='fs-xs'>Develop + Operate</div>
+                                            <div className='fs-lg'><sup>$</sup>999</div>
+                                            <div className='fs-xs mute'>Starting at /app</div>
+                                        </div>
 
-                                    <div className='foot'>
+                                        <div className='body'>
+                                            <ul className='features'>
+                                                <li className='justify-content-center'>
+                                                    <span className='feature d-block d-sm-block d-md-none'>
+                                                        Application Security Posture Management
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='check' color='#000'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center'>
+                                                    <span className='feature d-block d-sm-block d-md-none'>
+                                                        Vulnerability Assessment
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='check' color='#000'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center'>
+                                                    <span className='feature d-block d-sm-block d-md-none'>
+                                                        Security Review
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='check' color='#000'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center'>
+                                                    <span className='feature d-block d-sm-block d-md-none'>
+                                                        Penetration Testing
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='check' color='#000'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center d-none d-md-block text-center'>
+                                                    <span className='feature d-none'>
+                                                        Threat Modeling
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='minus' color='#c9d3dd'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center d-none d-md-block text-center'>
+                                                    <span className='feature d-none'>
+                                                        Quarterly Business Reviews
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='minus' color='#c9d3dd'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center'>
+                                                    <span className='feature d-block d-sm-block d-md-none'>
+                                                        Cybersecurity Program Manager
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='check' color='#000'></box-icon>
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div className='foot'>
+                                            <a href='https://www.securestate.io/demo' className='btn btn-primary'>SELECT PLAN</a>
+                                        </div>
+
+                                    </div>
+                                    <div className='plan-col'>
+                                        <div className='head d-flex align-items-center flex-column'>
+                                            <div className='fs-xs'>Design + Develop + Operate</div>
+                                            <div className='fs-lg'><sup>$</sup>2,499</div>
+                                            <div className='fs-xs mute'>Starting at /app</div>
+                                        </div>
+
+                                        <div className='body'>
+                                            <ul className='features'>
+                                                <li className='justify-content-center'>
+                                                    <span className='feature d-block d-sm-block d-md-none'>
+                                                        Application Security Posture Management
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='check' color='#000'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center'>
+                                                    <span className='feature d-block d-sm-block d-md-none'>
+                                                        Vulnerability Assessment
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='check' color='#000'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center'>
+                                                    <span className='feature d-block d-sm-block d-md-none'>
+                                                        Security Review
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='check' color='#000'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center'>
+                                                    <span className='feature d-block d-sm-block d-md-none'>
+                                                        Penetration Testing
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='check' color='#000'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center'>
+                                                    <span className='feature  d-block d-sm-block d-md-none'>
+                                                        Threat Modeling
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='check' color='#000'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center'>
+                                                    <span className='feature  d-block d-sm-block d-md-none'>
+                                                        Quarterly Business Reviews
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='check' color='#000'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center'>
+                                                    <span className='feature d-block d-sm-block d-md-none'>
+                                                        Cybersecurity Program Manager
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='check' color='#000'></box-icon>
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div className='foot'>
+                                            <a href='https://www.securestate.io/demo' className='btn btn-primary'>SELECT PLAN</a>
+                                        </div>
 
                                     </div>
 
                                 </div>
+                            </Slide>
 
-                                <div className='plan-col'>
-                                    <div className='head d-flex align-items-center flex-column'>
-                                        <div className='fs-xs'>Operate</div>
-                                        <div className='fs-lg'><sup>$</sup>199</div>
-                                        <div className='fs-xs mute'>Starting at /app</div>
-                                    </div>
-
-                                    <div className='body'>
-                                        <ul className='features'>
-                                            <li className='justify-content-center'>
-                                                <span className='feature d-block d-sm-block d-md-none'>
-                                                    Application Security Posture Management
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='check' color='#000'></box-icon>
-                                                </span>
-                                            </li>
-                                            <li className='justify-content-center'>
-                                                <span className='feature d-block d-sm-block d-md-none'>
-                                                    Vulnerability Assessment
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='check' color='#000'></box-icon>
-                                                </span>
-                                            </li>
-                                            <li className='justify-content-center d-none d-md-block text-center'>
-                                                <span className='feature d-none'>
-                                                    Security Review
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='minus' color='#c9d3dd'></box-icon>
-                                                </span>
-                                            </li>
-                                            <li className='justify-content-center d-none d-md-block text-center'>
-                                                <span className='feature d-none'>
-                                                    Penetration Testing
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='minus' color='#c9d3dd'></box-icon>
-                                                </span>
-                                            </li>
-                                            <li className='justify-content-center d-none d-md-block text-center'>
-                                                <span className='feature d-none'>
-                                                    Threat Modeling
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='minus' color='#c9d3dd'></box-icon>
-                                                </span>
-                                            </li>
-                                            <li className='justify-content-center d-none d-md-block text-center'>
-                                                <span className='feature d-none'>
-                                                    Quarterly Business Reviews
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='minus' color='#c9d3dd'></box-icon>
-                                                </span>
-                                            </li>
-                                            <li className='justify-content-center d-none d-md-block text-center'>
-                                                <span className='feature d-none'>
-                                                    Cybersecurity Program Manager
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='minus' color='#c9d3dd'></box-icon>
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                    <div className='foot'>
-                                        <a href='https://www.securestate.io/demo' className='btn btn-primary'>SELECT PLAN</a>
-                                    </div>
-
-                                </div>
-                                <div className='plan-col'>
-                                    <div className='head d-flex align-items-center flex-column'>
-                                        <div className='fs-xs'>Develop + Operate</div>
-                                        <div className='fs-lg'><sup>$</sup>999</div>
-                                        <div className='fs-xs mute'>Starting at /app</div>
-                                    </div>
-
-                                    <div className='body'>
-                                        <ul className='features'>
-                                            <li className='justify-content-center'>
-                                                <span className='feature d-block d-sm-block d-md-none'>
-                                                    Application Security Posture Management
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='check' color='#000'></box-icon>
-                                                </span>
-                                            </li>
-                                            <li className='justify-content-center'>
-                                                <span className='feature d-block d-sm-block d-md-none'>
-                                                    Vulnerability Assessment
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='check' color='#000'></box-icon>
-                                                </span>
-                                            </li>
-                                            <li className='justify-content-center'>
-                                                <span className='feature d-block d-sm-block d-md-none'>
-                                                    Security Review
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='check' color='#000'></box-icon>
-                                                </span>
-                                            </li>
-                                            <li className='justify-content-center'>
-                                                <span className='feature d-block d-sm-block d-md-none'>
-                                                    Penetration Testing
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='check' color='#000'></box-icon>
-                                                </span>
-                                            </li>
-                                            <li className='justify-content-center d-none d-md-block text-center'>
-                                                <span className='feature d-none'>
-                                                    Threat Modeling
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='minus' color='#c9d3dd'></box-icon>
-                                                </span>
-                                            </li>
-                                            <li className='justify-content-center d-none d-md-block text-center'>
-                                                <span className='feature d-none'>
-                                                    Quarterly Business Reviews
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='minus' color='#c9d3dd'></box-icon>
-                                                </span>
-                                            </li>
-                                            <li className='justify-content-center'>
-                                                <span className='feature d-block d-sm-block d-md-none'>
-                                                    Cybersecurity Program Manager
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='check' color='#000'></box-icon>
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                    <div className='foot'>
-                                        <a href='https://www.securestate.io/demo' className='btn btn-primary'>SELECT PLAN</a>
-                                    </div>
-
-                                </div>
-                                <div className='plan-col'>
-                                    <div className='head d-flex align-items-center flex-column'>
-                                        <div className='fs-xs'>Design + Develop + Operate</div>
-                                        <div className='fs-lg'><sup>$</sup>2,499</div>
-                                        <div className='fs-xs mute'>Starting at /app</div>
-                                    </div>
-
-                                    <div className='body'>
-                                        <ul className='features'>
-                                            <li className='justify-content-center'>
-                                                <span className='feature d-block d-sm-block d-md-none'>
-                                                    Application Security Posture Management
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='check' color='#000'></box-icon>
-                                                </span>
-                                            </li>
-                                            <li className='justify-content-center'>
-                                                <span className='feature d-block d-sm-block d-md-none'>
-                                                    Vulnerability Assessment
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='check' color='#000'></box-icon>
-                                                </span>
-                                            </li>
-                                            <li className='justify-content-center'>
-                                                <span className='feature d-block d-sm-block d-md-none'>
-                                                    Security Review
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='check' color='#000'></box-icon>
-                                                </span>
-                                            </li>
-                                            <li className='justify-content-center'>
-                                                <span className='feature d-block d-sm-block d-md-none'>
-                                                    Penetration Testing
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='check' color='#000'></box-icon>
-                                                </span>
-                                            </li>
-                                            <li className='justify-content-center'>
-                                                <span className='feature  d-block d-sm-block d-md-none'>
-                                                    Threat Modeling
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='check' color='#000'></box-icon>
-                                                </span>
-                                            </li>
-                                            <li className='justify-content-center'>
-                                                <span className='feature  d-block d-sm-block d-md-none'>
-                                                    Quarterly Business Reviews
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='check' color='#000'></box-icon>
-                                                </span>
-                                            </li>
-                                            <li className='justify-content-center'>
-                                                <span className='feature d-block d-sm-block d-md-none'>
-                                                    Cybersecurity Program Manager
-                                                </span>
-                                                <span className='d-none d-md-block text-center'>
-                                                    <box-icon name='check' color='#000'></box-icon>
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                    <div className='foot'>
-                                        <a href='https://www.securestate.io/demo' className='btn btn-primary'>SELECT PLAN</a>
-                                    </div>
-
-                                </div>
-
-                            </div>
 
 
 
@@ -355,11 +360,11 @@ function Pricing() {
                                     <Accordion.Header>What integrations do you offer?</Accordion.Header>
                                     <Accordion.Body>
                                         <p className='mute'>
-                                        We are constantly working on integrations to add to our platform from popular bug tracking tools, dynamic analysis security tools, static analysis security tools and other application security tools.
+                                            We are constantly working on integrations to add to our platform from popular bug tracking tools, dynamic analysis security tools, static analysis security tools and other application security tools.
                                         </p>
 
                                         <p className='mute'>
-                                        To see what we have we have to offer, or suggest one email <a href='mailto:support@securestate.io'>support@securestate.io</a>
+                                            To see what we have we have to offer, or suggest one email <a href='mailto:support@securestate.io'>support@securestate.io</a>
                                         </p>
                                     </Accordion.Body>
                                 </Accordion.Item>
@@ -367,23 +372,23 @@ function Pricing() {
                                     <Accordion.Header>What if I don't know what security I need?</Accordion.Header>
                                     <Accordion.Body>
                                         <p className='mute'>Not a problem! Our mission is to simplify the cybersecurity process and create an easy way for product leaders to integrate security and prove it.</p>
-                                    
+
                                         <p className='mute'>
-                                        We provide 3 subscription levels that each offer their own level of security based on your needs and risk appetite.  
+                                            We provide 3 subscription levels that each offer their own level of security based on your needs and risk appetite.
                                         </p>
                                         <p className='mute'>
-                                        We will provide a free consultation to help determine what's the best option.  Schedule a call now! <a href='https://calendly.com/securestate/lets-talk-security' target='_blank'>https://calendly.com/securestate/lets-talk-security</a>
-                                            </p>
-                                    
-                                    
+                                            We will provide a free consultation to help determine what's the best option.  Schedule a call now! <a href='https://calendly.com/securestate/lets-talk-security' target='_blank'>https://calendly.com/securestate/lets-talk-security</a>
+                                        </p>
+
+
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="2">
                                     <Accordion.Header>What about my existing security tools?</Accordion.Header>
                                     <Accordion.Body>
                                         <p className='mute'>
-                                        Our DevSecOps platform integrates with many of the most popular security tools to enable you to continue to leverage your existing security solutions.
-                                            </p>
+                                            Our DevSecOps platform integrates with many of the most popular security tools to enable you to continue to leverage your existing security solutions.
+                                        </p>
                                     </Accordion.Body>
                                 </Accordion.Item>
 
@@ -392,10 +397,10 @@ function Pricing() {
                                     <Accordion.Header>What if I don't have my own developers to implement fixes?</Accordion.Header>
                                     <Accordion.Body>
                                         <p className='mute'>
-                                        We do not offer remediation services but have a partner network to help connect you with an experienced and qualified engineer. </p>
+                                            We do not offer remediation services but have a partner network to help connect you with an experienced and qualified engineer. </p>
                                     </Accordion.Body>
                                 </Accordion.Item>
-                           
+
                             </Accordion>
 
                         </div>
@@ -405,7 +410,7 @@ function Pricing() {
 
             </section>
 
-         
+
         </div>
     )
 }

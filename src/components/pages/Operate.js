@@ -29,7 +29,7 @@ function Operate() {
                         </div>
                         <div className='col-md-6 d-flex justify-content-center'>
                             <Slide direction='up' triggerOnce='true'>
-                                <img src={LapImage} className='img-fluid' />
+                                <img src={LapImage} className='img-fluid mt-3' />
 
                             </Slide>
                         </div>
@@ -89,7 +89,7 @@ function Operate() {
 
                         <div className='col-md-6 d-flex align-items-center justify-content-center'>
                             <Slide direction='left' triggerOnce='true'>
-                                <img src={RegresstionTestingImage} className='img-fluid' />
+                                <img src={RegresstionTestingImage} className='img-fluid mb-3' />
                             </Slide>
                         </div>
 

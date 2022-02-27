@@ -33,7 +33,7 @@ function Develop() {
                         </div>
                         <div className='col-md-6 d-flex justify-content-center'>
                             <Slide direction='right' triggerOnce='true'>
-                                <img src={DesignwithSecutiyImage} className='img-fluid' />
+                                <img src={DesignwithSecutiyImage} className='img-fluid mt-4' />
                             </Slide>
                         </div>
                     </div>

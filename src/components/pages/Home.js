@@ -104,7 +104,7 @@ function Home() {
                             <h1 className='fw-700'>
                                 DevSecOps Orchestration
                             </h1>
-                            <p className='mb-0 text-center'>
+                            <p className='mb-0 text-center mute'>
                                 <TextTransition className='devopstext'
                                     text={DevSecOpsText[index % DevSecOpsText.length]}
                                     springConfig={presets.slow}
@@ -122,13 +122,13 @@ function Home() {
 
                         <div className='col-md-4'>
                             <Fade>
-                                <div className={toggleState === 2 ? "services-tab active" : "services-tab"}
+                                <div className={toggleState === 2 ? "services-tab mb-3 active" : "services-tab mb-3"}
                                     onClick={() => toggleTab(2)}>
                                     <div className='image'>
                                         <img src={DesignwSecuritylogo} />
                                     </div>
                                     <h2 className='fw-700'>Design with Security</h2>
-                                    <p>Finding and fixing bugs during design provides instant ROI as bugs found in production are 10X more expensive to fix</p>
+                                    <p className='mute'>Finding and fixing bugs during design provides instant ROI as bugs found in production are 10X more expensive to fix</p>
                                 </div>
                             </Fade>
                         </div>
@@ -136,14 +136,14 @@ function Home() {
 
                         <div className='col-md-4'>
                             <Fade>
-                                <div className={toggleState === 3 ? "services-tab active" : "services-tab"}
+                                <div className={toggleState === 3 ? "services-tab active mb-3" : "services-tab mb-3"}
                                     onClick={() => toggleTab(3)}>
                                     <div className='image'>
                                         <img src={DevelopwSecuritylogo} />
                                     </div>
 
                                     <h2 className='fw-700'>Develop with Security</h2>
-                                    <p>Integrating security activities in the development phase allows you to ship secure code and protect user data</p>
+                                    <p className='mute'>Integrating security activities in the development phase allows you to ship secure code and protect user data</p>
                                 </div>
                             </Fade>
 
@@ -151,14 +151,14 @@ function Home() {
                         </div>
                         <div className='col-md-4'>
                             <Fade>
-                                <div className={toggleState === 4 ? "services-tab active" : "services-tab"}
+                                <div className={toggleState === 4 ? "services-tab active mb-3" : "services-tab mb-3"}
                                     onClick={() => toggleTab(4)}>
                                     <div className='image'>
                                         <img src={OperatewSecuritylogo} />
                                     </div>
 
                                     <h2 className='fw-700'>Operate with Security</h2>
-                                    <p>Security doesnt stop after development.  Operating with security means continuous security testing</p>
+                                    <p className='mute'>Security doesnt stop after development.  Operating with security means continuous security testing</p>
                                 </div>
                             </Fade>
                         </div>
@@ -213,7 +213,7 @@ function Home() {
                     <div className='row'>
                         <div className='col-md-4'>
                             <Fade>
-                                <div className='card'>
+                                <div className='card mb-3'>
                                     <div className='image mb-4'>
                                         <img src={ThreatModelasaServiceLogo} />
                                     </div>
@@ -224,7 +224,7 @@ function Home() {
                         </div>
                         <div className='col-md-4'>
                             <Fade>
-                                <div className='card'>
+                                <div className='card mb-3'>
                                     <div className='image mb-4'>
                                         <img src={ASPMlogo} />
                                     </div>
@@ -236,7 +236,7 @@ function Home() {
                         </div>
                         <div className='col-md-4'>
                             <Fade>
-                                <div className='card'>
+                                <div className='card mb-3'>
                                     <div className='image mb-4'>
                                         <img src={PentestasaService} />
                                     </div>
@@ -265,10 +265,10 @@ function Home() {
                                 Securing the Software
                                 Development Lifecycle
                             </h2>
-                            <h5>
+                            <p className='mute'>
                                 To protect your SDLC, we become an extension
                                 of it
-                            </h5>
+                            </p>
 
                         </div>
                     </div>
@@ -399,7 +399,7 @@ function Home() {
                             <h2 className='fw-400'>
                                 By The Numbers
                             </h2>
-                            <p>Don't become another statistic, secure your technology stack today.</p>
+                            <p className='mute'>Don't become another statistic, secure your technology stack today.</p>
                         </div>
                     </div>
                     <div className='row mb-5'>

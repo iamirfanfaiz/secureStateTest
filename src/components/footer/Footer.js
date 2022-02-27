@@ -14,7 +14,7 @@ function Footer() {
 
                             <img src={mainLogo} className='img-fluid mb-3' width="60px" />
 
-                            <div className='copy-rights'>
+                            <div className='copy-rights mb-4'>
                                 © 2021 - securestate.io Terms of Service     Privacy Policy
                             </div>
                         </div>
