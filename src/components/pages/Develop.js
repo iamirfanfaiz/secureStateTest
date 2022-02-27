@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade, Slide } from "react-awesome-reveal";
 import DesignwithSecutiyImage from '../../assets//images/threatModeling/DesignwithSecutiy.png'
 import ActionableReportImage from '../../assets/images/threatModeling/ActionableReport.png'
 import HowitWorksImage from '../../assets/images/icons/Step1.svg'
@@ -31,7 +32,9 @@ function Develop() {
                             </a>
                         </div>
                         <div className='col-md-6 d-flex justify-content-center'>
-                            <img src={DesignwithSecutiyImage} className='img-fluid' />
+                            <Slide direction='right' triggerOnce='true'>
+                                <img src={DesignwithSecutiyImage} className='img-fluid' />
+                            </Slide>
                         </div>
                     </div>
                 </div>
@@ -66,7 +69,9 @@ function Develop() {
 
 
                         <div className='col-md-4 d-flex align-items-center justify-content-center'>
-                            <img src={ActionableReportImage} className='img-fluid' width={300} />
+                            <Slide direction='left' triggerOnce='true'>
+                                <img src={ActionableReportImage} className='img-fluid' width={300} />
+                            </Slide>
                         </div>
 
                         <div className='col-md-8'>
@@ -106,53 +111,50 @@ function Develop() {
                         </div>
 
                         <div className='col-md-4'>
+                            <Fade>
+                                <div className='box d-flex align-items-center flex-column'>
+                                    <img src={HowitWorksImage} width='80' />
+                                    <h5>
+                                        Submit request
 
-                            <div className='box d-flex align-items-center flex-column'>
-                                <img src={HowitWorksImage} width='80' />
-                                <h5>
-                                    Submit request
-
-                                    on the asset
-                                </h5>
-                            </div>
+                                        on the asset
+                                    </h5>
+                                </div>
+                            </Fade>
 
 
                         </div>
 
                         <div className='col-md-4'>
+                            <Fade>
+                                <div className='box d-flex align-items-center flex-column'>
+                                    <img src={HowitWorks2Image} width='80' />
 
-                            <div className='box d-flex align-items-center flex-column'>
-                                <img src={HowitWorks2Image} width='80' />
 
+                                    <h5>
+                                        Schedule design
 
-                                <h5>
-                                    Schedule design
+                                        review with our
 
-                                    review with our
-
-                                    security team
-                                </h5>
-                            </div>
-
+                                        security team
+                                    </h5>
+                                </div>
+                            </Fade>
                         </div>
 
                         <div className='col-md-4'>
-
-                            <div className='box d-flex align-items-center flex-column'>
-                                <img src={HowitWorks3Image} width='80' />
-
-
-                                <h5>
-                                    Recieve threat
-
-                                    model
-                                </h5>
-                            </div>
+                            <Fade>
+                                <div className='box d-flex align-items-center flex-column'>
+                                    <img src={HowitWorks3Image} width='80' />
 
 
+                                    <h5>
+                                        Recieve threat
 
-
-
+                                        model
+                                    </h5>
+                                </div>
+                            </Fade>
                         </div>
 
                     </div>
@@ -236,27 +238,27 @@ function Develop() {
 
                         <div className='col-md-6'>
 
-                            <img src={FlexibleTermsImage} width='40' className='filter-light'/>
+                            <img src={FlexibleTermsImage} width='40' className='filter-light' />
                             <h3 className='fw-700 mt-3 color-light'>
-                            Flexible Terms
+                                Flexible Terms
                             </h3>
 
                             <p className='color-light'>
-                            Traditional methods of getting cybersecurity resources include long lead times and high hourly rates.  With the increasing talent gap in cybersecurity, finding and retaining talent is becoming difficult. The securestate platform provides affordable pricing plans and the ability to purchase add on services. 
+                                Traditional methods of getting cybersecurity resources include long lead times and high hourly rates.  With the increasing talent gap in cybersecurity, finding and retaining talent is becoming difficult. The securestate platform provides affordable pricing plans and the ability to purchase add on services.
                             </p>
 
                         </div>
 
                         <div className='col-md-6'>
-                            
-                        <img src={SecurityDrivenDesignImage} width='40' className='filter-light'/>
+
+                            <img src={SecurityDrivenDesignImage} width='40' className='filter-light' />
 
                             <h3 className='fw-700 mt-3 color-light'>
-                            Security Driven Product Design
+                                Security Driven Product Design
                             </h3>
 
                             <p className='color-light'>
-                            The traditional SDLC is broken.  Security is an afterthought and  creates highers costs the further in the SDLC that it is performed. The securestate approach incorprates security from day one, by providing a tool for developers to easily generate threat models and discuss with vetted, expierenced Product Security Engineers.
+                                The traditional SDLC is broken.  Security is an afterthought and  creates highers costs the further in the SDLC that it is performed. The securestate approach incorprates security from day one, by providing a tool for developers to easily generate threat models and discuss with vetted, expierenced Product Security Engineers.
                             </p>
 
 
@@ -272,7 +274,7 @@ function Develop() {
                         <div className='col-md-8 offset-md-2 d-flex align-items-center flex-column justify-content-center'>
 
                             <h2 className='fw-700 text-center'>
-                            Get Ahead of Threats With Threat Modeling
+                                Get Ahead of Threats With Threat Modeling
                             </h2>
 
                             <p className='text-center'>
@@ -280,7 +282,7 @@ function Develop() {
                             </p>
 
                             <a href='https://www.securestate.io/demo' className='btn btn-primary'>
-                            Start Threat Model
+                                Start Threat Model
                             </a>
 
 

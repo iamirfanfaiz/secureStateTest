@@ -1,4 +1,5 @@
 import React from 'react';
+import { Slide } from "react-awesome-reveal";
 import LapImage from '../../assets//images/penTesting/Lap.png'
 import RealtTimeReportImage from '../../assets/images/penTesting/RealtTimeReport.png'
 import RegresstionTestingImage from '../../assets/images/penTesting/RegresstionTesting.png'
@@ -19,7 +20,7 @@ function Operate() {
                             </h1>
 
                             <p>
-                            Reduce the time from find to fix using real time data and actionable intelligence to enable developers to efficiently remediate bugs.
+                                Reduce the time from find to fix using real time data and actionable intelligence to enable developers to efficiently remediate bugs.
                             </p>
 
                             <a href='https://www.securestate.io/demo' className='btn btn-primary'>
@@ -27,7 +28,10 @@ function Operate() {
                             </a>
                         </div>
                         <div className='col-md-6 d-flex justify-content-center'>
-                            <img src={LapImage} className='img-fluid' />
+                            <Slide direction='up' triggerOnce='true'>
+                                <img src={LapImage} className='img-fluid' />
+
+                            </Slide>
                         </div>
                     </div>
                 </div>
@@ -69,7 +73,9 @@ function Operate() {
                         </div>
 
                         <div className='col-md-6 d-flex align-items-center justify-content-center'>
-                            <img src={RealtTimeReportImage} className='img-fluid' />
+                            <Slide direction='right' triggerOnce='true'>
+                                <img src={RealtTimeReportImage} className='img-fluid' />
+                            </Slide>
                         </div>
 
                     </div>
@@ -82,7 +88,9 @@ function Operate() {
 
 
                         <div className='col-md-6 d-flex align-items-center justify-content-center'>
-                            <img src={RegresstionTestingImage} className='img-fluid' />
+                            <Slide direction='left' triggerOnce='true'>
+                                <img src={RegresstionTestingImage} className='img-fluid' />
+                            </Slide>
                         </div>
 
                         <div className='col-md-6'>
@@ -116,14 +124,16 @@ function Operate() {
                             </h2>
 
                             <p className=''>
-                            The platform provides actionable intelligence to help DevOps prioritize findings and ensure all bugs are patched appropriately 
+                                The platform provides actionable intelligence to help DevOps prioritize findings and ensure all bugs are patched appropriately
                             </p>
 
 
                         </div>
 
                         <div className='col-md-6 d-flex align-items-center justify-content-center'>
-                            <img src={PrioritizeFindingImage} className='img-fluid' />
+                            <Slide direction='right' triggerOnce='true'>
+                                <img src={PrioritizeFindingImage} className='img-fluid' />
+                            </Slide>
                         </div>
 
                     </div>
@@ -176,22 +186,22 @@ function Operate() {
                 <div className='container'>
                     <div className='row align-items-center py-4'>
                         <div className='col-md-8 offset-md-2 d-flex align-items-center flex-column justify-content-center'>
-                        <video width="100%" controls>
-                            <source src={Video} type="video/mp4"/>
-                            <source src={Video} type="video/ogg"/>
-                            Your browser does not support HTML video.
-                        </video>
+                            <video width="100%" controls>
+                                <source src={Video} type="video/mp4" />
+                                <source src={Video} type="video/ogg" />
+                                Your browser does not support HTML video.
+                            </video>
 
                             <h2 className='fw-700 text-center mt-5'>
-                            Providing Real Time, Actionable Intelligence
+                                Providing Real Time, Actionable Intelligence
                             </h2>
 
                             <p className='text-center'>
-                            Findings are reported as they are discovered and provide the data you need to prioritize your risks & take action.  Our reporting includes data around severity, risk, finding details, and recommendations.
+                                Findings are reported as they are discovered and provide the data you need to prioritize your risks & take action.  Our reporting includes data around severity, risk, finding details, and recommendations.
                             </p>
 
                             <a href='https://www.securestate.io/demo' className='btn btn-primary'>
-                            Get a Pentest Today
+                                Get a Pentest Today
                             </a>
 
 

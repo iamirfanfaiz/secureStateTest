@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-
-import logoImage from '../../assets/images/logo-new.png'
+import { Fade } from "react-awesome-reveal";
 import SDLCImage from '../../assets/images/icons/SDLC.png'
 import DESIGNSecurity from '../../assets/images/icons/DESIGNSecurity.gif'
 import DEVELOPSecurity from '../../assets/images/icons/DEVELOPSecurity.gif'
@@ -62,26 +61,29 @@ function Home() {
             <header className='header d-flex align-items-center'>
 
                 <div className='container'>
-                    <div className='row'>
-                        <div className='col-md-12 heading'>
-                            <h1 className='fw-700 d-flex justify-content-center'>
-                                Product Security,&nbsp;<TextTransition
-                                    text={BannerText[index % BannerText.length]}
-                                    springConfig={presets.wobbly}
-                                />
-                            </h1>
+                    <Fade>
+                        <div className='row'>
+                            <div className='col-md-12 heading'>
+                                <h1 className='fw-700 d-flex justify-content-center'>
+                                    Product Security,&nbsp;<TextTransition
+                                        text={BannerText[index % BannerText.length]}
+                                        springConfig={presets.wobbly}
+                                    />
+                                </h1>
 
 
-                            <p className='d-flex justify-content-center mute'>
-                                Integrating security at every phase of the product development lifecycle
-                            </p>
+                                <p className='d-flex justify-content-center mute'>
+                                    Integrating security at every phase of the product development lifecycle
+                                </p>
 
-                            <a href='https://www.securestate.io/demo' className='btn btn-secondary'>
-                                Learn more
-                            </a>
+                                <a href='https://www.securestate.io/demo' className='btn btn-secondary'>
+                                    Learn more
+                                </a>
+                            </div>
+
                         </div>
+                    </Fade>
 
-                    </div>
                 </div>
 
             </header>
@@ -119,39 +121,46 @@ function Home() {
 
 
                         <div className='col-md-4'>
-                            <div className={toggleState === 2 ? "services-tab active" : "services-tab"}
-                                onClick={() => toggleTab(2)}>
-                                <div className='image'>
-                                    <img src={DesignwSecuritylogo} />
+                            <Fade>
+                                <div className={toggleState === 2 ? "services-tab active" : "services-tab"}
+                                    onClick={() => toggleTab(2)}>
+                                    <div className='image'>
+                                        <img src={DesignwSecuritylogo} />
+                                    </div>
+                                    <h2 className='fw-700'>Design with Security</h2>
+                                    <p>Finding and fixing bugs during design provides instant ROI as bugs found in production are 10X more expensive to fix</p>
                                 </div>
-                                <h2 className='fw-700'>Design with Security</h2>
-                                <p>Finding and fixing bugs during design provides instant ROI as bugs found in production are 10X more expensive to fix</p>
-                            </div>
+                            </Fade>
+                        </div>
+
+
+                        <div className='col-md-4'>
+                            <Fade>
+                                <div className={toggleState === 3 ? "services-tab active" : "services-tab"}
+                                    onClick={() => toggleTab(3)}>
+                                    <div className='image'>
+                                        <img src={DevelopwSecuritylogo} />
+                                    </div>
+
+                                    <h2 className='fw-700'>Develop with Security</h2>
+                                    <p>Integrating security activities in the development phase allows you to ship secure code and protect user data</p>
+                                </div>
+                            </Fade>
+
 
                         </div>
                         <div className='col-md-4'>
-                            <div className={toggleState === 3 ? "services-tab active" : "services-tab"}
-                                onClick={() => toggleTab(3)}>
-                                <div className='image'>
-                                    <img src={DevelopwSecuritylogo} />
+                            <Fade>
+                                <div className={toggleState === 4 ? "services-tab active" : "services-tab"}
+                                    onClick={() => toggleTab(4)}>
+                                    <div className='image'>
+                                        <img src={OperatewSecuritylogo} />
+                                    </div>
+
+                                    <h2 className='fw-700'>Operate with Security</h2>
+                                    <p>Security doesnt stop after development.  Operating with security means continuous security testing</p>
                                 </div>
-
-                                <h2 className='fw-700'>Develop with Security</h2>
-                                <p>Integrating security activities in the development phase allows you to ship secure code and protect user data</p>
-                            </div>
-
-                        </div>
-                        <div className='col-md-4'>
-                            <div className={toggleState === 4 ? "services-tab active" : "services-tab"}
-                                onClick={() => toggleTab(4)}>
-                                <div className='image'>
-                                    <img src={OperatewSecuritylogo} />
-                                </div>
-
-                                <h2 className='fw-700'>Operate with Security</h2>
-                                <p>Security doesnt stop after development.  Operating with security means continuous security testing</p>
-                            </div>
-
+                            </Fade>
                         </div>
 
                         <div className='col-12'>
@@ -203,32 +212,39 @@ function Home() {
 
                     <div className='row'>
                         <div className='col-md-4'>
-                            <div className='card'>
-                                <div className='image mb-4'>
-                                    <img src={ThreatModelasaServiceLogo} />
+                            <Fade>
+                                <div className='card'>
+                                    <div className='image mb-4'>
+                                        <img src={ThreatModelasaServiceLogo} />
+                                    </div>
+                                    <h4 className='fw-700 text-center'>Threat Model as a  Service (TMaaS)</h4>
                                 </div>
-                                <h4 className='fw-700 text-center'>Threat Model as a  Service (TMaaS)</h4>
-                            </div>
-                        </div>
-                        <div className='col-md-4'>
-                            <div className='card'>
-                                <div className='image mb-4'>
-                                    <img src={ASPMlogo} />
-                                </div>
-                                <h4 className='fw-700 text-center'>Pentest as a Service
-                                    <br></br>
-                                    (PTaaS)</h4>
-                            </div>
-                        </div>
-                        <div className='col-md-4'>
-                            <div className='card'>
-                                <div className='image mb-4'>
-                                    <img src={PentestasaService} />
-                                </div>
-                                <h4 className='fw-700 text-center'>Application Security Posture
+                            </Fade>
 
-                                    Management (ASPM)</h4>
-                            </div>
+                        </div>
+                        <div className='col-md-4'>
+                            <Fade>
+                                <div className='card'>
+                                    <div className='image mb-4'>
+                                        <img src={ASPMlogo} />
+                                    </div>
+                                    <h4 className='fw-700 text-center'>Pentest as a Service
+                                        <br></br>
+                                        (PTaaS)</h4>
+                                </div>
+                            </Fade>
+                        </div>
+                        <div className='col-md-4'>
+                            <Fade>
+                                <div className='card'>
+                                    <div className='image mb-4'>
+                                        <img src={PentestasaService} />
+                                    </div>
+                                    <h4 className='fw-700 text-center'>Application Security Posture
+
+                                        Management (ASPM)</h4>
+                                </div>
+                            </Fade>
                         </div>
                     </div>
 

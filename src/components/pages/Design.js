@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade, Slide } from "react-awesome-reveal";
 import ASPMImage from '../../assets//images/aspm/ASPM.png'
 import CentralizeDataImage from '../../assets/images/aspm/CentralizeData.png'
 import PrioritzeRiskImage from '../../assets/images/aspm/PrioritzeRisk.png'
@@ -30,7 +31,9 @@ function Design() {
                             </a>
                         </div>
                         <div className='col-md-6 d-flex justify-content-center'>
-                            <img src={ASPMImage} className='img-fluid' />
+                            <Slide direction='up' triggerOnce='ture'>
+                                <img src={ASPMImage} className='img-fluid' />
+                            </Slide>
                         </div>
                     </div>
                 </div>
@@ -141,7 +144,9 @@ function Design() {
                         </div>
 
                         <div className='col-md-6 d-flex align-items-center justify-content-center'>
-                            <img src={CentralizeDataImage} className='img-fluid' width={300} />
+                            <Slide direction='right' triggerOnce='ture'>
+                                <img src={CentralizeDataImage} className='img-fluid' width={300} />
+                            </Slide>
                         </div>
 
                     </div>
@@ -154,7 +159,9 @@ function Design() {
 
 
                         <div className='col-md-6 d-flex align-items-center justify-content-center'>
+                        <Slide direction='left' triggerOnce='ture'>
                             <img src={PrioritzeRiskImage} className='img-fluid' width={300} />
+                            </Slide>
                         </div>
 
                         <div className='col-md-6'>
@@ -201,7 +208,9 @@ function Design() {
                         </div>
 
                         <div className='col-md-6 d-flex align-items-center justify-content-center'>
+                        <Slide direction='right' triggerOnce='ture'>
                             <img src={ActionalbleRecommendationsImage} className='img-fluid' />
+                            </Slide>
                         </div>
 
                     </div>

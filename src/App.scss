@@ -30,7 +30,8 @@ a {
   min-width: 120px;
 
   &:hover {
-    background-color: black;
+    background-color: #29323d;
+    border-color: #29323d;
   }
 }
 
@@ -42,6 +43,7 @@ a {
 
   &:hover {
     background-color: #fd7b33;
+    border-color: #fd7b33;
   }
 }
 
@@ -53,6 +55,7 @@ a {
 
   &:hover {
     background-color: #fd7b33;
+    border-color: #fd7b33;
     color: #fff;
   }
 }
@@ -278,6 +281,11 @@ a {
   .content {
     display: none;
     text-align: center;
+
+    img{
+      max-width: 640px;
+      width: 100%;
+    }
 
     &.active {
       display: block;

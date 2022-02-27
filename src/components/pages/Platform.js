@@ -1,4 +1,6 @@
 import React from 'react';
+import { Slide } from "react-awesome-reveal";
+
 import { InlineWidget } from "react-calendly";
 import DevsecopsImage from '../../assets/images/platform/devsecops.png'
 import Report_Cover_Page from '../../assets/images/platform/Report_Cover_Page.png'
@@ -29,7 +31,10 @@ function Platform() {
               </button>
             </div>
             <div className='col-md-8 d-flex justify-content-center vh-100 mt-5 pt-5'>
+              <Slide direction='up' triggerOnce='true'>
               <img src={DevsecopsImage} className='img-fluid' />
+
+              </Slide>
             </div>
 
 
