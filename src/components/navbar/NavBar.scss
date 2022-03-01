@@ -1,31 +1,30 @@
-$primary-color:#fd7b33;
-$body-color:#ffffff;
-$surface-color:#f7f7f7;
-$mute-color:#798da3;
-$dark-color:#29323d;
+$primary-color: #fd7b33;
+$body-color: #ffffff;
+$surface-color: #f7f7f7;
+$mute-color: #798da3;
+$dark-color: #29323d;
 
 // .color-primary{
 //     color: $primary-color;
 // }
 
 // .body-color{
-//     color: $body-color; 
+//     color: $body-color;
 // }
 
 // .surface-color{
-//     color: $surface-color; 
+//     color: $surface-color;
 // }
 
 // .mute{
-//     color: $mute-color; 
+//     color: $mute-color;
 // }
 
 // .dark-color{
-//     color: $dark-color; 
+//     color: $dark-color;
 // }
 
-
-.nav-bar{
+.nav-bar {
   min-height: 40px;
   position: fixed;
   top: 0;
@@ -97,37 +96,37 @@ $dark-color:#29323d;
           color: #000;
         }
 
-
-        .sub-item{
+        .sub-item {
           display: flex;
           color: $dark-color;
 
-          .icon{
-            height: 40px;
-            width: 40px;
+          .icon {
+            height: 30px;
+            width: 30px;
             margin-right: 15px;
 
-            img{
+            img {
               height: 100%;
               width: 100%;
               object-fit: contain;
             }
           }
 
-          h1{
-            font-size: 14px;
-            font-weight: 600;
-     
-          }
+          .content {
+            flex: 1;
+            h1 {
+              font-size: 14px;
+              font-weight: 600;
+            }
 
-          p{
-            font-weight: 400;
-            font-size: 12px;
-         
-          }
+            p {
+              font-weight: 400;
+              font-size: 12px;
+            }
 
-          &:hover{
-            color: $primary-color;
+            &:hover {
+              color: $primary-color;
+            }
           }
         }
       }
@@ -175,35 +174,36 @@ $dark-color:#29323d;
           position: relative;
 
           .sub-item {
-            padding:0px;
+            padding: 0px;
             display: flex;
 
-            
-
-            .icon{
-              height: 40px;
-              width: 40px;
+            .icon {
+              height: 30px;
+              width: 30px;
               margin-right: 15px;
-  
-              img{
+
+              img {
                 height: 100%;
                 width: 100%;
                 object-fit: contain;
               }
             }
-  
-            h1{
-              font-size: 14px;
-              font-weight: 600;
-            }
-  
-            p{
-              font-weight: 400;
-              font-size: 12px;
-            }
-  
-            &:hover{
-              color: $primary-color;
+
+            .content {
+              flex: 1;
+              h1 {
+                font-size: 14px;
+                font-weight: 600;
+              }
+
+              p {
+                font-weight: 400;
+                font-size: 12px;
+              }
+
+              &:hover {
+                color: $primary-color;
+              }
             }
           }
 
@@ -237,5 +237,3 @@ $dark-color:#29323d;
     }
   }
 }
-
-
