@@ -364,7 +364,7 @@ function Pricing() {
                                         </p>
 
                                         <p className='mute'>
-                                            To see what we have we have to offer, or suggest one email <a href='mailto:support@securestate.io'>support@securestate.io</a>
+                                            To see what we have we have to offer, or suggest one, email <a href='mailto:support@securestate.io'>support@securestate.io</a>
                                         </p>
                                     </Accordion.Body>
                                 </Accordion.Item>

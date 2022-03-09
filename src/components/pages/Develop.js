@@ -81,7 +81,7 @@ function Develop() {
                             </h3>
 
                             <p>
-                                Our threat Models are easy to read and allow for developers to effectively prevent the introduction of common vulnerabilities into software.  As an added bonus, Securestate will test bugs during Penetration testing free of charge that are discovered during the design phase.
+                                Our threat Models are easy to read and allow for developers to effectively prevent the introduction of common vulnerabilities into software.  As an added bonus, Threat Model will test bugs during Penetration testing free of charge that are discovered during the design phase.
                             </p>
 
                             <h3 className='fw-700 mt-5'>
@@ -89,7 +89,7 @@ function Develop() {
                             </h3>
 
                             <p>
-                                Traditional threat modeling is expensive and delivered by top dollar consulting  firms.  With lead times of 4-6 weeks and costs as high as $10-20K, traditional threat modeling is out of reach for most. The securestate platform provides high quality threat models within days at a fraction of the cost delivered by highly expierenced security researchers.
+                                Traditional threat modeling is expensive and delivered by top dollar consulting  firms.  With lead times of 4-6 weeks and costs as high as $10-20K, traditional threat modeling is out of reach for most. The Threat Model platform provides high quality threat models within days at a fraction of the cost delivered by highly expierenced security researchers.
                             </p>
 
 
@@ -170,9 +170,10 @@ function Develop() {
                                 Sell Security as a Benefit
                             </h2> */}
 
-                            <p className='text-center'>
+                            <h5 className='text-center'>
                                 Use security as a sales differentiator when speaking with prospective clients.  Most organizations wait until the end of the sales cycle, which creates an oppurtunity.
-                            </p>
+                            </h5>
+                           
 
                             <a href='https://www.securestate.io/demo' className='btn btn-primary'>
                                 Learn More
@@ -200,7 +201,7 @@ function Develop() {
                                 </div>
                                 <div className='content'>
                                     <h2 className='fw-700'>
-                                        LIE:
+                                    FICTION:
                                     </h2>
 
                                     <p>
@@ -215,7 +216,7 @@ function Develop() {
                                 </div>
                                 <div className='content'>
                                     <h2 className='fw-700'>
-                                        TRUTH:
+                                        FACT:
                                     </h2>
 
                                     <p >
@@ -244,7 +245,7 @@ function Develop() {
                             </h3>
 
                             <p className='color-light'>
-                                Traditional methods of getting cybersecurity resources include long lead times and high hourly rates.  With the increasing talent gap in cybersecurity, finding and retaining talent is becoming difficult. The securestate platform provides affordable pricing plans and the ability to purchase add on services.
+                                Traditional methods of getting cybersecurity resources include long lead times and high hourly rates.  With the increasing talent gap in cybersecurity, finding and retaining talent is becoming difficult. The Threat Model platform provides affordable pricing plans and the ability to purchase add on services.
                             </p>
 
                         </div>
@@ -258,7 +259,7 @@ function Develop() {
                             </h3>
 
                             <p className='color-light'>
-                                The traditional SDLC is broken.  Security is an afterthought and  creates highers costs the further in the SDLC that it is performed. The securestate approach incorprates security from day one, by providing a tool for developers to easily generate threat models and discuss with vetted, expierenced Product Security Engineers.
+                                The traditional SDLC is broken.  Security is an afterthought and  creates highers costs the further in the SDLC that it is performed. The Threat Model approach incorprates security from day one, by providing a tool for developers to easily generate threat models and discuss with vetted, expierenced Product Security Engineers.
                             </p>
 
 

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Fade } from "react-awesome-reveal";
+import { Link } from 'react-router-dom';
 import SDLCImage from '../../assets/images/icons/SDLC.png'
 import DESIGNSecurity from '../../assets/images/icons/DESIGNSecurity.gif'
 import DEVELOPSecurity from '../../assets/images/icons/DEVELOPSecurity.gif'
@@ -73,7 +74,7 @@ function Home() {
 
 
                                 <p className='d-flex justify-content-center mute'>
-                                    Integrating security at every phase of the product development lifecycle
+                                    A Product Security as a Service (PSaaS) platform integrating security at every phase of the product development lifecycle
                                 </p>
 
                                 <a href='https://www.securestate.io/demo' className='btn btn-secondary'>
@@ -213,37 +214,43 @@ function Home() {
                     <div className='row'>
                         <div className='col-md-4'>
                             <Fade>
-                                <div className='card mb-3'>
-                                    <div className='image mb-4'>
-                                        <img src={ThreatModelasaServiceLogo} />
+                                <Link to='/design'>
+                                    <div className='card mb-3'>
+                                        <div className='image mb-4'>
+                                            <img src={ThreatModelasaServiceLogo} />
+                                        </div>
+                                        <h4 className='fw-700 text-center'>Threat Model as a  Service (TMaaS)</h4>
                                     </div>
-                                    <h4 className='fw-700 text-center'>Threat Model as a  Service (TMaaS)</h4>
-                                </div>
+                                </Link>
                             </Fade>
 
                         </div>
                         <div className='col-md-4'>
                             <Fade>
-                                <div className='card mb-3'>
-                                    <div className='image mb-4'>
-                                        <img src={ASPMlogo} />
+                                <Link to='/operate'>
+                                    <div className='card mb-3'>
+                                        <div className='image mb-4'>
+                                            <img src={ASPMlogo} />
+                                        </div>
+                                        <h4 className='fw-700 text-center'>Pentest as a Service
+                                            <br></br>
+                                            (PTaaS)</h4>
                                     </div>
-                                    <h4 className='fw-700 text-center'>Pentest as a Service
-                                        <br></br>
-                                        (PTaaS)</h4>
-                                </div>
+                                </Link>
                             </Fade>
                         </div>
                         <div className='col-md-4'>
                             <Fade>
-                                <div className='card mb-3'>
-                                    <div className='image mb-4'>
-                                        <img src={PentestasaService} />
-                                    </div>
-                                    <h4 className='fw-700 text-center'>Application Security Posture
+                                <Link to='/develop'>
+                                    <div className='card mb-3'>
+                                        <div className='image mb-4'>
+                                            <img src={PentestasaService} />
+                                        </div>
+                                        <h4 className='fw-700 text-center'>Application Security Posture
 
-                                        Management (ASPM)</h4>
-                                </div>
+                                            Management (ASPM)</h4>
+                                    </div>
+                                </Link>
                             </Fade>
                         </div>
                     </div>
@@ -399,7 +406,7 @@ function Home() {
                             <h2 className='fw-400'>
                                 By The Numbers
                             </h2>
-                            <p className='mute'>Don't become another statistic, secure your technology stack today.</p>
+                            <p className='mute'>Secure your technology stack today.</p>
                         </div>
                     </div>
                     <div className='row mb-5'>

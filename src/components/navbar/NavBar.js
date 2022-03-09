@@ -71,7 +71,7 @@ function NavBar() {
 
                                 <div className='col-md-6'>
                                     <p>SOLUTIONS</p>
-                                    <Link to='/design'>
+                                    <Link to='/operate'>
                                         <a className="sub-item">
                                             <div className='icon'>
                                                 <img src={ThreatModelasaServiceLogo} />
@@ -82,7 +82,7 @@ function NavBar() {
                                             </div>
                                         </a>
                                     </Link>
-                                    <Link to='/design'>
+                                    <Link to='/operate'>
                                         <a className="sub-item">
                                             <div className='icon'>
                                                 <img src={ASPMlogo} />

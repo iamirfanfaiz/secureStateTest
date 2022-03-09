@@ -30,7 +30,7 @@ function Platform() {
                 LEARN MORE
               </button>
             </div>
-            <div className='col-md-8 d-flex justify-content-center vh-100 mt-5 pt-5'>
+            <div className='col-md-8 d-flex justify-content-center mt-5 pt-5'>
               <Slide direction='up' triggerOnce='true'>
               <img src={DevsecopsImage} className='img-fluid' />
 
@@ -42,7 +42,7 @@ function Platform() {
 
           <div className='row align-items-center py-5'>
             <div className='col-md-8 offset-md-2 text-center'>
-              <p className='fw-700'>We integrate security into every phase of the product development lifecycle.  Our DevSecOps orchastration solution allows developers to design, develop and operate with security.</p>
+              <h5 className='fw-700'>We integrate security into every phase of the product development lifecycle.  Our DevSecOps orchestration solution allows developers to design, develop and operate with security.</h5>
             </div>
           </div>
         </div>
@@ -141,7 +141,7 @@ function Platform() {
                   </p>
                 </div>
 
-                <a href=''>
+                <a className='d-flex' href=''>
                   <span>
                     LEARN MORE
                   </span>
@@ -163,7 +163,7 @@ function Platform() {
                   </p>
                 </div>
 
-                <a href=''>
+                <a className='d-flex' href=''>
                   <span>
                     LEARN MORE
                   </span>
@@ -185,7 +185,7 @@ function Platform() {
                   </p>
                 </div>
 
-                <a href=''>
+                <a className='d-flex' href=''>
                   <span>
                     LEARN MORE
                   </span>
@@ -207,7 +207,7 @@ function Platform() {
                   </p>
                 </div>
 
-                <a href=''>
+                <a className='d-flex' href=''>
                   <span>
                     LEARN MORE
                   </span>
@@ -229,7 +229,7 @@ function Platform() {
                   </p>
                 </div>
 
-                <a href=''>
+                <a className='d-flex' href=''>
                   <span>
                     LEARN MORE
                   </span>
@@ -251,7 +251,7 @@ function Platform() {
                   </p>
                 </div>
 
-                <a href=''>
+                <a className='d-flex' href=''>
                   <span>
                     LEARN MORE
                   </span>
@@ -273,7 +273,7 @@ function Platform() {
                   </p>
                 </div>
 
-                <a href=''>
+                <a className='d-flex' href=''>
                   <span>
                     LEARN MORE
                   </span>
@@ -290,12 +290,12 @@ function Platform() {
                     Sell Security as a Benefit
                   </strong>
 
-                  <p>
+                  <h5>
                     Beat out your competitors by using security as a sales tool.
-                  </p>
+                  </h5>
                 </div>
 
-                <a href=''>
+                <a className='d-flex' href=''>
                   <span>
                     LEARN MORE
                   </span>
@@ -318,7 +318,7 @@ function Platform() {
                   </p>
                 </div>
 
-                <a href=''>
+                <a className='d-flex' href=''>
                   <span>
                     LEARN MORE
                   </span>
@@ -409,7 +409,7 @@ function Platform() {
               <h2 className='mb-4'>Leveraging Security As a Sales Tool</h2>
 
               <p className='mute'>
-                Supply Chains are under attack, and its vital to ensure customers feel safe using your product.  The Securestate platform provides one click report generation that creates different types of reports for different audiences.
+                Supply Chains are under attack, and its vital to ensure customers feel safe using your product.  The platform provides one click report generation that creates different types of reports for different audiences.
               </p>
 
               <p className='mute'>

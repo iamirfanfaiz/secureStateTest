@@ -19,7 +19,7 @@ function Design() {
                         <div className='col-md-6'>
 
                             <h1 className='fw-700'>
-                                Application Security Posture Management
+                                Product Security Posture Management
                             </h1>
 
                             <p>
@@ -46,11 +46,11 @@ function Design() {
                         <div className='col-md-10 offset-md-1'>
 
                             <h2 className='fw-700 text-center'>
-                                Application Security Posture Management
+                            Product Security Posture Management
                             </h2>
 
                             <p className='text-center'>
-                                ASPM is a compliance tool that enables organizations to create visibility into their technology stack and measure portfolio risk.  It aggregates data from all your security tool and provides a security score and actionable recommedations to increase security posture.
+                            PSPM is a compliance tool that enables organizations to create visibility into their technology stack and measure portfolio risk.  It aggregates data from all your security tool and provides a security score and actionable recommedations to increase security posture.
                             </p>
 
                         </div>
@@ -60,7 +60,7 @@ function Design() {
                     <div className='row mt-5'>
                         <div className='col-md-6'>
                             <div className='panel mt-3'>
-                                <h3>Without Securestate</h3>
+                                <h3>Without PSPM</h3>
                                 <ul>
                                     <li>
                                         <span className='cross'>
@@ -91,19 +91,19 @@ function Design() {
                         </div>
                         <div className='col-md-6'>
                             <div className='panel mt-3'>
-                                <h3>With Securestate</h3>
+                                <h3>With PSPM</h3>
                                 <ul>
                                     <li>
                                         <span className='tick'>
                                             <box-icon name='check' color='#72bb53'></box-icon>
                                         </span>
-                                        Centrazalize all critical application data in a single place
+                                        Centrazalize all critical product data in a single place
                                     </li>
                                     <li>
                                         <span className='tick'>
                                             <box-icon name='check' color='#72bb53'></box-icon>
                                         </span>
-                                        Create business continuity for mission critical applications
+                                        Create business continuity for mission critical product
                                     </li>
                                     <li>
                                         <span className='tick' >
@@ -134,7 +134,7 @@ function Design() {
                             </h2>
 
                             <p className=''>
-                                Bring disparate data from your security toolset into a centralized platform.  Traditional security involves many tools and tons of unfiltered data, and results in ineffective action. Securestate brings all your data into a single place, empowering developers to effectively prioritize and mitigate security issues
+                                Bring disparate data from your security toolset into a centralized platform.  Traditional security involves many tools and tons of unfiltered data, and results in ineffective action. PSPM brings all your data into a single place, empowering developers to effectively prioritize and mitigate security issues
                             </p>
 
                             <a href='https://www.securestate.io/demo' className='btn btn-primary'>
@@ -171,7 +171,7 @@ function Design() {
                             </h2>
 
                             <p className=''>
-                                Traditional tools produce false positives and unactionable data which creates confusion on what to proritize. The securestate platform shows reliable findings and provides actionable recommendations and access to our  security researchers for additional support.
+                                Traditional tools produce false positives and unactionable data which creates confusion on what to proritize. The PSPM platform shows reliable findings and provides actionable recommendations and access to our  security researchers for additional support.
                             </p>
 
                             <button className='btn btn-primary'>
@@ -265,9 +265,9 @@ function Design() {
                                 Sell Security as a Benefit
                             </h2>
 
-                            <p className='text-center'>
+                            <h5 className='text-center'>
                                 Use security as a sales differentiator when speaking with prospective clients.  Most organizations wait until the end of the sales cycle, which creates an oppurtunity.
-                            </p>
+                            </h5>
 
                             <button className='btn btn-primary'>
                                 Learn More

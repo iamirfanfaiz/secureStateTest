@@ -172,6 +172,10 @@ a {
   width: 100%;
   min-height: 330px;
   margin: auto;
+
+  h4{
+    color:  #000 !important;
+  }
 }
 
 .north-star {
@@ -577,4 +581,10 @@ a {
   max-width: 360px;
   width: 100%;
   justify-content: space-between;
+  border-radius: 4px;
+
+  strong{
+    margin-bottom: 10px;
+    display: block;
+  }
 }
