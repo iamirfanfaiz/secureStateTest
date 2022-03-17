@@ -27,7 +27,7 @@ function Develop() {
                                 Bring security to the table on day one with a design review before you write a single line of code.
                             </p>
 
-                            <a href='https://www.securestate.io/demo' className='btn btn-primary'>
+                            <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-primary'>
                                 Get a theat Model
                             </a>
                         </div>
@@ -175,7 +175,7 @@ function Develop() {
                             </h5>
                            
 
-                            <a href='https://www.securestate.io/demo' className='btn btn-primary'>
+                            <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-primary'>
                                 Learn More
                             </a>
 
@@ -282,7 +282,7 @@ function Develop() {
                             Security is cheaper if implemented earlier. Threat models provide an instant ROI by eliminating >90% of the common vulnerabilities discovered at the end of the development lifecycle.  Bugs found later in the lifecycle require additional developer hours and impact the release timeline.
                             </p>
 
-                            <a href='https://www.securestate.io/demo' className='btn btn-primary'>
+                            <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-primary'>
                                 Start Threat Model
                             </a>
 

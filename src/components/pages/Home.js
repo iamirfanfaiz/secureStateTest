@@ -77,7 +77,7 @@ function Home() {
                                     A Product Security as a Service (PSaaS) platform integrating security at every phase of the product development lifecycle
                                 </p>
 
-                                <a href='https://www.securestate.io/demo' className='btn btn-secondary'>
+                                <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-secondary'>
                                     Learn more
                                 </a>
                             </div>
@@ -92,7 +92,7 @@ function Home() {
                 <div className='container'>
                     <div className='row'>
                         <div className='col d-flex align-items-center justify-content-center'>
-                            <p className='mb-0 fw-600 mr-3'>Do you know your security posture?</p> <a href='https://www.securestate.io/demo' className='btn btn-light'>Get a free Assessment</a>
+                            <p className='mb-0 fw-600 mr-3'>Do you know your security posture?</p> <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-light'>Get a free Assessment</a>
                         </div>
                     </div>
                 </div>
@@ -459,7 +459,7 @@ function Home() {
                         </div>
 
                         <div className='col-12 mt-5 d-flex align-items-center justify-content-center'>
-                            <a href='' className='btn btn-primary btn-lg'>
+                            <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-primary btn-lg'>
                                 Schedule a Demo Today
                             </a>
                         </div>

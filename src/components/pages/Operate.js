@@ -23,7 +23,7 @@ function Operate() {
                                 Reduce the time from find to fix using real time data and actionable intelligence to enable developers to efficiently remediate bugs.
                             </p>
 
-                            <a href='https://www.securestate.io/demo' className='btn btn-primary'>
+                            <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-primary'>
                                 Start a Pentest
                             </a>
                         </div>
@@ -200,7 +200,7 @@ function Operate() {
                                 Findings are reported as they are discovered and provide the data you need to prioritize your risks & take action.  Our reporting includes data around severity, risk, finding details, and recommendations.
                             </p>
 
-                            <a href='https://www.securestate.io/demo' className='btn btn-primary'>
+                            <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-primary'>
                                 Get a Pentest Today
                             </a>
 

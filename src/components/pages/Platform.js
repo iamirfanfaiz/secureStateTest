@@ -141,7 +141,7 @@ function Platform() {
                   </p>
                 </div>
 
-                <a className='d-flex' href=''>
+                <a className='d-flex' href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank">
                   <span>
                     LEARN MORE
                   </span>
@@ -163,7 +163,7 @@ function Platform() {
                   </p>
                 </div>
 
-                <a className='d-flex' href=''>
+                <a className='d-flex' href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank">
                   <span>
                     LEARN MORE
                   </span>
@@ -185,7 +185,7 @@ function Platform() {
                   </p>
                 </div>
 
-                <a className='d-flex' href=''>
+                <a className='d-flex' href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank">
                   <span>
                     LEARN MORE
                   </span>
@@ -207,7 +207,7 @@ function Platform() {
                   </p>
                 </div>
 
-                <a className='d-flex' href=''>
+                <a className='d-flex' href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank">
                   <span>
                     LEARN MORE
                   </span>
@@ -229,7 +229,7 @@ function Platform() {
                   </p>
                 </div>
 
-                <a className='d-flex' href=''>
+                <a className='d-flex' href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank">
                   <span>
                     LEARN MORE
                   </span>
@@ -273,7 +273,7 @@ function Platform() {
                   </p>
                 </div>
 
-                <a className='d-flex' href=''>
+                <a className='d-flex' href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank">
                   <span>
                     LEARN MORE
                   </span>
@@ -290,12 +290,12 @@ function Platform() {
                     Sell Security as a Benefit
                   </strong>
 
-                  <h5>
+                  <p>
                     Beat out your competitors by using security as a sales tool.
-                  </h5>
+                  </p>
                 </div>
 
-                <a className='d-flex' href=''>
+                <a className='d-flex' href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank">
                   <span>
                     LEARN MORE
                   </span>
@@ -318,7 +318,7 @@ function Platform() {
                   </p>
                 </div>
 
-                <a className='d-flex' href=''>
+                <a className='d-flex' href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank">
                   <span>
                     LEARN MORE
                   </span>
@@ -329,7 +329,7 @@ function Platform() {
             </div>
 
             <div className='col-md-12 text-center'>
-              <button className='btn btn-light'>Learn More</button>
+              <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-light'>Learn More</a>
             </div>
 
 

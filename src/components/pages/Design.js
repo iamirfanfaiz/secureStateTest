@@ -26,7 +26,7 @@ function Design() {
                                 Centralize data from all your product security tools including DAST, SAST, SCA, Pentest and Threat Models in a single place
                             </p>
 
-                            <a href='https://www.securestate.io/demo' className='btn btn-primary'>
+                            <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-primary'>
                                 Get Secure
                             </a>
                         </div>
@@ -137,7 +137,7 @@ function Design() {
                                 Bring disparate data from your security toolset into a centralized platform.  Traditional security involves many tools and tons of unfiltered data, and results in ineffective action. PSPM brings all your data into a single place, empowering developers to effectively prioritize and mitigate security issues
                             </p>
 
-                            <a href='https://www.securestate.io/demo' className='btn btn-primary'>
+                            <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-primary'>
                                 Learn More
                             </a>
 
@@ -174,9 +174,9 @@ function Design() {
                                 Traditional tools produce false positives and unactionable data which creates confusion on what to proritize. The PSPM platform shows reliable findings and provides actionable recommendations and access to our  security researchers for additional support.
                             </p>
 
-                            <button className='btn btn-primary'>
+                            <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-primary'>
                                 Learn More
-                            </button>
+                            </a>
 
                         </div>
 
@@ -201,9 +201,9 @@ function Design() {
                                 Our proactive approach enables DevOps teams to remediate findings based on actionable intelligence. We eliminate the overhead typically seen in consulting which allows our team to focus on testing. The result is end-to-end transparency and measurable ROI on cybersecurity investments.
                             </p>
 
-                            <button className='btn btn-primary'>
+                            <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-primary'>
                                 Learn More
-                            </button>
+                            </a>
 
                         </div>
 
@@ -269,9 +269,9 @@ function Design() {
                                 Use security as a sales differentiator when speaking with prospective clients.  Most organizations wait until the end of the sales cycle, which creates an oppurtunity.
                             </h5>
 
-                            <button className='btn btn-primary'>
+                            <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-primary'>
                                 Learn More
-                            </button>
+                            </a>
 
 
 
