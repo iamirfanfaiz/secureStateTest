@@ -171,7 +171,7 @@ function Develop() {
                             </h2> */}
 
                             <h5 className='text-center'>
-                                Use security as a sales differentiator when speaking with prospective clients.  Most organizations wait until the end of the sales cycle, which creates an oppurtunity.
+                                Use security as a sales differentiator when speaking with prospective clients.  Most organizations wait until the end of the sales cycle, which creates an oppurtunity to beat out the competition.
                             </h5>
                            
 

@@ -15,22 +15,22 @@ function Footer() {
                             <img src={mainLogo} className='img-fluid mb-3' width="60px" />
 
                             <div className='copy-rights mb-4'>
-                                © 2021 - securestate.io Terms of Service     Privacy Policy
+                                © 2021 - securestate.io <a href="https://securestate.notion.site/Terms-of-Service-6d60ced6d38747f6b61357dd7a23dd7b" target="_blank">Terms of Service</a> | <a href="https://securestate.notion.site/Privacy-Policy-5a1fce3f303447a283ae68ec0d61c597">Privacy Policy</a> 
                             </div>
                         </div>
                         <div className='col-md-2'>
                             <ul className='sitemap'>
                                 <li className='heading'>RESOURCES</li>
                                 <li>Blog</li>
-                                <li>Careers</li>
+                                <li><a href="https://securestate.notion.site/Job-Board-e10182de9ad74961a28540790c4cb541" target="_blank">Careers</a></li>
                             </ul>
                         </div>
 
                         <div className='col-md-2'>
                             <ul className='sitemap'>
-                                <li className='heading'>SUPPORT</li>
-                                <li>Contact Us</li>
-                                <li>What is Pentesting</li>
+                                <li className='heading'><a href="" target="_blank">SUPPORT</a></li>
+                                <li><a href="https://securestate.notion.site/Contact-Us-3f39bdff3219494284017ad431c04578" target="_blank">Contact Us</a></li>
+                                <li><a href="">What is Pentesting</a></li>
                             </ul>
                         </div>
 

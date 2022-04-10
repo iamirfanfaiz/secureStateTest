@@ -25,13 +25,23 @@ import TextTransition, { presets } from "react-text-transition";
 import ActionableIntel from '../../assets/images/northstar/actionableintel.svg'
 import CapabilityGap from '../../assets/images/northstar/captabilityGaps.svg'
 import ShiftLefts from '../../assets/images/northstar/shiftlefts.svg'
-
+import PlatformThreat from '../../assets/images/home/platformthreat.svg'
+import IndustryCompliacted from '../../assets/images/icons/problems/industrycompliacted.png'
+import industryExpensive from '../../assets/images/icons/problems/industryexpensive.png'
+import industryQuestionmark from '../../assets/images/icons/problems/industryquestionmark.png'
+import industryToomanytools from '../../assets/images/icons/problems/industrytoomanytools.png'
+import SSaffordable from '../../assets/images/icons/problems/SSaffordable.png'
+import SSCentralize from '../../assets/images/icons/problems/SSCentralize.png'
+import SShelpyou from '../../assets/images/icons/problems/SShelpyou.png'
+import SSOnboarding from '../../assets/images/icons/problems/SSOnboarding.png'
 
 function Home() {
     const BannerText = [
         "Delivered Effectively",
         "With Flexible Terms",
-        "End to End"
+        "End to End",
+        "With 360 degree coverage",
+        "Simplified"
     ];
 
     const DevSecOpsText = [
@@ -66,7 +76,7 @@ function Home() {
                         <div className='row'>
                             <div className='col-md-12 heading'>
                                 <h1 className='fw-700 d-flex justify-content-center'>
-                                    Product Security,&nbsp;<TextTransition
+                                    Platform Security,&nbsp;<TextTransition
                                         text={BannerText[index % BannerText.length]}
                                         springConfig={presets.wobbly}
                                     />
@@ -88,6 +98,7 @@ function Home() {
                 </div>
 
             </header>
+
             <div className='ribbon py-3'>
                 <div className='container'>
                     <div className='row'>
@@ -98,12 +109,50 @@ function Home() {
                 </div>
 
             </div>
+
+            <section className='py-5'>
+                <div className='container'>
+                    <div className='row align-items-center'>
+
+
+                        <div className='col-md-6 d-flex align-items-center justify-content-center'>
+
+                            <img src={PlatformThreat} className='img-fluid mb-3' />
+
+                        </div>
+
+                        <div className='col-md-6'>
+
+                            <h3 className='fw-700'>
+                                Addressing The Top 10 Threats To The Platform
+                            </h3>
+
+                            <p className=''>
+                                The SecureState framework addresses the most common threats ecommerce platforms face and provides users with...
+                            </p>
+
+                            <ul>
+                                <li>Real Time & Actionable Intelligence</li>
+                                <li>Affordable & Transparent Pricing</li>
+                                <li>Dedicated Product Security Engineer</li>
+                            </ul>
+
+                            <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-primary'>
+                                Learn more
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
             <section className='services py-5'>
                 <div className='container'>
                     <div className='row mb-4'>
                         <div className='col-md-12 text-center'>
                             <h1 className='fw-700'>
-                                DevSecOps Orchestration
+                                Security at Every Step
                             </h1>
                             <p className='mb-0 text-center mute'>
                                 <TextTransition className='devopstext'
@@ -269,12 +318,10 @@ function Home() {
                             </h1>
 
                             <h2>
-                                Securing the Software
-                                Development Lifecycle
+                                Securing the Platform Development Lifecycle
                             </h2>
                             <p className='mute'>
-                                To protect your SDLC, we become an extension
-                                of it
+                                To protect your SDLC, we become an extension of it
                             </p>
 
                         </div>
@@ -437,7 +484,7 @@ function Home() {
                                         )}
                                     </CountUp>
                                 </h1>
-                                <p>Average cost of data breach</p>
+                                <p>Number of Records Lost</p>
                             </div>
 
                         </div>
@@ -453,7 +500,7 @@ function Home() {
                                         )}
                                     </CountUp>
                                 </h1>
-                                <p>Average cost of data breach</p>
+                                <p>Cost of a Single Record</p>
                             </div>
 
                         </div>
@@ -467,13 +514,134 @@ function Home() {
                 </div>
             </section>
 
+            <section className='py-5'>
+                <div className='container'>
+                    <div className='row mb-5'>
+                        <div className='col-md-12 text-center'>
+                            <h2 className='fw-400'>
+                                By The Numbers
+                            </h2>
+                            <p className='mute'>Secure your technology stack today.</p>
+                        </div>
+                    </div>
+                    <div className='row mb-5'>
+
+
+                        <div className='col-md-12 text-center'>
+
+                            <h1 className='fw-700'>Simplifying Platform Security</h1>
+                            <p className='mb-5 text-center mute'>SecurteState mission is to help platforms and products that run our digital lives with simplicity</p>
+                        </div>
+
+                        <div className='col-md-12 text-center'>
+
+                            <ul className='problems'>
+                                <li className='d-flex'>
+                                    <div className='icon'>
+                                        <img src={industryQuestionmark} />
+                                    </div>
+                                    <div className='contents'>
+                                        <small>Problem 1</small><br />
+                                        <strong>Do Not Know Where to Start</strong>
+                                        <p className='mute'>Planning for security is a daunting process and it can be difficult to know where to start</p>
+                                    </div>
+                                    <div className='icon'>
+
+                                        <box-icon name='arrow-back' rotate='180' color="#a7bcc6" size="md"></box-icon>
+                                    </div>
+                                    <div className='icon'>
+                                        <img src={SShelpyou} />
+                                    </div>
+                                    <div className='contents'>
+                                        <small></small><br />
+                                        <strong>Help You Understand</strong>
+                                        <p className='mute'>A vulnerability assessment will help us understand your technology stack and create an actionable plan</p>
+                                    </div>
+
+                                </li>
+                                <li className='d-flex'>
+                                    <div className='icon'>
+                                        <img src={industryExpensive} />
+                                    </div>
+                                    <div className='contents'>
+                                        <small>Problem 2</small><br />
+                                        <strong>Cybersecurity is Expensive</strong>
+                                        <p className='mute'>
+                                        Cybersecurity consultants charge $250/hour and tools can range from $50-500 a month
+                                        </p>
+                                    </div>
+                                    <div className='icon'>
+                                        <box-icon name='arrow-back' rotate='180' color="#a7bcc6" size="md"></box-icon>
+                                    </div>
+                                    <div className='icon'>
+                                        <img src={SSaffordable} />
+                                    </div>
+                                    <div className='contents'>
+                                        <small></small><br />
+                                        <strong>Affordable, Transparent Pricing</strong>
+                                        <p className='mute'>Our pricing model is simple. Three different levels of security priced based on the size of the application.</p>
+                                    </div>
+
+                                </li>
+                                <li className='d-flex'>
+                                    <div className='icon'>
+                                        <img src={IndustryCompliacted} />
+                                    </div>
+                                    <div className='contents'>
+                                        <small>Problem 3</small><br />
+                                        <strong>Complicated Buying Process</strong>
+                                        <p className='mute'>Cybersecurity is notoriously difficult to buy and implement.</p>
+                                    </div>
+                                    <div className='icon'>
+
+                                        <box-icon name='arrow-back' rotate='180' color="#a7bcc6" size="md"></box-icon>
+                                    </div>
+                                    <div className='icon'>
+                                        <img src={SSOnboarding} />
+                                    </div>
+                                    <div className='contents'>
+                                        <small></small><br />
+                                        <strong>Simple, Efficient Onboarding</strong>
+                                        <p className='mute'>We make the buying process simple and deliver ROI in the first 30 days</p>
+                                    </div>
+
+                                </li>
+                                <li className='d-flex'>
+                                    <div className='icon'>
+                                        <img src={industryToomanytools} />
+                                    </div>
+                                    <div className='contents'>
+                                        <small>Problem 4</small><br />
+                                        <strong>Too Many Tools</strong>
+                                        <p className='mute'>Hundreds of different tools to choose from can cause buying fatigue</p>
+                                    </div>
+                                    <div className='icon'>
+
+                                        <box-icon name='arrow-back' rotate='180' color="#a7bcc6" size="md"></box-icon>
+                                    </div>
+                                    <div className='icon'>
+                                        <img src={SSCentralize} />
+                                    </div>
+                                    <div className='contents'>
+                                        <small></small><br />
+                                        <strong>Integrate Tools, Centralize Data</strong>
+                                        <p className='mute'>
+                                        Centralize data from your security stack and integrate your tools into the SecureState platform
+                                        </p>
+                                    </div>
+
+                                </li>
+                            </ul>
+
+
+                        </div>
 
 
 
 
-
-
-
+                    </div>
+                </div>
+            </section>
 
         </div>
     )

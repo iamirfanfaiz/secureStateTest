@@ -8,6 +8,7 @@
 a {
   text-decoration: none;
   color: #fd7b33;
+  cursor: pointer;
 
   &:hover {
     color: black;
@@ -586,5 +587,41 @@ a {
   strong{
     margin-bottom: 10px;
     display: block;
+  }
+}
+
+
+.problems{
+  margin: auto;
+
+  li{
+    display: flex;
+    align-items: center;
+
+    .icon{
+      height: 80px;
+      width: 80px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+
+    .contents{
+      text-align: left;
+    max-width: 400px;
+    width: 100%;
+      small{
+        font-weight: 600;
+        color: #fd7a33;
+      }
+      
+    }
   }
 }

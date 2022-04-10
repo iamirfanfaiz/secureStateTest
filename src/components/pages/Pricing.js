@@ -12,7 +12,7 @@ function Pricing() {
                         <div className='col-md-8 offset-md-2'>
 
                             <h1 className='fw-700 text-center mb-4'>
-                                Compare Plans
+                            Simple, transparent pricing
                             </h1>
 
                             <p className='text-center mute'>
@@ -391,13 +391,28 @@ function Pricing() {
                                         </p>
                                     </Accordion.Body>
                                 </Accordion.Item>
-
-
+                              
                                 <Accordion.Item eventKey="3">
-                                    <Accordion.Header>What if I don't have my own developers to implement fixes?</Accordion.Header>
+                                    <Accordion.Header>What if I just need a penetration test?</Accordion.Header>
                                     <Accordion.Body>
                                         <p className='mute'>
-                                            We do not offer remediation services but have a partner network to help connect you with an experienced and qualified engineer. </p>
+                                        SecureState offers one time penetration testing or threat modeling services, for a quote reach out to sales@securestate.io
+                                        </p>
+                                    </Accordion.Body>
+                                </Accordion.Item>
+
+                                <Accordion.Item eventKey="4">
+                                    <Accordion.Header>Do you offer add on services?</Accordion.Header>
+                                    <Accordion.Body>
+                                        <p className='mute'>
+                                        SecureState offers a variety of security services that are carried out by highly experienced Product Security Engineers.  Some of the services offered include...</p>
+                                        <ul className='mute fs-xs'>
+                                            <li>Penetration Tests</li>
+                                            <li>Threat Models</li>
+                                            <li>Code Review</li>
+                                            <li>Security Review</li>
+                                            <li>Strategic Program Planning</li>
+                                        </ul>
                                     </Accordion.Body>
                                 </Accordion.Item>
 
