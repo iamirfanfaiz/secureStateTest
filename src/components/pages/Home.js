@@ -10,8 +10,9 @@ import DevelopwSecuritylogo from '../../assets/images/icons/DevelopwSecuritylogo
 import OperatewSecuritylogo from '../../assets/images/icons/OperatewSecuritylogo.svg'
 import ThreatModelasaServiceLogo from '../../assets/images/icons/ThreatModelasaServiceLogo.svg'
 import ASPMlogo from '../../assets/images/icons/ASPMlogo.svg'
+import ManagPlatform from '../../assets/images/home/ManagedPlatform.svg'
 import PentestasaService from '../../assets/images/icons/PentestasaService.svg'
-import ShiftLeftlogo from '../../assets/images/icons/ShiftLeft.svg'
+import ShiftLeftlogo from '../../assets/images/icons/shiftlefticon.svg'
 import CapabilityGaplogo from '../../assets/images/icons/CapabilityGaplogo.svg'
 import ActionableIntelligencelogo from '../../assets/images/icons/ActionableIntelligence.svg'
 import AwsImage from '../../assets/images/clients/aws.png'
@@ -22,9 +23,9 @@ import { Tab, Row, Col, Nav } from 'react-bootstrap';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 import TextTransition, { presets } from "react-text-transition";
-import ActionableIntel from '../../assets/images/northstar/actionableintel.svg'
-import CapabilityGap from '../../assets/images/northstar/captabilityGaps.svg'
-import ShiftLefts from '../../assets/images/northstar/shiftlefts.svg'
+import ActionableIntel from '../../assets/images/northstar/ACTIONABLEINTELIGENCE.svg'
+import CapabilityGap from '../../assets/images/northstar/CAPABILITYGAP.svg'
+import ShiftLefts from '../../assets/images/northstar/SHIFTLEFT.svg'
 import PlatformThreat from '../../assets/images/home/platformthreat.svg'
 import IndustryCompliacted from '../../assets/images/icons/problems/industrycompliacted.png'
 import industryExpensive from '../../assets/images/icons/problems/industryexpensive.png'
@@ -40,7 +41,7 @@ function Home() {
         "Delivered Effectively",
         "With Flexible Terms",
         "End to End",
-        "With 360 degree coverage",
+        "With 360 Degree Coverage",
         "Simplified"
     ];
 
@@ -146,13 +147,44 @@ function Home() {
                 </div>
             </section>
 
+            <section className='py-5'>
+                <div className='container'>
+                    <div className='row align-items-center'>
+
+
+                        <div className='col-md-6 d-flex align-items-center justify-content-center'>
+
+                            <img src={ManagPlatform} className='img-fluid mb-3' />
+
+                        </div>
+
+                        <div className='col-md-6'>
+
+                            <h3 className='fw-700'>
+                            Talent, tools and resources in a single place
+                            </h3>
+
+                            <p className=''>
+                            The SecureState platform delivers the three main components of a robust cybersecurity program through a dynamic platform, from experienced security engineers, armed with an expansive toolkit
+                            </p>
+
+
+                            <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-primary'>
+                                Learn more
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
 
             <section className='services py-5'>
                 <div className='container'>
                     <div className='row mb-4'>
                         <div className='col-md-12 text-center'>
                             <h1 className='fw-700'>
-                                Security at Every Step
+                                Integrating Security at Every Step
                             </h1>
                             <p className='mb-0 text-center mute'>
                                 <TextTransition className='devopstext'
@@ -516,14 +548,7 @@ function Home() {
 
             <section className='py-5'>
                 <div className='container'>
-                    <div className='row mb-5'>
-                        <div className='col-md-12 text-center'>
-                            <h2 className='fw-400'>
-                                By The Numbers
-                            </h2>
-                            <p className='mute'>Secure your technology stack today.</p>
-                        </div>
-                    </div>
+
                     <div className='row mb-5'>
 
 
