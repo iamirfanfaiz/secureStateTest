@@ -147,25 +147,196 @@ function Home() {
                 </div>
             </section>
 
+            <section className='services py-5'>
+                <div className='container'>
+                    <div className='row mb-4'>
+                        <div className='col-md-12 text-center'>
+                            <h1 className='fw-700 mb-4'>
+                                Fan Favorite Features
+                            </h1>
+
+                        </div>
+                    </div>
+
+
+                    <div className='row'>
+
+
+                        <div className='col-md-4'>
+
+                            <div className='feature'>
+                                <div className='label'>Feature #1</div>
+                                <h2>Remediation Playbook & Knowledge Base</h2>
+                                <p className='mute'>
+                                    Security resources are difficult to come by. They are often too technical and do not translate to a particular technology stack. SecureState provides access to all our internal documentation and host it on our Knowledge Base with access to our team to help interpret.
+                                </p>
+                            </div>
+
+                        </div>
+                        <div className='col-md-4'>
+
+                            <div className='feature'>
+                                <div className='label'>Feature #2</div>
+                                <h2>Automated Software Bill of Materials</h2>
+                                <p className='mute'>As platforms scale their technology stack, they increase their reliance on third party components. SecureState's Automated Software Bill of Materials regularly scans our technology stack to keep an accurate record of your components.</p>
+                            </div>
+
+                        </div>
+                        <div className='col-md-4'>
+
+                            <div className='feature'>
+                                <div className='label'>Feature #3</div>
+                                <h2>Supply Chain Vulnerability Scanning</h2>
+                                <p className='mute'>
+                                    The supply chain is an increasing attack vector by hackers who target vulnerable components of your software. The SecureState platform regularly scans and reports on vulnerabilities at the component level of your platform and secure your supply chain.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+            </section>
+
+            <section className='py-5'>
+                <div className='container'>
+
+                    <div className='row mb-5'>
+
+
+                        <div className='col-md-12 text-center'>
+
+                            <h1 className='fw-700'>Simplifying Platform Security</h1>
+                            <p className='mb-5 text-center mute'>SecurteState mission is to help platforms and products that run our digital lives with simplicity</p>
+                        </div>
+
+                        <div className='col-md-12 text-center'>
+
+                            <ul className='problems'>
+                                <li className='d-flex'>
+                                    <div className='icon'>
+                                        <img src={industryQuestionmark} />
+                                    </div>
+                                    <div className='contents'>
+                                        <small>Problem 1</small><br />
+                                        <strong>Do Not Know Where to Start</strong>
+                                        <p className='mute'>Planning for security is a daunting process and it can be difficult to know where to start</p>
+                                    </div>
+                                    <div className='icon'>
+
+                                        <box-icon name='arrow-back' rotate='180' color="#a7bcc6" size="md"></box-icon>
+                                    </div>
+                                    <div className='icon'>
+                                        <img src={SShelpyou} />
+                                    </div>
+                                    <div className='contents'>
+                                        <small></small><br />
+                                        <strong>Help You Understand</strong>
+                                        <p className='mute'>A vulnerability assessment will help us understand your technology stack and create an actionable plan</p>
+                                    </div>
+
+                                </li>
+                                <li className='d-flex'>
+                                    <div className='icon'>
+                                        <img src={industryExpensive} />
+                                    </div>
+                                    <div className='contents'>
+                                        <small>Problem 2</small><br />
+                                        <strong>Cybersecurity is Expensive</strong>
+                                        <p className='mute'>
+                                            Cybersecurity consultants charge $250/hour and tools can range from $50-500 a month
+                                        </p>
+                                    </div>
+                                    <div className='icon'>
+                                        <box-icon name='arrow-back' rotate='180' color="#a7bcc6" size="md"></box-icon>
+                                    </div>
+                                    <div className='icon'>
+                                        <img src={SSaffordable} />
+                                    </div>
+                                    <div className='contents'>
+                                        <small></small><br />
+                                        <strong>Affordable, Transparent Pricing</strong>
+                                        <p className='mute'>Our pricing model is simple. Three different levels of security priced based on the size of the application.</p>
+                                    </div>
+
+                                </li>
+                                <li className='d-flex'>
+                                    <div className='icon'>
+                                        <img src={IndustryCompliacted} />
+                                    </div>
+                                    <div className='contents'>
+                                        <small>Problem 3</small><br />
+                                        <strong>Complicated Buying Process</strong>
+                                        <p className='mute'>Cybersecurity is notoriously difficult to buy and implement.</p>
+                                    </div>
+                                    <div className='icon'>
+
+                                        <box-icon name='arrow-back' rotate='180' color="#a7bcc6" size="md"></box-icon>
+                                    </div>
+                                    <div className='icon'>
+                                        <img src={SSOnboarding} />
+                                    </div>
+                                    <div className='contents'>
+                                        <small></small><br />
+                                        <strong>Simple, Efficient Onboarding</strong>
+                                        <p className='mute'>We make the buying process simple and deliver ROI in the first 30 days</p>
+                                    </div>
+
+                                </li>
+                                <li className='d-flex'>
+                                    <div className='icon'>
+                                        <img src={industryToomanytools} />
+                                    </div>
+                                    <div className='contents'>
+                                        <small>Problem 4</small><br />
+                                        <strong>Too Many Tools</strong>
+                                        <p className='mute'>Hundreds of different tools to choose from can cause buying fatigue</p>
+                                    </div>
+                                    <div className='icon'>
+
+                                        <box-icon name='arrow-back' rotate='180' color="#a7bcc6" size="md"></box-icon>
+                                    </div>
+                                    <div className='icon'>
+                                        <img src={SSCentralize} />
+                                    </div>
+                                    <div className='contents'>
+                                        <small></small><br />
+                                        <strong>Integrate Tools, Centralize Data</strong>
+                                        <p className='mute'>
+                                            Centralize data from your security stack and integrate your tools into the SecureState platform
+                                        </p>
+                                    </div>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className='py-5'>
                 <div className='container'>
                     <div className='row align-items-center'>
 
 
-                        <div className='col-md-6 d-flex align-items-center justify-content-center'>
+                        <div className='col-md-8 d-flex align-items-center justify-content-center'>
 
                             <img src={ManagPlatform} className='img-fluid mb-3' />
 
                         </div>
 
-                        <div className='col-md-6'>
+                        <div className='col-md-4'>
 
                             <h3 className='fw-700'>
-                            Talent, tools and resources in a single place
+                                Talent, tools and resources in a single place
                             </h3>
 
                             <p className=''>
-                            The SecureState platform delivers the three main components of a robust cybersecurity program through a dynamic platform, from experienced security engineers, armed with an expansive toolkit
+                                The SecureState platform delivers the three main components of a robust cybersecurity program through a dynamic platform, from experienced security engineers, armed with an expansive toolkit
                             </p>
 
 
@@ -177,7 +348,6 @@ function Home() {
                     </div>
                 </div>
             </section>
-
 
             <section className='services py-5'>
                 <div className='container'>
@@ -341,7 +511,7 @@ function Home() {
                 </div>
             </section>
 
-            <section className='north-star py-5'>
+            {/* <section className='north-star py-5'>
                 <div className='container'>
                     <div className='row mb-5'>
                         <div className='col-md-12 text-center'>
@@ -440,10 +610,9 @@ function Home() {
 
 
                 </div>
-            </section>
+            </section> */}
 
-
-            <section className='clients py-5'>
+            {/* <section className='clients py-5'>
                 <div className='container'>
                     <div className='row mb-5'>
                         <div className='col-md-12 text-center'>
@@ -475,8 +644,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </section>
-
+            </section> */}
 
             <section className='py-5'>
                 <div className='container'>
@@ -546,127 +714,7 @@ function Home() {
                 </div>
             </section>
 
-            <section className='py-5'>
-                <div className='container'>
-
-                    <div className='row mb-5'>
-
-
-                        <div className='col-md-12 text-center'>
-
-                            <h1 className='fw-700'>Simplifying Platform Security</h1>
-                            <p className='mb-5 text-center mute'>SecurteState mission is to help platforms and products that run our digital lives with simplicity</p>
-                        </div>
-
-                        <div className='col-md-12 text-center'>
-
-                            <ul className='problems'>
-                                <li className='d-flex'>
-                                    <div className='icon'>
-                                        <img src={industryQuestionmark} />
-                                    </div>
-                                    <div className='contents'>
-                                        <small>Problem 1</small><br />
-                                        <strong>Do Not Know Where to Start</strong>
-                                        <p className='mute'>Planning for security is a daunting process and it can be difficult to know where to start</p>
-                                    </div>
-                                    <div className='icon'>
-
-                                        <box-icon name='arrow-back' rotate='180' color="#a7bcc6" size="md"></box-icon>
-                                    </div>
-                                    <div className='icon'>
-                                        <img src={SShelpyou} />
-                                    </div>
-                                    <div className='contents'>
-                                        <small></small><br />
-                                        <strong>Help You Understand</strong>
-                                        <p className='mute'>A vulnerability assessment will help us understand your technology stack and create an actionable plan</p>
-                                    </div>
-
-                                </li>
-                                <li className='d-flex'>
-                                    <div className='icon'>
-                                        <img src={industryExpensive} />
-                                    </div>
-                                    <div className='contents'>
-                                        <small>Problem 2</small><br />
-                                        <strong>Cybersecurity is Expensive</strong>
-                                        <p className='mute'>
-                                        Cybersecurity consultants charge $250/hour and tools can range from $50-500 a month
-                                        </p>
-                                    </div>
-                                    <div className='icon'>
-                                        <box-icon name='arrow-back' rotate='180' color="#a7bcc6" size="md"></box-icon>
-                                    </div>
-                                    <div className='icon'>
-                                        <img src={SSaffordable} />
-                                    </div>
-                                    <div className='contents'>
-                                        <small></small><br />
-                                        <strong>Affordable, Transparent Pricing</strong>
-                                        <p className='mute'>Our pricing model is simple. Three different levels of security priced based on the size of the application.</p>
-                                    </div>
-
-                                </li>
-                                <li className='d-flex'>
-                                    <div className='icon'>
-                                        <img src={IndustryCompliacted} />
-                                    </div>
-                                    <div className='contents'>
-                                        <small>Problem 3</small><br />
-                                        <strong>Complicated Buying Process</strong>
-                                        <p className='mute'>Cybersecurity is notoriously difficult to buy and implement.</p>
-                                    </div>
-                                    <div className='icon'>
-
-                                        <box-icon name='arrow-back' rotate='180' color="#a7bcc6" size="md"></box-icon>
-                                    </div>
-                                    <div className='icon'>
-                                        <img src={SSOnboarding} />
-                                    </div>
-                                    <div className='contents'>
-                                        <small></small><br />
-                                        <strong>Simple, Efficient Onboarding</strong>
-                                        <p className='mute'>We make the buying process simple and deliver ROI in the first 30 days</p>
-                                    </div>
-
-                                </li>
-                                <li className='d-flex'>
-                                    <div className='icon'>
-                                        <img src={industryToomanytools} />
-                                    </div>
-                                    <div className='contents'>
-                                        <small>Problem 4</small><br />
-                                        <strong>Too Many Tools</strong>
-                                        <p className='mute'>Hundreds of different tools to choose from can cause buying fatigue</p>
-                                    </div>
-                                    <div className='icon'>
-
-                                        <box-icon name='arrow-back' rotate='180' color="#a7bcc6" size="md"></box-icon>
-                                    </div>
-                                    <div className='icon'>
-                                        <img src={SSCentralize} />
-                                    </div>
-                                    <div className='contents'>
-                                        <small></small><br />
-                                        <strong>Integrate Tools, Centralize Data</strong>
-                                        <p className='mute'>
-                                        Centralize data from your security stack and integrate your tools into the SecureState platform
-                                        </p>
-                                    </div>
-
-                                </li>
-                            </ul>
-
-
-                        </div>
-
-
-
-
-                    </div>
-                </div>
-            </section>
+           
 
         </div>
     )

@@ -44,7 +44,7 @@ function Pricing() {
                                             <ul className='features'>
                                                 <li>
                                                     <span className='feature'>
-                                                        Application Security Posture Management
+                                                        Product Security Posture Management
                                                     </span>
 
                                                 </li>
@@ -56,13 +56,13 @@ function Pricing() {
                                                 </li>
                                                 <li>
                                                     <span className='feature'>
-                                                        Security Review
+                                                        Supply Chain Vulnerability Scanning
                                                     </span>
 
                                                 </li>
                                                 <li>
                                                     <span className='feature'>
-                                                        Penetration Testing
+                                                        Software Bill of Materials
                                                     </span>
 
                                                 </li>
@@ -104,7 +104,7 @@ function Pricing() {
                                             <ul className='features'>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                        Application Security Posture Management
+                                                    Product Security Posture Management
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -120,18 +120,18 @@ function Pricing() {
                                                 </li>
                                                 <li className='justify-content-center d-none d-md-block text-center'>
                                                     <span className='feature d-none'>
-                                                        Security Review
+                                                    Supply Chain Vulnerability Scanning
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
-                                                        <box-icon name='minus' color='#c9d3dd'></box-icon>
+                                                        <box-icon name='check' color='#000'></box-icon>
                                                     </span>
                                                 </li>
                                                 <li className='justify-content-center d-none d-md-block text-center'>
                                                     <span className='feature d-none'>
-                                                        Penetration Testing
+                                                    Software Bill of Materials
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
-                                                        <box-icon name='minus' color='#c9d3dd'></box-icon>
+                                                        <box-icon name='check' color='#000'></box-icon>
                                                     </span>
                                                 </li>
                                                 <li className='justify-content-center d-none d-md-block text-center'>
@@ -177,7 +177,7 @@ function Pricing() {
                                             <ul className='features'>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                        Application Security Posture Management
+                                                    Product Security Posture Management
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -193,7 +193,7 @@ function Pricing() {
                                                 </li>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                        Security Review
+                                                    Supply Chain Vulnerability Scanning
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -201,7 +201,7 @@ function Pricing() {
                                                 </li>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                        Penetration Testing
+                                                    Software Bill of Materials
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -250,7 +250,7 @@ function Pricing() {
                                             <ul className='features'>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                        Application Security Posture Management
+                                                    Product Security Posture Management
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -266,7 +266,7 @@ function Pricing() {
                                                 </li>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                        Security Review
+                                                    Supply Chain Vulnerability Scanning
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -274,7 +274,7 @@ function Pricing() {
                                                 </li>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                        Penetration Testing
+                                                    Software Bill of Materials
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>

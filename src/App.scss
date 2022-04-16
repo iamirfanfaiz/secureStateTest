@@ -85,7 +85,7 @@ a {
   min-height: 600px;
   padding-top: 60px;
 
-  .heading{
+  .heading {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,17 +93,14 @@ a {
 
     @media only screen and (max-width: 600px) {
       align-items: start;
-   
     }
-
   }
 
-  h1{
+  h1 {
     @media only screen and (max-width: 600px) {
       flex-direction: column;
     }
   }
-
 }
 
 .ribbon {
@@ -174,8 +171,8 @@ a {
   min-height: 330px;
   margin: auto;
 
-  h4{
-    color:  #000 !important;
+  h4 {
+    color: #000 !important;
   }
 }
 
@@ -291,7 +288,7 @@ a {
     display: none;
     text-align: center;
 
-    img{
+    img {
       max-width: 640px;
       width: 100%;
     }
@@ -464,7 +461,7 @@ a {
           .feature {
             color: #798da3;
             font-size: 14px;
-            font-weight:500;
+            font-weight: 500;
             @media only screen and (max-width: 768px) {
               text-align: center;
             }
@@ -584,21 +581,23 @@ a {
   justify-content: space-between;
   border-radius: 4px;
 
-  strong{
+  strong {
     margin-bottom: 10px;
     display: block;
   }
 }
 
-
-.problems{
+.problems {
   margin: auto;
+  max-width: 1024px;
+  width: 100%;
+  padding: 0;
 
-  li{
+  li {
     display: flex;
     align-items: center;
 
-    .icon{
+    .icon {
       height: 80px;
       width: 80px;
       padding: 10px;
@@ -606,22 +605,43 @@ a {
       align-items: center;
       justify-content: center;
 
-      img{
+      img {
         height: 100%;
         width: 100%;
         object-fit: contain;
       }
     }
 
-    .contents{
+    .contents {
       text-align: left;
-    max-width: 400px;
-    width: 100%;
-      small{
+      max-width: 400px;
+      width: 100%;
+      small {
         font-weight: 600;
         color: #fd7a33;
       }
-      
     }
+  }
+}
+
+.feature {
+  text-align: center;
+  max-width: 340px;
+  width: 100%;
+  margin: auto;
+
+  .label {
+    text-transform: uppercase;
+    color: #fd7b33;
+    font-weight: 500;
+  }
+
+  h2 {
+    color: #000;
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 14px;
   }
 }
