@@ -152,7 +152,7 @@ function Home() {
                     <div className='row mb-4'>
                         <div className='col-md-12 text-center'>
                             <h1 className='fw-700 mb-4'>
-                                Fan Favorite Features
+                                Platform Features
                             </h1>
 
                         </div>
@@ -161,18 +161,18 @@ function Home() {
 
                     <div className='row'>
 
-
                         <div className='col-md-4'>
 
                             <div className='feature'>
                                 <div className='label'>Feature #1</div>
-                                <h2>Remediation Playbook & Knowledge Base</h2>
+                                <h2>Supply Chain Vulnerability Scanning</h2>
                                 <p className='mute'>
-                                    Security resources are difficult to come by. They are often too technical and do not translate to a particular technology stack. SecureState provides access to all our internal documentation and host it on our Knowledge Base with access to our team to help interpret.
+                                    The supply chain is an increasing attack vector by hackers who target vulnerable components of your software. The SecureState platform regularly scans and reports on vulnerabilities at the component level of your platform and secure your supply chain.
                                 </p>
                             </div>
 
                         </div>
+
                         <div className='col-md-4'>
 
                             <div className='feature'>
@@ -182,18 +182,18 @@ function Home() {
                             </div>
 
                         </div>
+
                         <div className='col-md-4'>
 
                             <div className='feature'>
                                 <div className='label'>Feature #3</div>
-                                <h2>Supply Chain Vulnerability Scanning</h2>
+                                <h2>Remediation Playbook & Knowledge Base</h2>
                                 <p className='mute'>
-                                    The supply chain is an increasing attack vector by hackers who target vulnerable components of your software. The SecureState platform regularly scans and reports on vulnerabilities at the component level of your platform and secure your supply chain.
+                                    Security resources are difficult to come by. They are often too technical and do not translate to a particular technology stack. SecureState provides access to all our internal documentation and host it on our Knowledge Base with access to our team to help interpret.
                                 </p>
                             </div>
 
                         </div>
-
 
                     </div>
 
@@ -211,7 +211,9 @@ function Home() {
                         <div className='col-md-12 text-center'>
 
                             <h1 className='fw-700'>Simplifying Platform Security</h1>
-                            <p className='mb-5 text-center mute'>SecurteState mission is to help platforms and products that run our digital lives with simplicity</p>
+                            <p className='mb-5 text-center mute'>
+                                SecureState’s mission is to secure the platforms and products that underpin our digital lives with efficiency, transparency, and affordability
+                            </p>
                         </div>
 
                         <div className='col-md-12 text-center'>
@@ -224,7 +226,9 @@ function Home() {
                                     <div className='contents'>
                                         <small>Problem 1</small><br />
                                         <strong>Do Not Know Where to Start</strong>
-                                        <p className='mute'>Planning for security is a daunting process and it can be difficult to know where to start</p>
+                                        <p className='mute'>
+                                            Change the highlighted part to “daunting task and it’s difficult to know where to start”
+                                        </p>
                                     </div>
                                     <div className='icon'>
 
@@ -650,9 +654,9 @@ function Home() {
                 <div className='container'>
                     <div className='row mb-5'>
                         <div className='col-md-12 text-center'>
-                            <h2 className='fw-400'>
+                            <h1 className='fw-700'>
                                 By The Numbers
-                            </h2>
+                            </h1>
                             <p className='mute'>Secure your technology stack today.</p>
                         </div>
                     </div>
@@ -714,7 +718,7 @@ function Home() {
                 </div>
             </section>
 
-           
+
 
         </div>
     )

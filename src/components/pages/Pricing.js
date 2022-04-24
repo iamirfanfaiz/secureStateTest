@@ -1,5 +1,11 @@
 import React from 'react';
 import { Slide } from "react-awesome-reveal";
+import Pentest from '../../assets/images/freebreakdown/pentest.png'
+import Program_Manager from '../../assets/images/freebreakdown/program_manager.png'
+import PSPM from '../../assets/images/freebreakdown/PSPM.png'
+import QBR from '../../assets/images/freebreakdown/QBR.png'
+import ThreatModeling from '../../assets/images/freebreakdown/Threat_Modeling.png'
+import VulnAssessment from '../../assets/images/freebreakdown/Vuln_Assessment.png'
 
 import Accordion from 'react-bootstrap/Accordion';
 function Pricing() {
@@ -12,7 +18,7 @@ function Pricing() {
                         <div className='col-md-8 offset-md-2'>
 
                             <h1 className='fw-700 text-center mb-4'>
-                            Simple, transparent pricing
+                                Simple, transparent pricing
                             </h1>
 
                             <p className='text-center mute'>
@@ -56,13 +62,19 @@ function Pricing() {
                                                 </li>
                                                 <li>
                                                     <span className='feature'>
-                                                        Supply Chain Vulnerability Scanning
+                                                        Scanning to Analysis
                                                     </span>
 
                                                 </li>
                                                 <li>
                                                     <span className='feature'>
                                                         Software Bill of Materials
+                                                    </span>
+
+                                                </li>
+                                                <li>
+                                                    <span className='feature'>
+                                                        Penetration Testing
                                                     </span>
 
                                                 </li>
@@ -104,7 +116,7 @@ function Pricing() {
                                             <ul className='features'>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                    Product Security Posture Management
+                                                        Product Security Posture Management
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -118,22 +130,32 @@ function Pricing() {
                                                         <box-icon name='check' color='#000'></box-icon>
                                                     </span>
                                                 </li>
-                                                <li className='justify-content-center d-none d-md-block text-center'>
-                                                    <span className='feature d-none'>
-                                                    Supply Chain Vulnerability Scanning
+                                                <li className='justify-content-center'>
+                                                    <span className='feature d-block d-sm-block d-md-none'>
+                                                        Scanning to Analysis
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
                                                     </span>
                                                 </li>
-                                                <li className='justify-content-center d-none d-md-block text-center'>
-                                                    <span className='feature d-none'>
-                                                    Software Bill of Materials
+                                                <li className='justify-content-center'>
+                                                    <span className='feature d-block d-sm-block d-md-none'>
+                                                        Software Bill of Materials
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
                                                     </span>
                                                 </li>
+
+                                                <li className='justify-content-center d-none d-md-block text-center'>
+                                                    <span className='feature d-none'>
+                                                        Penetration Testing
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='minus' color='#c9d3dd'></box-icon>
+                                                    </span>
+                                                </li>
+
                                                 <li className='justify-content-center d-none d-md-block text-center'>
                                                     <span className='feature d-none'>
                                                         Threat Modeling
@@ -177,7 +199,7 @@ function Pricing() {
                                             <ul className='features'>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                    Product Security Posture Management
+                                                        Product Security Posture Management
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -193,7 +215,7 @@ function Pricing() {
                                                 </li>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                    Supply Chain Vulnerability Scanning
+                                                        Scanning to Analysis
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -201,7 +223,15 @@ function Pricing() {
                                                 </li>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                    Software Bill of Materials
+                                                        Software Bill of Materials
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='check' color='#000'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center'>
+                                                    <span className='feature d-block d-sm-block d-md-none'>
+                                                        Penetration Testing
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -250,7 +280,7 @@ function Pricing() {
                                             <ul className='features'>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                    Product Security Posture Management
+                                                        Product Security Posture Management
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -266,7 +296,7 @@ function Pricing() {
                                                 </li>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                    Supply Chain Vulnerability Scanning
+                                                        Scanning to Analysis
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -274,7 +304,15 @@ function Pricing() {
                                                 </li>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                    Software Bill of Materials
+                                                        Software Bill of Materials
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='check' color='#000'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center'>
+                                                    <span className='feature  d-block d-sm-block d-md-none'>
+                                                        Penetration Testing
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -349,6 +387,57 @@ function Pricing() {
 
             </section>
 
+
+            <section className='py-5'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-md-6 text-center'>
+                            <img className='mb-3' src={PSPM} width='60px' />
+                            <h4>Product Security Posture Management</h4>
+                            <p  className='mb-4'>SecureState's Automated Software Bill of Materials and Supply Chain Vulnerability Analysis tool scans the web to report on any new vulnerabilities that are introduced into your supply chain.</p>
+                        </div>
+                        <div className='col-md-6 text-center'>
+                            <img className='mb-3' src={VulnAssessment} width='60px' />
+                            <h4>Vulnerability Assessment</h4>
+                            <p  className='mb-4'>
+                                The SecureState Product Security Team will preform a vulnerability assessment during onboarding to identify weaknesses and create an actionable plan to remediate.
+                            </p>
+                        </div>
+                        <div className='col-md-6 text-center'>
+                            <img className='mb-3' src={Pentest} width='60px' />
+                            <h4>Penetration Testing</h4>
+                            <p  className='mb-4'>
+                                Penetration testing dives in deep to test from a hackers perspective to remeidate vulnerabilties before exploited. Pentesting is a common compliance requirement that SecureState can help deliver
+                            </p>
+                        </div>
+                        <div className='col-md-6 text-center'>
+                            <img className='mb-3' src={QBR} width='60px' />
+                            <h4>Quarterly Business Reviews</h4>
+                            <p className='mb-4'>
+                                Meet with the SecureState team to regularly assess your security program and measure ROI.  As your security partner we help you stay accountable and secure
+                            </p>
+                        </div>
+                        <div className='col-md-6 text-center'>
+                            <img className='mb-3' src={ThreatModeling} width='60px' />
+                            <h4>Threat Modeling</h4>
+                            <p>
+                                Bring security to the table on day one and design with security. Consider security before you right a line of code.  A bug found in design can cost 10% of that if found in production
+                            </p>
+                        </div>
+                        <div className='col-md-6 text-center'>
+                            <img className='mb-3' src={Program_Manager} width='60px' />
+                            <h4>Cybersecurity Program Manager</h4>
+                            <p>
+                                SecureState helps simplify security by providing a dedicated Program Manager to help build and maintain your security program and be a trusted partner
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </section>
+
             <section className='pb-5 d-flex align-items-center'>
 
                 <div className='container'>
@@ -391,12 +480,12 @@ function Pricing() {
                                         </p>
                                     </Accordion.Body>
                                 </Accordion.Item>
-                              
+
                                 <Accordion.Item eventKey="3">
                                     <Accordion.Header>What if I just need a penetration test?</Accordion.Header>
                                     <Accordion.Body>
                                         <p className='mute'>
-                                        SecureState offers one time penetration testing or threat modeling services, for a quote reach out to sales@securestate.io
+                                            SecureState offers one time penetration testing or threat modeling services, for a quote reach out to sales@securestate.io
                                         </p>
                                     </Accordion.Body>
                                 </Accordion.Item>
@@ -405,7 +494,7 @@ function Pricing() {
                                     <Accordion.Header>Do you offer add on services?</Accordion.Header>
                                     <Accordion.Body>
                                         <p className='mute'>
-                                        SecureState offers a variety of security services that are carried out by highly experienced Product Security Engineers.  Some of the services offered include...</p>
+                                            SecureState offers a variety of security services that are carried out by highly experienced Product Security Engineers.  Some of the services offered include...</p>
                                         <ul className='mute fs-xs'>
                                             <li>Penetration Tests</li>
                                             <li>Threat Models</li>
