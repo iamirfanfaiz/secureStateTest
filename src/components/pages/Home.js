@@ -167,7 +167,7 @@ function Home() {
                                 <div className='label'>Feature #1</div>
                                 <h2>Supply Chain Vulnerability Scanning</h2>
                                 <p className='mute'>
-                                    The supply chain is an increasing attack vector by hackers who target vulnerable components of your software. The SecureState platform regularly scans and reports on vulnerabilities at the component level of your platform and secure your supply chain.
+                                    The supply chain is an increasing attack vector by hackers who target vulnerable components of your software. The SecureState platform regularly scans and reports on vulnerabilities at the component level of your platform to secure your supply chain.
                                 </p>
                             </div>
 
@@ -178,7 +178,7 @@ function Home() {
                             <div className='feature'>
                                 <div className='label'>Feature #2</div>
                                 <h2>Automated Software Bill of Materials</h2>
-                                <p className='mute'>As platforms scale their technology stack, they increase their reliance on third party components. SecureState's Automated Software Bill of Materials regularly scans our technology stack to keep an accurate record of your components.</p>
+                                <p className='mute'>As platforms scale their technology stack, they increase their reliance on third party components. SecureState's Automated Software Bill of Materials regularly scans your technology stack to keep an accurate record of your components.</p>
                             </div>
 
                         </div>
@@ -227,7 +227,7 @@ function Home() {
                                         <small>Problem 1</small><br />
                                         <strong>Do Not Know Where to Start</strong>
                                         <p className='mute'>
-                                            Change the highlighted part to “daunting task and it’s difficult to know where to start”
+                                            Planning for security is a daunting task and it’s difficult to know where to start.
                                         </p>
                                     </div>
                                     <div className='icon'>
