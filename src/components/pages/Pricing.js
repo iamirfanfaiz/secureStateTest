@@ -62,13 +62,19 @@ function Pricing() {
                                                 </li>
                                                 <li>
                                                     <span className='feature'>
-                                                        Scanning to Analysis
+                                                        Change Supply Chain Vulnerability Analysis
                                                     </span>
 
                                                 </li>
                                                 <li>
                                                     <span className='feature'>
                                                         Software Bill of Materials
+                                                    </span>
+
+                                                </li>
+                                                <li>
+                                                    <span className='feature'>
+                                                       Knowledge Base
                                                     </span>
 
                                                 </li>
@@ -132,7 +138,7 @@ function Pricing() {
                                                 </li>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                        Scanning to Analysis
+                                                        Change Supply Chain Vulnerability Analysis
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -141,6 +147,15 @@ function Pricing() {
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
                                                         Software Bill of Materials
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='check' color='#000'></box-icon>
+                                                    </span>
+                                                </li>
+
+                                                <li className='justify-content-center'>
+                                                    <span className='feature d-block d-sm-block d-md-none'>
+                                                        Knowledge Base
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -215,7 +230,7 @@ function Pricing() {
                                                 </li>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                        Scanning to Analysis
+                                                        Change Supply Chain Vulnerability Analysis
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -224,6 +239,14 @@ function Pricing() {
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
                                                         Software Bill of Materials
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='check' color='#000'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center'>
+                                                    <span className='feature d-block d-sm-block d-md-none'>
+                                                       Knowledge Base
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -296,7 +319,7 @@ function Pricing() {
                                                 </li>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                        Scanning to Analysis
+                                                        Change Supply Chain Vulnerability Analysis
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -305,6 +328,14 @@ function Pricing() {
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
                                                         Software Bill of Materials
+                                                    </span>
+                                                    <span className='d-none d-md-block text-center'>
+                                                        <box-icon name='check' color='#000'></box-icon>
+                                                    </span>
+                                                </li>
+                                                <li className='justify-content-center'>
+                                                    <span className='feature d-block d-sm-block d-md-none'>
+                                                        Knowledge Base
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -366,26 +397,7 @@ function Pricing() {
             </section>
 
 
-            <section className='py-5 d-flex align-items-center'>
-
-                <div className='container pt-5'>
-                    <div className='row align-items-center'>
-                        <div className='col-md-12'>
-
-                            <h2 className='fw-700 text-center mb-2 color-orange'>
-                                Frequently Asked Questions
-                            </h2>
-
-                            {/* <p className='text-center mute'>
-                                Use this section to reassure customers by proactively addressing their questions and concerns.
-                            </p> */}
-
-                        </div>
-
-                    </div>
-                </div>
-
-            </section>
+      
 
 
             <section className='py-5'>
@@ -394,19 +406,19 @@ function Pricing() {
                         <div className='col-md-6 text-center'>
                             <img className='mb-3' src={PSPM} width='60px' />
                             <h4>Product Security Posture Management</h4>
-                            <p  className='mb-4'>SecureState's Automated Software Bill of Materials and Supply Chain Vulnerability Analysis tool scans the web to report on any new vulnerabilities that are introduced into your supply chain.</p>
+                            <p className='mb-4'>SecureState's Automated Software Bill of Materials and Supply Chain Vulnerability Analysis tool scans the web to report on any new vulnerabilities that are introduced into your supply chain.</p>
                         </div>
                         <div className='col-md-6 text-center'>
                             <img className='mb-3' src={VulnAssessment} width='60px' />
                             <h4>Vulnerability Assessment</h4>
-                            <p  className='mb-4'>
+                            <p className='mb-4'>
                                 The SecureState Product Security Team will preform a vulnerability assessment during onboarding to identify weaknesses and create an actionable plan to remediate.
                             </p>
                         </div>
                         <div className='col-md-6 text-center'>
                             <img className='mb-3' src={Pentest} width='60px' />
                             <h4>Penetration Testing</h4>
-                            <p  className='mb-4'>
+                            <p className='mb-4'>
                                 Penetration testing dives in deep to test from a hackers perspective to remeidate vulnerabilties before exploited. Pentesting is a common compliance requirement that SecureState can help deliver
                             </p>
                         </div>
@@ -441,6 +453,21 @@ function Pricing() {
             <section className='pb-5 d-flex align-items-center'>
 
                 <div className='container'>
+                    <div className='row align-items-center my-5'>
+                        <div className='col-md-12'>
+
+                            <h2 className='fw-700 text-center mb-2 color-orange'>
+                                Frequently Asked Questions
+                            </h2>
+
+                            {/* <p className='text-center mute'>
+                                Use this section to reassure customers by proactively addressing their questions and concerns.
+                            </p> */}
+
+                        </div>
+
+                    </div>
+
                     <div className='row align-items-center'>
                         <div className='col-md-6 offset-md-3'>
 
