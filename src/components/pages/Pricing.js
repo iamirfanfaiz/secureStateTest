@@ -62,7 +62,7 @@ function Pricing() {
                                                 </li>
                                                 <li>
                                                     <span className='feature'>
-                                                        Change Supply Chain Vulnerability Analysis
+                                                        Supply Chain Vulnerability Analysis
                                                     </span>
 
                                                 </li>
@@ -138,7 +138,7 @@ function Pricing() {
                                                 </li>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                        Change Supply Chain Vulnerability Analysis
+                                                       Supply Chain Vulnerability Analysis
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -230,7 +230,7 @@ function Pricing() {
                                                 </li>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                        Change Supply Chain Vulnerability Analysis
+                                                        Supply Chain Vulnerability Analysis
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
@@ -319,7 +319,7 @@ function Pricing() {
                                                 </li>
                                                 <li className='justify-content-center'>
                                                     <span className='feature d-block d-sm-block d-md-none'>
-                                                        Change Supply Chain Vulnerability Analysis
+                                                        Supply Chain Vulnerability Analysis
                                                     </span>
                                                     <span className='d-none d-md-block text-center'>
                                                         <box-icon name='check' color='#000'></box-icon>
