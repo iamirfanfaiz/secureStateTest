@@ -1,8 +1,16 @@
 @import "~bootstrap/scss/bootstrap";
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,400&display=swap");
+
+$primary-color: #fd7b33;
+$primary-light-color: #ffe8db;
+$body-color: #ffffff;
+$surface-color: #f7f7f7;
+$mute-color: #798da3;
+$dark-color: #29323d;
+
 .body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 
 a {
@@ -19,17 +27,18 @@ a {
   color: #798da3;
 }
 
+p {
+  font-weight: 300;
+}
+
 .btn {
-  text-transform: uppercase;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .btn-primary {
   background-color: #fd7b33;
   border-color: #fd7b33;
-  min-width: 120px;
-
   &:hover {
     background-color: #29323d;
     border-color: #29323d;
@@ -62,15 +71,19 @@ a {
 }
 
 .pt-6 {
-  padding-top: 4rem !important;
+  padding-top: 70px !important;
 }
 
 .pt-60 {
   padding-top: 60px;
 }
 
-.fw-600 {
-  font-weight: 600;
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
 }
 
 .fw-600 {
@@ -79,6 +92,22 @@ a {
 
 .fw-700 {
   font-weight: 700;
+}
+
+.color-bg-primary {
+  background-color: $primary-color;
+}
+
+.color-primary {
+  color: $primary-color;
+}
+
+.color-bg-primary-light {
+  background-color: $primary-light-color;
+}
+
+.color-white {
+  color: #fff;
 }
 
 .header {
@@ -104,11 +133,13 @@ a {
 }
 
 .ribbon {
-  background-color: #fd7b33;
+  background-color: $primary-light-color;
 
   p {
-    color: #fff;
+    color: $mute-color;
     margin-right: 15px;
+    font-weight: 300;
+    font-size: 14px;
   }
 }
 
@@ -157,9 +188,9 @@ a {
 }
 
 .card {
-  border-radius: 6px;
+  border-radius: 2px;
   border: 1px solid #ccc;
-  box-shadow: 10px 10px 6px #ffe2d8;
+  box-shadow: 0px 0px 4px #e0e0e0;
   min-height: 400px;
   padding: 15px;
   display: flex;
@@ -170,6 +201,13 @@ a {
   width: 100%;
   min-height: 330px;
   margin: auto;
+  position: relative;
+
+  // &:hover {
+  //   background-color: $primary-color;
+  //   position: absolute;
+  //   top: 10px;
+  // }
 
   h4 {
     color: #000 !important;
@@ -480,25 +518,38 @@ a {
 }
 
 .accordion-button {
-  color: #ffffff !important;
-  background-color: #fd7b33 !important;
+  color: $dark-color !important;
+  background-color: #ffffff !important;
   font-size: 14px;
   font-weight: 700;
 }
 
+.accordion-header {
+  strong {
+    font-weight: 700;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
 .accordion-body {
+  padding: 1rem 1.25rem;
+  background-color: #fff3ec;
+  border: 0;
   p {
     font-size: 14px;
   }
 }
 
 .accordion-button::after {
-  filter: invert(1);
+  filter: contrast(0.5);
 }
 
 .accordion-item {
   background-color: #fff;
-  border: 2px solid #c9d3dd !important;
+  border: 0px solid #c9d3dd !important;
   margin-bottom: 12px;
   border-radius: 4px;
 }
@@ -643,5 +694,97 @@ a {
 
   p {
     font-size: 14px;
+  }
+}
+
+.strip {
+  background-color: #fd7a33;
+}
+
+.banner-image {
+  max-width: 600px;
+  width: 100%;
+}
+
+.banner {
+  min-height: 230px;
+  background-color: #fff;
+  background-size: contain;
+  background-image: url("./assets/images/landing/free-assesment.png");
+  background-repeat: no-repeat;
+  padding: 44px;
+  margin: auto;
+  max-width: 1024px;
+  width: 100%;
+}
+
+.panel-card {
+  background-color: #edf1f5;
+  min-height: 340px;
+  padding: 20px;
+
+  span {
+  }
+
+  h2 {
+  }
+
+  p {
+  }
+}
+
+.threats-list {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  max-width: 540px;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 0;
+
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    font-size: 14px;
+    margin-bottom: 15px;
+
+    img {
+      width: 60px;
+    }
+  }
+}
+
+hr {
+  width: 60px;
+  background-color: #fd7a33;
+  height: 2px !important;
+  opacity: 1;
+}
+
+.hr-white {
+  background-color: #fff;
+}
+
+.col-400px {
+  max-width: 420px;
+}
+
+.square-list {
+  li {
+    position: relative;
+    font-weight: 300;
+
+    &::before {
+      ontent: "";
+      position: absolute;
+      height: 12px;
+      width: 12px;
+      background-color: #fd7a33;
+      left: -19px;
+      top: 6px;
+    }
   }
 }

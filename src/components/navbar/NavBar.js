@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './NavBar.scss';
-import { Link } from 'react-router-dom';
-import mainLogo from '../../assets/images/logo.png';
+import { NavLink, Link } from 'react-router-dom';
+import mainLogo from '../../assets/images/new-logo.svg';
 import ThreatModelasaServiceLogo from '../../assets/images/icons/ThreatModelasaServiceLogo.svg'
 import ASPMlogo from '../../assets/images/icons/ASPMlogo.svg'
 import PentestasaService from '../../assets/images/icons/PentestasaService.svg'
@@ -16,6 +16,7 @@ function NavBar() {
     return (
         <div>
             <nav className='nav-bar'>
+                <div className='wrapper'>
                 <div className='logo'>
                     <Link to='/' className="nav-item">
                         <a>
@@ -27,9 +28,9 @@ function NavBar() {
                 <div className='menu'>
 
                     <div className='nav-items'>
-                        <Link to='/' className="nav-item">
-                            <a className="nav-item"> Products</a>
-                        </Link>
+                        <NavLink to='/' className='nav-item' activeClassName="selected">
+                            Products
+                        </NavLink>
                         <div className='sub-items'>
                             <div className='row'>
                                 <div className='col-md-6'>
@@ -112,28 +113,26 @@ function NavBar() {
                     </div>
                   
                     <div className='nav-items'>
-                        <Link to='/platform' className="nav-item">
-                            <a className="nav-item">Platform</a>
-                        </Link>
+                        <NavLink to='/platform' className='nav-item' activeClassName="selected">
+                          Platform
+                        </NavLink>
                     </div>
+
                     <div className='nav-items'>
-                        <Link to='/pricing' className="nav-item">
-                            <a className="nav-item">Pricing</a>
-                        </Link>
+                        <NavLink to='/pricing' className='nav-item' activeClassName="selected">
+                            Pricing
+                        </NavLink>
                     </div>
 
                 </div>
 
                 <Link to='/'>
-                    <a className="btn btn-primary d-none d-sm-block px-3">Log in</a>
+                    <a className="btn btn-primary d-none d-sm-block px-3">Signup Now</a>
                 </Link>
-
-
 
                 <button className='menu-icon btn' onClick={handleClick}>
                     <box-icon name='menu-alt-right' size='sm' color='#ccc'></box-icon>
                 </button>
-
 
                 <div className={click ? 'mobile-nav active' : 'mobile-nav'}>
 
@@ -150,7 +149,6 @@ function NavBar() {
                             <box-icon name='x' size='sm' color='#ccc'></box-icon>
                         </button>
                     </div>
-
 
                     <div className='mobile-menu active'>
 
@@ -260,12 +258,9 @@ function NavBar() {
 
                     </div>
 
-
-
-
                 </div>
-
-
+                </div>
+              
 
             </nav>
         </div>

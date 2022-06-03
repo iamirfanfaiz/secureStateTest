@@ -1,6 +1,9 @@
 import React from 'react'
 import './Footer.scss';
-import mainLogo from '../../assets/images/logo-new.png';
+import mainLogo from '../../assets/images/landing/footer-logo.svg';
+import facebook from '../../assets/images/landing/fb.png';
+import instagram from '../../assets/images/landing/instagram.png';
+import twitter from '../../assets/images/landing/twitter.png';
 
 function Footer() {
 
@@ -9,18 +12,16 @@ function Footer() {
             <footer className='footer'>
                 <div className='container'>
 
-                    <div className='row'>
+                    <div className='row mb-4'>
                         <div className='col-md-4 d-flex flex-column'>
 
-                            <img src={mainLogo} className='img-fluid mb-3' width="60px" />
+                            <img src={mainLogo} className='img-fluid mb-3' width="200px" />
 
-                            <div className='copy-rights mb-4'>
-                                © 2021 - securestate.io <a href="https://securestate.notion.site/Terms-of-Service-6d60ced6d38747f6b61357dd7a23dd7b" target="_blank">Terms of Service</a> | <a href="https://securestate.notion.site/Privacy-Policy-5a1fce3f303447a283ae68ec0d61c597">Privacy Policy</a> 
-                            </div>
+
                         </div>
                         <div className='col-md-2'>
                             <ul className='sitemap'>
-                                <li className='heading'>RESOURCES</li>
+                                <li className='heading'>Resources</li>
                                 <li><a href="https://www.notion.so/securestate/Link-BLOG-in-Footer-6ef2ef5f5851485dab9f20e445810c5b#095c5302598f44d0b8682cce7360efe9" target="_blank">Blog</a></li>
                                 <li><a href="https://securestate.notion.site/Job-Board-e10182de9ad74961a28540790c4cb541" target="_blank">Careers</a></li>
                             </ul>
@@ -28,26 +29,42 @@ function Footer() {
 
                         <div className='col-md-2'>
                             <ul className='sitemap'>
-                                <li className='heading'><a href="" target="_blank">SUPPORT</a></li>
+                                <li className='heading'>Support</li>
                                 <li><a href="https://securestate.notion.site/Contact-Us-3f39bdff3219494284017ad431c04578" target="_blank">Contact Us</a></li>
                                 <li><a href="">What is Pentesting</a></li>
                             </ul>
                         </div>
 
                         <div className='col-md-4 d-flex align-items-center justify-content-center'>
-                            <ul className='social-media'>
-                                <li>
-                                    <box-icon name='twitter' type='logo' color="#798da3" size="md"></box-icon>
-                                </li>
-                                <li>
-                                    <box-icon name='instagram-alt' type='logo' color="#798da3" size="md"></box-icon>
-                                </li>
-                                <li>
-                                    <box-icon name='facebook-square' type='logo' color="#798da3" size="md"></box-icon>
+                            <ul className='sitemap'>
+                                <li className='heading'>Follow us</li>
+                                <li className='d-flex socialicons-group' >
+                                    <div className='social-icon'>
+                                        <img src={facebook} className='img-fluid mb-3' width="60px" />
+                                    </div>
+                                    <div className='social-icon'>
+                                        <img src={instagram} className='img-fluid mb-3' width="60px" />
+                                    </div>
+                                    <div className='social-icon'>
+                                        <img src={twitter} className='img-fluid mb-3' width="60px" />
+                                    </div>
                                 </li>
                             </ul>
+
+
                         </div>
                     </div>
+                </div>
+
+                <div className='copy-rights'>
+                    <div className='container'>
+                        <div className='row'>
+                            <div className='col'>
+                                Copyright © 2022 Secure State.IQ All Rights Reserved
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
             </footer>

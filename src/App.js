@@ -5,6 +5,7 @@ import './App.scss';
 import 'boxicons'
 import NavBar from './components/navbar/NavBar';
 import Home from './components/pages/Home';
+import NewHome from './components/pages/NewHome';
 import Design from './components/pages/Design';
 import Develop from './components/pages/Develop';
 import Operate from './components/pages/Operate';
@@ -27,6 +28,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/new-home' element={<NewHome />} />
           <Route path='/develop' element={<Design />} />
           <Route path='/design' element={<Develop />} />
           <Route path='/operate' element={<Operate />} />

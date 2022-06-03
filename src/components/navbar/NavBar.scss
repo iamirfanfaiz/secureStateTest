@@ -1,4 +1,5 @@
 $primary-color: #fd7b33;
+$primary-light-color: #ffe8db;
 $body-color: #ffffff;
 $surface-color: #f7f7f7;
 $mute-color: #798da3;
@@ -25,23 +26,29 @@ $dark-color: #29323d;
 // }
 
 .nav-bar {
-  min-height: 40px;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 15px;
   border-bottom: 1px solid #eef1f5;
-  box-shadow: 0px 2px 4px rgb(204 204 204 / 17%);
   background-color: #fff;
   z-index: 9;
 
+  .wrapper{
+    min-height: 40px;
+    max-width: 1330px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+
   .logo {
-    height: 60px;
-    // width: 40px;
+    height: 50px;
+    flex: 1;
+    justify-content: flex-start;
+    display: flex;
 
     img {
       height: 100%;
@@ -53,7 +60,9 @@ $dark-color: #29323d;
   .menu {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
+    max-width: 350px;
+    width: 100%;
 
     .nav-items {
       position: relative;
@@ -61,11 +70,31 @@ $dark-color: #29323d;
       font-weight: 600;
 
       .nav-item {
-        padding: 0 15px;
+        padding: 0 20px;
         height: 48px;
         display: block;
         display: flex;
         align-items: center;
+        font-size: 14px;
+        color: $dark-color;
+        font-weight: 300;
+        position: relative;
+
+        &.active{
+
+          &::after{
+            content: '';
+            height: 1px;
+            width: 30px;
+            background-color: $primary-color;
+            position: absolute;
+            top: 38px;
+          }
+
+        }
+        
+       
+
         &:hover {
           color: $primary-color;
         }
@@ -86,7 +115,7 @@ $dark-color: #29323d;
         margin: auto;
         top: 54px;
         right: 0;
-        left: 0;
+        // left: 0;
         background-color: #fff;
         box-shadow: 0px 2px 4px rgb(204 204 204 / 17%);
         padding: 15px;
