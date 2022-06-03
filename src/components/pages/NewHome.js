@@ -72,7 +72,7 @@ function NewHome() {
                 <div className='container'>
                     <Fade>
                         <div className='row'>
-                            <div className='col-md-12 heading'>
+                            <div className='col-md-10 heading offset-md-1'>
                                 <h1 className='d-flex justify-content-center color-primary fw-400'>
                                     Platform Security,&nbsp;<TextTransition
                                         text={BannerText[index % BannerText.length]}
@@ -80,7 +80,7 @@ function NewHome() {
                                     />
                                 </h1>
 
-                                <p className='d-flex justify-content-center'>
+                                <p className='d-flex justify-content-center text-center'>
                                 SecureState Cloud Security Platform makes the complex simple with customized vetted strategies that identify risks, detect threats, and implement security controls through a data driven framework
                                 </p>
 
