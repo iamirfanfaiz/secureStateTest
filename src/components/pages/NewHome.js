@@ -205,25 +205,29 @@ function NewHome() {
 
                         <div className='col-md-4'>
                             <div className='panel-card'>
-                                <div className='color-primary mb-2'>FEATURE 1</div>
-                                <h4 className='fw-300'>Regular Vulnerability Scanning
+                                <div className='color-primary mb-2'>FEATURE#1</div>
+                                <h4 className='fw-300'>Supply Chain Vulnerability Scanning
                                 </h4>
-                                <p>We use a comprehensive dynamic analysis security tool to uncover vulnerabilities within your platform. Our testing goes beyond OWASP top ten and leverage manual testing to dive deeper where needed to provide maximum coverage</p>
+                                <p>
+                                The supply chain is an increasing attack vector by hackers who target vulnerable components of your software. The SecureState platform regularly scans and reports on vulnerabilities at the component level of your platform to secure your supply chain.
+                                </p>
                             </div>
                         </div>
 
                         <div className='col-md-4'>
                             <div className='panel-card'>
-                                <div className='color-primary mb-2'>FEATURE 1</div>
-                                <h4 className='fw-300'>Regular Vulnerability Scanning
+                                <div className='color-primary mb-2'>FEATURE#2</div>
+                                <h4 className='fw-300'>Automated Software Bill of Materials
                                 </h4>
-                                <p>We use a comprehensive dynamic analysis security tool to uncover vulnerabilities within your platform. Our testing goes beyond OWASP top ten and leverage manual testing to dive deeper where needed to provide maximum coverage</p>
+                                <p>
+                                As platforms scale their technology stack, they increase their reliance on third party components. SecureState's Automated Software Bill of Materials regularly scans your technology stack to keep an accurate record of your components.
+                                </p>
                             </div>
                         </div>
 
                         <div className='col-md-4'>
                             <div className='panel-card'>
-                                <div className='color-primary mb-2'>FEATURE 1</div>
+                                <div className='color-primary mb-2'>FEATURE#3</div>
                                 <h4 className='fw-300'>Regular Vulnerability Scanning
                                 </h4>
                                 <p>We use a comprehensive dynamic analysis security tool to uncover vulnerabilities within your platform. Our testing goes beyond OWASP top ten and leverage manual testing to dive deeper where needed to provide maximum coverage</p>

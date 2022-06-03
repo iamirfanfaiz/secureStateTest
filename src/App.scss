@@ -720,8 +720,10 @@ p {
 
 .panel-card {
   background-color: #edf1f5;
-  min-height: 340px;
+  min-height: 330px;
   padding: 20px;
+  max-width: 340px;
+  margin: auto;
 
   span {
   }
