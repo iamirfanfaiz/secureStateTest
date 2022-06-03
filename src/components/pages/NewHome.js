@@ -25,11 +25,10 @@ import icon10 from '../../assets/images/landing/icon10.png'
 
 function NewHome() {
     const BannerText = [
-        "Delivered Effectively",
-        "With Flexible Terms",
-        "End to End",
-        "With 360 Degree Coverage",
-        "Simplified"
+        "With 360-Degree Coverage",
+        "Made Affordable",
+        "Simplified",
+        "Fully Managed"
     ];
 
     const DevSecOpsText = [
@@ -82,7 +81,7 @@ function NewHome() {
                                 </h1>
 
                                 <p className='d-flex justify-content-center'>
-                                    A Product Security as a Service (PSaaS) platform integrating security at every phase of the product development lifecycle
+                                SecureState Cloud Security Platform makes the complex simple with customized vetted strategies that identify risks, detect threats, and implement security controls through a data driven framework
                                 </p>
 
                                 <img src={Banner} className="banner-image" />
