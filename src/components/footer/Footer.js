@@ -22,7 +22,7 @@ function Footer() {
                         <div className='col-md-2'>
                             <ul className='sitemap'>
                                 <li className='heading'>Resources</li>
-                                <li><a href="https://www.notion.so/securestate/Link-BLOG-in-Footer-6ef2ef5f5851485dab9f20e445810c5b#095c5302598f44d0b8682cce7360efe9" target="_blank">Blog</a></li>
+                                <li><a href="https://securestate.notion.site/Blogs-Resources-2d2033995fce4e4d84f66e2975b0310a" target="_blank">Blog</a></li>
                                 <li><a href="https://securestate.notion.site/Job-Board-e10182de9ad74961a28540790c4cb541" target="_blank">Careers</a></li>
                             </ul>
                         </div>

@@ -1,48 +1,34 @@
 import React, { useState } from 'react'
 import { Fade } from "react-awesome-reveal";
 import { Link } from 'react-router-dom';
-import SDLCImage from '../../assets/images/icons/SDLC.png'
-import DESIGNSecurity from '../../assets/images/icons/DESIGNSecurity.gif'
-import DEVELOPSecurity from '../../assets/images/icons/DEVELOPSecurity.gif'
-import OPERATESecurity from '../../assets/images/icons/OPERATESecurity.gif'
-import DesignwSecuritylogo from '../../assets/images/icons/DesignwSecuritylogo.svg'
-import DevelopwSecuritylogo from '../../assets/images/icons/DevelopwSecuritylogo.svg'
-import OperatewSecuritylogo from '../../assets/images/icons/OperatewSecuritylogo.svg'
-import ThreatModelasaServiceLogo from '../../assets/images/icons/ThreatModelasaServiceLogo.svg'
-import ASPMlogo from '../../assets/images/icons/ASPMlogo.svg'
-import ManagPlatform from '../../assets/images/home/ManagedPlatform.svg'
-import PentestasaService from '../../assets/images/icons/PentestasaService.svg'
-import ShiftLeftlogo from '../../assets/images/icons/shiftlefticon.svg'
-import CapabilityGaplogo from '../../assets/images/icons/CapabilityGaplogo.svg'
-import ActionableIntelligencelogo from '../../assets/images/icons/ActionableIntelligence.svg'
-import AwsImage from '../../assets/images/clients/aws.png'
-import GoogleImage from '../../assets/images/clients/google.png'
-import NintendoImage from '../../assets/images/clients/Nintendo-Logo.png'
-import OracleImage from '../../assets/images/clients/Oracle-Logo.png'
 import { Tab, Row, Col, Nav } from 'react-bootstrap';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 import TextTransition, { presets } from "react-text-transition";
-import ActionableIntel from '../../assets/images/northstar/ACTIONABLEINTELIGENCE.svg'
-import CapabilityGap from '../../assets/images/northstar/CAPABILITYGAP.svg'
-import ShiftLefts from '../../assets/images/northstar/SHIFTLEFT.svg'
-import PlatformThreat from '../../assets/images/home/platformthreat.svg'
-import IndustryCompliacted from '../../assets/images/icons/problems/industrycompliacted.png'
-import industryExpensive from '../../assets/images/icons/problems/industryexpensive.png'
-import industryQuestionmark from '../../assets/images/icons/problems/industryquestionmark.png'
-import industryToomanytools from '../../assets/images/icons/problems/industrytoomanytools.png'
-import SSaffordable from '../../assets/images/icons/problems/SSaffordable.png'
-import SSCentralize from '../../assets/images/icons/problems/SSCentralize.png'
-import SShelpyou from '../../assets/images/icons/problems/SShelpyou.png'
-import SSOnboarding from '../../assets/images/icons/problems/SSOnboarding.png'
+import Banner from '../../assets/images/landing/banner.png'
+import PlatformThreat from '../../assets/images/landing/platform.png'
+import Accordion from 'react-bootstrap/Accordion';
+import ThreatModelasaServiceLogo from '../../assets/images/icons/ThreatModelasaServiceLogo.svg'
+import ASPMlogo from '../../assets/images/icons/ASPMlogo.svg'
+import ManagPlatform from '../../assets/images/home/ManagedPlatform.svg'
+import PentestasaService from '../../assets/images/icons/PentestasaService.svg'
+import icon1 from '../../assets/images/landing/icon1.png'
+import icon2 from '../../assets/images/landing/icon2.png'
+import icon3 from '../../assets/images/landing/icon3.png'
+import icon4 from '../../assets/images/landing/icon4.png'
+import icon5 from '../../assets/images/landing/icon5.png'
+import icon6 from '../../assets/images/landing/icon6.png'
+import icon7 from '../../assets/images/landing/icon7.png'
+import icon8 from '../../assets/images/landing/icon8.png'
+import icon9 from '../../assets/images/landing/icon9.png'
+import icon10 from '../../assets/images/landing/icon10.png'
 
 function Home() {
     const BannerText = [
-        "Delivered Effectively",
-        "With Flexible Terms",
-        "End to End",
-        "With 360 Degree Coverage",
-        "Simplified"
+        "With 360-Degree Coverage",
+        "Made Affordable",
+        "Simplified",
+        "Fully Managed"
     ];
 
     const DevSecOpsText = [
@@ -70,27 +56,38 @@ function Home() {
 
     return (
         <div className='pt-6'>
+
+            {/* <div className='ribbon py-2'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col d-flex flex-start align-items-center justify-content-between'>
+                            <p className='mb-0 fw-600 mr-3'>Do you know your security posture?</p>
+                            <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn d-flex align-items-center px-0'><box-icon name="chat" color="#578fff"></box-icon> <div className='mx-2'>Get a Free Assistant</div> </a>
+                        </div>
+                    </div>
+                </div>
+            </div> */}
+
             <header className='header d-flex align-items-center'>
 
                 <div className='container'>
                     <Fade>
                         <div className='row'>
-                            <div className='col-md-12 heading'>
-                                <h1 className='fw-700 d-flex justify-content-center'>
+                            <div className='col-md-10 heading offset-md-1'>
+                                <h1 className='d-flex justify-content-center color-primary fw-400'>
                                     Platform Security,&nbsp;<TextTransition
                                         text={BannerText[index % BannerText.length]}
                                         springConfig={presets.wobbly}
                                     />
                                 </h1>
 
-
-                                <p className='d-flex justify-content-center mute'>
-                                    A Product Security as a Service (PSaaS) platform integrating security at every phase of the product development lifecycle
+                                <p className='d-flex justify-content-center text-center'>
+                                    SecureState Cloud Security Platform makes the complex simple with customized vetted strategies that identify risks, detect threats, and implement security controls through a data driven framework
                                 </p>
 
-                                <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-secondary'>
-                                    Learn more
-                                </a>
+                                <img src={Banner} className="banner-image" />
+
+
                             </div>
 
                         </div>
@@ -100,44 +97,82 @@ function Home() {
 
             </header>
 
-            <div className='ribbon py-3'>
-                <div className='container'>
+            <section className='py-5'>
+                <div className='banner'>
                     <div className='row'>
-                        <div className='col d-flex align-items-center justify-content-center'>
-                            <p className='mb-0 fw-600 mr-3'>Do you know your security posture?</p> <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-light'>Get a free Assessment</a>
+                        <div className='col-md-7'>
+                            <h2>Do you know your security posture?</h2>
+                            <p>Take the first step towards security and <strong className='fw-700'>get a free vulnerability assessment</strong> to understand your threats and vulnerabilities.</p>
+                            <a className="btn btn-primary  px-3">Get A Free Assessment</a>
                         </div>
                     </div>
                 </div>
-
-            </div>
+            </section>
 
             <section className='py-5'>
                 <div className='container'>
                     <div className='row align-items-center'>
-
-
-                        <div className='col-md-6 d-flex align-items-center justify-content-center'>
-
+                        <div className='col-md-7 d-flex align-items-center justify-content-center'>
                             <img src={PlatformThreat} className='img-fluid mb-3' />
-
                         </div>
 
-                        <div className='col-md-6'>
-
-                            <h3 className='fw-700'>
+                        <div className='col-md-5'>
+                            <h1 className='fw-300'>
                                 Addressing The Top 10 Threats To The Platform
-                            </h3>
-
+                            </h1>
+                            <hr />
                             <p className=''>
                                 The SecureState framework addresses the most common threats ecommerce platforms face and provides users with...
                             </p>
-
-                            <ul>
+                            <ul className='square-list'>
                                 <li>Real Time & Actionable Intelligence</li>
                                 <li>Affordable & Transparent Pricing</li>
                                 <li>Dedicated Product Security Engineer</li>
                             </ul>
 
+                            <ul className='threats-list'>
+                                <li>
+                                    <img src={icon1} />
+                                    <div>APIs</div>
+                                </li>
+                                <li>
+                                    <img src={icon2} />
+                                    <div>SQL Injections</div>
+                                </li>
+                                <li>
+                                    <img src={icon3} />
+                                    <div>Plug-Ins</div>
+                                </li>
+                                <li>
+                                    <img src={icon4} />
+                                    <div>Firewall</div>
+                                </li>
+                                <li>
+                                    <img src={icon5} />
+                                    <div>Open Source</div>
+                                </li>
+                                <li>
+                                    <img src={icon6} />
+                                    <div>Cross Site</div>
+                                </li>
+                                <li>
+                                    <img src={icon7} />
+                                    <div>Payments Gateway</div>
+                                </li>
+                                <li>
+                                    <img src={icon8} />
+                                    <div>3rd Party Libraries</div>
+                                </li>
+                                <li>
+                                    <img src={icon9} />
+                                    <div>Injections</div>
+                                </li>
+                                <li>
+                                    <img src={icon10} />
+                                    <div>Database</div>
+                                </li>
+                            </ul>
+
                             <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-primary'>
                                 Learn more
                             </a>
@@ -147,364 +182,204 @@ function Home() {
                 </div>
             </section>
 
-            <section className='services py-5'>
-                <div className='container'>
-                    <div className='row mb-4'>
-                        <div className='col-md-12 text-center'>
-                            <h1 className='fw-700 mb-4'>
-                                Platform Features
-                            </h1>
-
-                        </div>
-                    </div>
-
-
-                    <div className='row'>
-
-                        <div className='col-md-4'>
-
-                            <div className='feature'>
-                                <div className='label'>Feature #1</div>
-                                <h2>Supply Chain Vulnerability Scanning</h2>
-                                <p className='mute'>
-                                    The supply chain is an increasing attack vector by hackers who target vulnerable components of your software. The SecureState platform regularly scans and reports on vulnerabilities at the component level of your platform to secure your supply chain.
-                                </p>
-                            </div>
-
-                        </div>
-
-                        <div className='col-md-4'>
-
-                            <div className='feature'>
-                                <div className='label'>Feature #2</div>
-                                <h2>Automated Software Bill of Materials</h2>
-                                <p className='mute'>As platforms scale their technology stack, they increase their reliance on third party components. SecureState's Automated Software Bill of Materials regularly scans your technology stack to keep an accurate record of your components.</p>
-                            </div>
-
-                        </div>
-
-                        <div className='col-md-4'>
-
-                            <div className='feature'>
-                                <div className='label'>Feature #3</div>
-                                <h2>Remediation Playbook & Knowledge Base</h2>
-                                <p className='mute'>
-                                    Security resources are difficult to come by. They are often too technical and do not translate to a particular technology stack. SecureState provides access to all our internal documentation and host it on our Knowledge Base with access to our team to help interpret.
-                                </p>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-
-                </div>
-            </section>
-
             <section className='py-5'>
                 <div className='container'>
-
                     <div className='row mb-5'>
-
-
-                        <div className='col-md-12 text-center'>
-
-                            <h1 className='fw-700'>Simplifying Platform Security</h1>
-                            <p className='mb-5 text-center mute'>
-                                SecureState’s mission is to secure the platforms and products that underpin our digital lives with efficiency, transparency, and affordability
-                            </p>
-                        </div>
-
-                        <div className='col-md-12 text-center'>
-
-                            <ul className='problems'>
-                                <li className='d-flex'>
-                                    <div className='icon'>
-                                        <img src={industryQuestionmark} />
-                                    </div>
-                                    <div className='contents'>
-                                        <small>Problem 1</small><br />
-                                        <strong>Do Not Know Where to Start</strong>
-                                        <p className='mute'>
-                                            Planning for security is a daunting task and it’s difficult to know where to start.
-                                        </p>
-                                    </div>
-                                    <div className='icon'>
-
-                                        <box-icon name='arrow-back' rotate='180' color="#a7bcc6" size="md"></box-icon>
-                                    </div>
-                                    <div className='icon'>
-                                        <img src={SShelpyou} />
-                                    </div>
-                                    <div className='contents'>
-                                        <small></small><br />
-                                        <strong>Help You Understand</strong>
-                                        <p className='mute'>A vulnerability assessment will help us understand your technology stack and create an actionable plan</p>
-                                    </div>
-
-                                </li>
-                                <li className='d-flex'>
-                                    <div className='icon'>
-                                        <img src={industryExpensive} />
-                                    </div>
-                                    <div className='contents'>
-                                        <small>Problem 2</small><br />
-                                        <strong>Cybersecurity is Expensive</strong>
-                                        <p className='mute'>
-                                            Cybersecurity consultants charge $250/hour and tools can range from $50-500 a month
-                                        </p>
-                                    </div>
-                                    <div className='icon'>
-                                        <box-icon name='arrow-back' rotate='180' color="#a7bcc6" size="md"></box-icon>
-                                    </div>
-                                    <div className='icon'>
-                                        <img src={SSaffordable} />
-                                    </div>
-                                    <div className='contents'>
-                                        <small></small><br />
-                                        <strong>Affordable, Transparent Pricing</strong>
-                                        <p className='mute'>Our pricing model is simple. Three different levels of security priced based on the size of the application.</p>
-                                    </div>
-
-                                </li>
-                                <li className='d-flex'>
-                                    <div className='icon'>
-                                        <img src={IndustryCompliacted} />
-                                    </div>
-                                    <div className='contents'>
-                                        <small>Problem 3</small><br />
-                                        <strong>Complicated Buying Process</strong>
-                                        <p className='mute'>Cybersecurity is notoriously difficult to buy and implement.</p>
-                                    </div>
-                                    <div className='icon'>
-
-                                        <box-icon name='arrow-back' rotate='180' color="#a7bcc6" size="md"></box-icon>
-                                    </div>
-                                    <div className='icon'>
-                                        <img src={SSOnboarding} />
-                                    </div>
-                                    <div className='contents'>
-                                        <small></small><br />
-                                        <strong>Simple, Efficient Onboarding</strong>
-                                        <p className='mute'>We make the buying process simple and deliver ROI in the first 30 days</p>
-                                    </div>
-
-                                </li>
-                                <li className='d-flex'>
-                                    <div className='icon'>
-                                        <img src={industryToomanytools} />
-                                    </div>
-                                    <div className='contents'>
-                                        <small>Problem 4</small><br />
-                                        <strong>Too Many Tools</strong>
-                                        <p className='mute'>Hundreds of different tools to choose from can cause buying fatigue</p>
-                                    </div>
-                                    <div className='icon'>
-
-                                        <box-icon name='arrow-back' rotate='180' color="#a7bcc6" size="md"></box-icon>
-                                    </div>
-                                    <div className='icon'>
-                                        <img src={SSCentralize} />
-                                    </div>
-                                    <div className='contents'>
-                                        <small></small><br />
-                                        <strong>Integrate Tools, Centralize Data</strong>
-                                        <p className='mute'>
-                                            Centralize data from your security stack and integrate your tools into the SecureState platform
-                                        </p>
-                                    </div>
-
-                                </li>
-                            </ul>
+                        <div className='col text-center d-flex align-items-center flex-column'>
+                            <h1 className='fw-300'>Platform Features</h1>
+                            <hr />
                         </div>
                     </div>
-                </div>
-            </section>
-
-            <section className='py-5'>
-                <div className='container'>
                     <div className='row align-items-center'>
 
 
-                        <div className='col-md-8 d-flex align-items-center justify-content-center'>
-
-                            <img src={ManagPlatform} className='img-fluid mb-3' />
-
-                        </div>
-
                         <div className='col-md-4'>
-
-                            <h3 className='fw-700'>
-                                Talent, tools and resources in a single place
-                            </h3>
-
-                            <p className=''>
-                                The SecureState platform delivers the three main components of a robust cybersecurity program through a dynamic platform, from experienced security engineers, armed with an expansive toolkit
-                            </p>
-
-
-                            <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-primary'>
-                                Learn more
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section className='services py-5'>
-                <div className='container'>
-                    <div className='row mb-4'>
-                        <div className='col-md-12 text-center'>
-                            <h1 className='fw-700'>
-                                Integrating Security at Every Step
-                            </h1>
-                            <p className='mb-0 text-center mute'>
-                                <TextTransition className='devopstext'
-                                    text={DevSecOpsText[index % DevSecOpsText.length]}
-                                    springConfig={presets.slow}
-                                />
-
-                            </p>
-
-
-                        </div>
-                    </div>
-
-
-                    <div className='row'>
-
-
-                        <div className='col-md-4'>
-                            <Fade>
-                                <div className={toggleState === 2 ? "services-tab mb-3 active" : "services-tab mb-3"}
-                                    onClick={() => toggleTab(2)}>
-                                    <div className='image'>
-                                        <img src={DesignwSecuritylogo} />
-                                    </div>
-                                    <h2 className='fw-700'>Design with Security</h2>
-                                    <p className='mute'>Finding and fixing bugs during design provides instant ROI as bugs found in production are 10X more expensive to fix</p>
-                                </div>
-                            </Fade>
-                        </div>
-
-
-                        <div className='col-md-4'>
-                            <Fade>
-                                <div className={toggleState === 3 ? "services-tab active mb-3" : "services-tab mb-3"}
-                                    onClick={() => toggleTab(3)}>
-                                    <div className='image'>
-                                        <img src={DevelopwSecuritylogo} />
-                                    </div>
-
-                                    <h2 className='fw-700'>Develop with Security</h2>
-                                    <p className='mute'>Integrating security activities in the development phase allows you to ship secure code and protect user data</p>
-                                </div>
-                            </Fade>
-
-
-                        </div>
-                        <div className='col-md-4'>
-                            <Fade>
-                                <div className={toggleState === 4 ? "services-tab active mb-3" : "services-tab mb-3"}
-                                    onClick={() => toggleTab(4)}>
-                                    <div className='image'>
-                                        <img src={OperatewSecuritylogo} />
-                                    </div>
-
-                                    <h2 className='fw-700'>Operate with Security</h2>
-                                    <p className='mute'>Security doesnt stop after development.  Operating with security means continuous security testing</p>
-                                </div>
-                            </Fade>
-                        </div>
-
-                        <div className='col-12'>
-                            <div className="services-tabs mt-4">
-                                <div
-                                    className={toggleState === 1 ? "content  active" : "content"}
-                                >
-                                    <img src={SDLCImage} className='img-fluid' />
-
-                                </div>
-
-                                <div
-                                    className={toggleState === 2 ? "content  active" : "content"}
-                                >
-                                    <img src={DESIGNSecurity} />
-
-                                </div>
-                                <div
-                                    className={toggleState === 3 ? "content  active" : "content"}
-                                >
-                                    <img src={DEVELOPSecurity} />
-
-                                </div>
-                                <div
-                                    className={toggleState === 4 ? "content  active" : "content"}
-                                >
-                                    <img src={OPERATESecurity} />
-
-                                </div>
+                            <div className='panel-card'>
+                                <div className='color-primary mb-2'>FEATURE#1</div>
+                                <h3 className='fw-300'>Supply Chain Vulnerability Scanning
+                                </h3>
+                                <p>
+                                    The supply chain is an increasing attack vector by hackers who target vulnerable components of your software. The SecureState platform regularly scans and reports on vulnerabilities at the component level of your platform to secure your supply chain.
+                                </p>
                             </div>
                         </div>
+
+                        <div className='col-md-4'>
+                            <div className='panel-card'>
+                                <div className='color-primary mb-2'>FEATURE#2</div>
+                                <h3 className='fw-300'>Automated Software Bill of Materials
+                                </h3>
+                                <p>
+                                    As platforms scale their technology stack, they increase their reliance on third party components. SecureState's Automated Software Bill of Materials regularly scans your technology stack to keep an accurate record of your components.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className='col-md-4'>
+                            <div className='panel-card'>
+                                <div className='color-primary mb-2'>FEATURE#3</div>
+                                <h3 className='fw-300'>Regular Vulnerability Scanning
+                                </h3>
+                                <p>
+                                    Regular security scanning is a fundamental activity to any security program.  The SecureState platform regularly scans your application to check for new vulnerabilities.  Findings are reported in real time, and are false positive free.
+                                </p>
+                            </div>
+                        </div>
+
                     </div>
-
-
-
                 </div>
             </section>
+
+
+            <section className='py-5 d-flex align-items-center color-bg-primary-light'>
+
+                <div className='container'>
+                    <div className='row align-items-center my-5'>
+                        <div className='col text-center d-flex align-items-center flex-column'>
+                            <h1 className='fw-300'>Simplifying Platform Security</h1>
+                            <hr />
+                            <p>
+                                SecureState’s mission is to secure the platforms and products that underpin our digital lives with efficiency, transparency, and affordability.
+                            </p>
+                        </div>
+
+
+                    </div>
+
+                    <div className='row align-items-center'>
+                        <div className='col-md-8 offset-md-2'>
+
+                            <Accordion defaultActiveKey="0">
+                                <Accordion.Item eventKey="0">
+                                    <Accordion.Header>
+                                        <div className='d-flex flex-column'>
+                                            <strong className='mb-2'>It is Hard to Know Where to Start</strong>
+                                            <p>Cybersecurity is complicated, figuring out where to start can be a daunting task that curtail a security program before it gets off the ground.</p>
+                                        </div>
+                                    </Accordion.Header>
+                                    <Accordion.Body>
+                                        <strong className='mb-2'>
+                                            SecureState Will Help You Understand
+                                        </strong>
+
+                                        <p>
+                                            The SecureState platform performs a vulnerability assessment that allows us to understand your technology stack, and its unique threats and vulnerabilities. We use a hybrid approach, leveraging automated tools and manual testing to achieve the highest level of coverage and build a custom strategy session.
+
+                                        </p>
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                                <Accordion.Item eventKey="1">
+                                    <Accordion.Header>
+                                        <div className='d-flex flex-column'>
+                                            <strong className='mb-2'>Cybersecurity is Expensive </strong>
+                                            <p>
+                                                Security Consultants charge $250+/hour and tools range between $50-500 making it out of reach for most startups and small businesses
+                                            </p>
+                                        </div>
+                                    </Accordion.Header>
+                                    <Accordion.Body>
+                                        <strong className='mb-2'>
+                                        Affordable, Transparent Pricing
+                                        </strong>
+
+                                        <p>
+                                            Our pricing model is simple. We offer three levels of security billed monthly based on the size of our application and level of security you require.
+                                        </p>
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                                <Accordion.Item eventKey="2">
+                                    <Accordion.Header>
+                                        <div className='d-flex flex-column'>
+                                            <strong className='mb-2'>Complicated Buying Process</strong>
+                                            <p>Cybersecurity is notoriously difficult to buy and implement.</p>
+                                        </div>
+                                    </Accordion.Header>
+                                    <Accordion.Body>
+                                      
+                                        <strong className='mb-2'>
+                                        Simple, Efficient Onboarding
+                                        </strong>
+
+                                        <p>
+                                            We make the buying process simple and deliver ROI in the first 30 days
+
+                                        </p>
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                                <Accordion.Item eventKey="3">
+                                    <Accordion.Header>
+                                        <div className='d-flex flex-column'>
+                                            <strong className='mb-2'>Too Many Tools</strong>
+                                            <p>With hundreds of tools to choose from people suffer from buying fatigue </p>
+                                        </div>
+                                    </Accordion.Header>
+                                    <Accordion.Body>
+                                     
+
+                                        <strong className='mb-2'>Integrate Tools, Centralize Data</strong>
+
+                                        <p>
+                                            SecureState centralizes security data into a single platform by integrating your security tools into our platform and filtering out false positives
+                                        </p>
+                                    </Accordion.Body>
+                                </Accordion.Item>
+
+                            </Accordion>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
 
             <section className='solutions py-5'>
                 <div className='container'>
                     <div className='row mb-5'>
-                        <div className='col-md-12 text-center'>
-                            <h1 className='fw-700'>
-                                Solutions
-                            </h1>
-
+                        <div className='col text-center d-flex align-items-center flex-column'>
+                            <h1 className='fw-300'>Solutions</h1>
+                            <hr />
                         </div>
                     </div>
 
                     <div className='row'>
                         <div className='col-md-4'>
                             <Fade>
-                                <Link to='/design'>
-                                    <div className='card mb-3'>
-                                        <div className='image mb-4'>
-                                            <img src={ThreatModelasaServiceLogo} />
-                                        </div>
-                                        <h4 className='fw-700 text-center'>Threat Model as a  Service (TMaaS)</h4>
+                                <Link className='card mb-3' to='/design'>
+
+                                    <div className='image mb-4'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 375 375" height="100%" version="1.0"><path fill="#FD7B33" d="M 363.066406 337.578125 C 245.300781 337.578125 127.535156 337.578125 9.769531 337.578125 C 12.050781 341.550781 14.335938 345.535156 16.625 349.507812 C 74.417969 242.882812 132.214844 136.253906 190.007812 29.625 C 185.4375 29.625 180.871094 29.625 176.300781 29.625 C 236.273438 136.253906 296.238281 242.886719 356.214844 349.507812 C 361.226562 358.425781 374.941406 350.433594 369.917969 341.507812 C 309.949219 234.878906 249.980469 128.25 190.007812 21.621094 C 187.144531 16.527344 179.132812 16.398438 176.300781 21.621094 C 118.507812 128.25 60.710938 234.878906 2.914062 341.507812 C 0.0742188 346.742188 3.605469 353.441406 9.769531 353.441406 C 127.535156 353.441406 245.300781 353.441406 363.066406 353.441406 C 373.304688 353.441406 373.304688 337.578125 363.066406 337.578125 Z M 363.066406 337.578125" /><path fill="#FD7B33" d="M 192.894531 291.835938 C 192.414062 301.269531 178.976562 301.339844 178.5 291.835938 C 178.035156 282.601562 192.425781 282.691406 192.894531 291.835938 C 193.417969 302.011719 209.300781 302.0625 208.773438 291.835938 C 208.09375 278.726562 198.675781 269.550781 185.597656 268.894531 C 172.625 268.242188 163.242188 279.847656 162.625 291.835938 C 161.953125 304.894531 173.453125 314.378906 185.597656 315 C 198.707031 315.667969 208.152344 303.953125 208.773438 291.835938 C 209.292969 281.605469 193.417969 281.65625 192.894531 291.835938 Z M 192.894531 291.835938" /><path fill="#FD7B33" d="M 200.195312 234.152344 C 190.390625 234.152344 180.585938 234.152344 170.777344 234.152344 C 173.421875 236.796875 176.070312 239.441406 178.714844 242.085938 C 177.585938 211.507812 176.453125 180.929688 175.324219 150.355469 C 172.679688 153 170.035156 155.644531 167.390625 158.285156 C 179.523438 158.285156 191.65625 158.285156 203.785156 158.285156 C 201.144531 155.644531 198.496094 153 195.851562 150.355469 C 194.652344 180.929688 193.460938 211.507812 192.257812 242.085938 C 191.859375 252.320312 207.734375 252.277344 208.136719 242.085938 C 209.332031 211.507812 210.527344 180.929688 211.726562 150.355469 C 211.898438 146.035156 207.992188 142.425781 203.789062 142.425781 C 191.65625 142.425781 179.523438 142.425781 167.390625 142.425781 C 163.183594 142.425781 159.292969 146.035156 159.453125 150.355469 C 160.582031 180.929688 161.714844 211.507812 162.84375 242.085938 C 163.003906 246.402344 166.332031 250.015625 170.777344 250.015625 C 180.585938 250.015625 190.394531 250.015625 200.199219 250.015625 C 210.433594 250.015625 210.433594 234.152344 200.195312 234.152344 Z M 200.195312 234.152344" /></svg>
                                     </div>
+                                    <h4 className='fw-300 text-center'>Threat Model as a  Service (TMaaS)</h4>
+
                                 </Link>
                             </Fade>
 
                         </div>
                         <div className='col-md-4'>
                             <Fade>
-                                <Link to='/operate'>
-                                    <div className='card mb-3'>
-                                        <div className='image mb-4'>
-                                            <img src={ASPMlogo} />
-                                        </div>
-                                        <h4 className='fw-700 text-center'>Pentest as a Service
-                                            <br></br>
-                                            (PTaaS)</h4>
+                                <Link className='card mb-3' to='/operate'>
+
+                                    <div className='image mb-4'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="375" viewBox="0 0 375 375" height="375" version="1.0"><defs><clipPath id="a"><path d="M 12.273438 0 L 362.523438 0 L 362.523438 375 L 12.273438 375 Z M 12.273438 0" /></clipPath></defs><g clip-path="url(#a)"><path fill="#FD7B33" d="M 356.882812 47.039062 L 276.285156 47.039062 L 302.03125 18.003906 L 302.03125 35.136719 C 302.03125 35.476562 302.0625 35.8125 302.128906 36.148438 C 302.195312 36.480469 302.296875 36.804688 302.425781 37.121094 C 302.554688 37.433594 302.714844 37.734375 302.90625 38.015625 C 303.09375 38.300781 303.308594 38.5625 303.550781 38.800781 C 303.789062 39.042969 304.050781 39.257812 304.335938 39.445312 C 304.617188 39.636719 304.914062 39.796875 305.230469 39.925781 C 305.542969 40.054688 305.867188 40.15625 306.203125 40.222656 C 306.535156 40.289062 306.875 40.320312 307.214844 40.320312 C 307.554688 40.320312 307.890625 40.289062 308.222656 40.222656 C 308.558594 40.15625 308.882812 40.054688 309.195312 39.925781 C 309.511719 39.796875 309.808594 39.636719 310.09375 39.445312 C 310.375 39.257812 310.636719 39.042969 310.878906 38.800781 C 311.117188 38.5625 311.332031 38.300781 311.523438 38.015625 C 311.710938 37.734375 311.871094 37.433594 312 37.121094 C 312.132812 36.804688 312.230469 36.480469 312.296875 36.148438 C 312.363281 35.8125 312.394531 35.476562 312.394531 35.136719 L 312.394531 5.351562 C 312.394531 5.011719 312.363281 4.671875 312.296875 4.339844 C 312.230469 4.003906 312.132812 3.679688 312 3.367188 C 311.871094 3.050781 311.710938 2.753906 311.523438 2.46875 C 311.332031 2.1875 311.117188 1.925781 310.878906 1.683594 C 310.636719 1.445312 310.375 1.230469 310.09375 1.039062 C 309.808594 0.851562 309.511719 0.691406 309.195312 0.5625 C 308.882812 0.429688 308.558594 0.332031 308.222656 0.265625 C 307.890625 0.199219 307.554688 0.164062 307.214844 0.164062 L 274.835938 0.164062 C 274.492188 0.164062 274.15625 0.199219 273.824219 0.265625 C 273.488281 0.332031 273.164062 0.429688 272.851562 0.5625 C 272.535156 0.691406 272.238281 0.851562 271.953125 1.039062 C 271.671875 1.230469 271.410156 1.445312 271.167969 1.683594 C 270.929688 1.925781 270.714844 2.1875 270.523438 2.46875 C 270.335938 2.753906 270.175781 3.050781 270.046875 3.367188 C 269.917969 3.679688 269.816406 4.003906 269.75 4.339844 C 269.683594 4.671875 269.652344 5.011719 269.652344 5.351562 C 269.652344 5.691406 269.683594 6.027344 269.75 6.363281 C 269.816406 6.695312 269.917969 7.019531 270.046875 7.335938 C 270.175781 7.648438 270.335938 7.949219 270.523438 8.230469 C 270.714844 8.515625 270.929688 8.777344 271.167969 9.019531 C 271.410156 9.257812 271.671875 9.472656 271.953125 9.664062 C 272.238281 9.851562 272.535156 10.011719 272.851562 10.140625 C 273.164062 10.273438 273.488281 10.371094 273.824219 10.4375 C 274.15625 10.503906 274.492188 10.535156 274.835938 10.535156 L 294.941406 10.535156 L 187.148438 131.5 L 144.03125 101.21875 C 143.757812 101.027344 143.46875 100.867188 143.160156 100.734375 C 142.855469 100.601562 142.539062 100.496094 142.214844 100.421875 C 141.890625 100.351562 141.558594 100.308594 141.226562 100.300781 C 140.894531 100.289062 140.5625 100.3125 140.234375 100.363281 C 139.90625 100.417969 139.582031 100.503906 139.269531 100.617188 C 138.957031 100.734375 138.65625 100.878906 138.371094 101.050781 C 138.085938 101.222656 137.820312 101.421875 137.574219 101.644531 C 137.324219 101.867188 137.101562 102.113281 136.902344 102.378906 L 87.523438 169.125 C 87.324219 169.394531 87.152344 169.6875 87.007812 169.992188 C 86.867188 170.300781 86.753906 170.617188 86.671875 170.945312 C 86.589844 171.273438 86.542969 171.605469 86.527344 171.945312 C 86.511719 172.28125 86.527344 172.621094 86.578125 172.953125 C 86.628906 173.289062 86.710938 173.617188 86.824219 173.933594 C 86.9375 174.253906 87.082031 174.558594 87.253906 174.847656 C 87.429688 175.136719 87.628906 175.410156 87.855469 175.660156 C 88.082031 175.910156 88.332031 176.136719 88.601562 176.339844 C 88.875 176.546875 89.164062 176.722656 89.472656 176.871094 C 89.78125 177.019531 90.097656 177.136719 90.429688 177.222656 C 90.761719 177.304688 91.097656 177.355469 91.4375 177.375 C 91.777344 177.390625 92.117188 177.375 92.457031 177.324219 C 92.792969 177.273438 93.121094 177.191406 93.445312 177.074219 C 93.765625 176.960938 94.070312 176.8125 94.363281 176.636719 C 94.65625 176.460938 94.925781 176.253906 95.179688 176.023438 C 95.429688 175.792969 95.65625 175.539062 95.855469 175.261719 L 142.25 112.707031 L 185.035156 142.699219 C 185.554688 143.0625 186.121094 143.324219 186.738281 143.480469 C 187.351562 143.636719 187.972656 143.679688 188.605469 143.605469 C 189.234375 143.535156 189.832031 143.351562 190.394531 143.058594 C 190.960938 142.765625 191.453125 142.382812 191.875 141.910156 L 267.082031 57.410156 L 330.347656 57.410156 L 330.347656 244.332031 L 305.472656 244.332031 L 305.472656 102.210938 C 305.46875 101.867188 305.433594 101.523438 305.363281 101.1875 C 305.289062 100.847656 305.1875 100.519531 305.050781 100.203125 C 304.914062 99.882812 304.746094 99.582031 304.550781 99.300781 C 304.351562 99.015625 304.128906 98.753906 303.882812 98.511719 C 303.632812 98.273438 303.363281 98.0625 303.070312 97.875 C 302.777344 97.691406 302.472656 97.535156 302.148438 97.410156 C 301.824219 97.285156 301.492188 97.195312 301.152344 97.136719 C 300.8125 97.082031 300.46875 97.058594 300.125 97.070312 L 271.972656 97.070312 C 271.632812 97.070312 271.296875 97.101562 270.960938 97.167969 C 270.628906 97.234375 270.304688 97.332031 269.992188 97.464844 C 269.675781 97.59375 269.378906 97.753906 269.09375 97.941406 C 268.8125 98.132812 268.550781 98.347656 268.308594 98.585938 C 268.070312 98.828125 267.855469 99.089844 267.664062 99.375 C 267.476562 99.65625 267.316406 99.953125 267.1875 100.269531 C 267.054688 100.585938 266.957031 100.910156 266.890625 101.242188 C 266.824219 101.578125 266.792969 101.914062 266.792969 102.253906 L 266.792969 244.332031 L 246.519531 244.332031 L 246.519531 189.988281 C 246.519531 189.648438 246.484375 189.3125 246.417969 188.976562 C 246.351562 188.644531 246.253906 188.320312 246.125 188.003906 C 245.992188 187.691406 245.832031 187.390625 245.644531 187.109375 C 245.457031 186.824219 245.242188 186.5625 245 186.324219 C 244.757812 186.082031 244.496094 185.867188 244.214844 185.675781 C 243.933594 185.488281 243.632812 185.328125 243.320312 185.199219 C 243.003906 185.066406 242.679688 184.96875 242.347656 184.902344 C 242.011719 184.835938 241.675781 184.804688 241.335938 184.804688 L 213.183594 184.804688 C 212.84375 184.804688 212.507812 184.835938 212.175781 184.902344 C 211.839844 184.96875 211.515625 185.066406 211.203125 185.199219 C 210.886719 185.328125 210.589844 185.488281 210.304688 185.675781 C 210.023438 185.867188 209.761719 186.082031 209.519531 186.324219 C 209.28125 186.5625 209.066406 186.824219 208.875 187.109375 C 208.6875 187.390625 208.527344 187.691406 208.398438 188.003906 C 208.265625 188.320312 208.167969 188.644531 208.101562 188.976562 C 208.035156 189.3125 208.003906 189.648438 208.003906 189.988281 L 208.003906 244.332031 L 187.730469 244.332031 L 187.730469 173.8125 C 187.730469 173.46875 187.695312 173.132812 187.628906 172.800781 C 187.5625 172.464844 187.464844 172.140625 187.335938 171.828125 C 187.203125 171.511719 187.046875 171.214844 186.855469 170.929688 C 186.667969 170.648438 186.453125 170.386719 186.210938 170.144531 C 185.972656 169.902344 185.710938 169.6875 185.425781 169.5 C 185.144531 169.308594 184.84375 169.152344 184.53125 169.019531 C 184.214844 168.890625 183.890625 168.792969 183.558594 168.726562 C 183.222656 168.660156 182.886719 168.625 182.546875 168.625 L 154.4375 168.625 C 154.097656 168.621094 153.757812 168.652344 153.425781 168.71875 C 153.089844 168.78125 152.765625 168.878906 152.449219 169.007812 C 152.132812 169.136719 151.832031 169.296875 151.550781 169.488281 C 151.265625 169.675781 151.003906 169.890625 150.761719 170.132812 C 150.519531 170.375 150.304688 170.636719 150.117188 170.921875 C 149.925781 171.203125 149.769531 171.503906 149.640625 171.820312 C 149.507812 172.136719 149.414062 172.460938 149.347656 172.796875 C 149.285156 173.132812 149.253906 173.46875 149.253906 173.8125 L 149.253906 244.332031 L 128.941406 244.332031 L 128.941406 214.046875 C 128.929688 213.714844 128.886719 213.386719 128.8125 213.0625 C 128.738281 212.738281 128.632812 212.425781 128.5 212.121094 C 128.363281 211.816406 128.199219 211.53125 128.007812 211.257812 C 127.816406 210.984375 127.601562 210.734375 127.363281 210.503906 C 127.125 210.273438 126.863281 210.066406 126.582031 209.886719 C 126.304688 209.707031 126.011719 209.558594 125.699219 209.433594 C 125.390625 209.3125 125.074219 209.21875 124.746094 209.15625 C 124.421875 209.097656 124.089844 209.066406 123.757812 209.070312 L 95.648438 209.070312 C 95.3125 209.066406 94.980469 209.09375 94.652344 209.152344 C 94.320312 209.210938 94 209.300781 93.6875 209.421875 C 93.375 209.542969 93.078125 209.691406 92.792969 209.871094 C 92.511719 210.050781 92.246094 210.257812 92.003906 210.488281 C 91.757812 210.714844 91.539062 210.96875 91.34375 211.242188 C 91.152344 211.515625 90.984375 211.804688 90.84375 212.109375 C 90.707031 212.414062 90.597656 212.730469 90.519531 213.054688 C 90.441406 213.382812 90.398438 213.714844 90.382812 214.046875 L 90.382812 244.332031 L 44.488281 244.332031 L 44.488281 213.632812 L 64.847656 213.632812 C 65.1875 213.632812 65.523438 213.601562 65.855469 213.535156 C 66.191406 213.46875 66.515625 213.371094 66.828125 213.238281 C 67.144531 213.109375 67.441406 212.949219 67.726562 212.761719 C 68.007812 212.570312 68.269531 212.355469 68.511719 212.113281 C 68.75 211.875 68.964844 211.613281 69.15625 211.328125 C 69.34375 211.046875 69.503906 210.746094 69.632812 210.433594 C 69.765625 210.117188 69.863281 209.792969 69.929688 209.460938 C 69.996094 209.125 70.027344 208.789062 70.027344 208.449219 C 70.027344 208.109375 69.996094 207.769531 69.929688 207.4375 C 69.863281 207.101562 69.765625 206.777344 69.632812 206.464844 C 69.503906 206.148438 69.34375 205.851562 69.15625 205.566406 C 68.964844 205.285156 68.75 205.023438 68.511719 204.78125 C 68.269531 204.542969 68.007812 204.328125 67.726562 204.136719 C 67.441406 203.949219 67.144531 203.789062 66.828125 203.65625 C 66.515625 203.527344 66.191406 203.429688 65.855469 203.363281 C 65.523438 203.296875 65.1875 203.261719 64.847656 203.261719 L 44.488281 203.261719 L 44.488281 155.351562 L 64.847656 155.351562 C 65.1875 155.351562 65.523438 155.316406 65.855469 155.25 C 66.191406 155.183594 66.515625 155.085938 66.828125 154.957031 C 67.144531 154.828125 67.441406 154.667969 67.726562 154.476562 C 68.007812 154.289062 68.269531 154.074219 68.511719 153.832031 C 68.75 153.589844 68.964844 153.328125 69.15625 153.046875 C 69.34375 152.761719 69.503906 152.464844 69.632812 152.148438 C 69.765625 151.835938 69.863281 151.511719 69.929688 151.175781 C 69.996094 150.84375 70.027344 150.507812 70.027344 150.164062 C 70.027344 149.824219 69.996094 149.488281 69.929688 149.15625 C 69.863281 148.820312 69.765625 148.496094 69.632812 148.179688 C 69.503906 147.867188 69.34375 147.566406 69.15625 147.285156 C 68.964844 147.003906 68.75 146.738281 68.511719 146.5 C 68.269531 146.257812 68.007812 146.042969 67.726562 145.855469 C 67.441406 145.664062 67.144531 145.503906 66.828125 145.375 C 66.515625 145.246094 66.191406 145.148438 65.855469 145.082031 C 65.523438 145.015625 65.1875 144.980469 64.847656 144.980469 L 44.488281 144.980469 L 44.488281 97.070312 L 64.847656 97.070312 C 65.1875 97.070312 65.523438 97.035156 65.855469 96.96875 C 66.191406 96.902344 66.515625 96.804688 66.828125 96.675781 C 67.144531 96.542969 67.441406 96.382812 67.726562 96.195312 C 68.007812 96.003906 68.269531 95.789062 68.511719 95.550781 C 68.75 95.308594 68.964844 95.046875 69.15625 94.765625 C 69.34375 94.480469 69.503906 94.183594 69.632812 93.867188 C 69.765625 93.554688 69.863281 93.230469 69.929688 92.894531 C 69.996094 92.5625 70.027344 92.222656 70.027344 91.882812 C 70.027344 91.542969 69.996094 91.207031 69.929688 90.871094 C 69.863281 90.539062 69.765625 90.214844 69.632812 89.898438 C 69.503906 89.585938 69.34375 89.285156 69.15625 89.003906 C 68.964844 88.71875 68.75 88.457031 68.511719 88.214844 C 68.269531 87.976562 68.007812 87.761719 67.726562 87.570312 C 67.441406 87.382812 67.144531 87.222656 66.828125 87.09375 C 66.515625 86.960938 66.191406 86.863281 65.855469 86.796875 C 65.523438 86.730469 65.1875 86.699219 64.847656 86.699219 L 44.488281 86.699219 L 44.488281 57.660156 L 236.152344 57.660156 C 236.492188 57.660156 236.832031 57.628906 237.164062 57.5625 C 237.496094 57.496094 237.820312 57.394531 238.136719 57.265625 C 238.449219 57.136719 238.75 56.976562 239.03125 56.785156 C 239.316406 56.597656 239.578125 56.382812 239.816406 56.140625 C 240.058594 55.902344 240.273438 55.640625 240.460938 55.355469 C 240.652344 55.074219 240.8125 54.773438 240.941406 54.460938 C 241.070312 54.144531 241.167969 53.820312 241.234375 53.488281 C 241.300781 53.152344 241.335938 52.816406 241.335938 52.476562 C 241.335938 52.132812 241.300781 51.796875 241.234375 51.464844 C 241.167969 51.128906 241.070312 50.804688 240.941406 50.492188 C 240.8125 50.175781 240.652344 49.878906 240.460938 49.59375 C 240.273438 49.3125 240.058594 49.050781 239.816406 48.808594 C 239.578125 48.566406 239.316406 48.351562 239.03125 48.164062 C 238.75 47.972656 238.449219 47.816406 238.136719 47.683594 C 237.820312 47.554688 237.496094 47.457031 237.164062 47.390625 C 236.832031 47.324219 236.492188 47.289062 236.152344 47.289062 L 192.578125 47.289062 L 192.578125 26.546875 C 192.578125 26.207031 192.546875 25.871094 192.480469 25.535156 C 192.414062 25.203125 192.316406 24.878906 192.1875 24.5625 C 192.054688 24.25 191.894531 23.949219 191.707031 23.667969 C 191.519531 23.386719 191.304688 23.121094 191.0625 22.882812 C 190.820312 22.640625 190.558594 22.425781 190.277344 22.238281 C 189.992188 22.046875 189.695312 21.886719 189.382812 21.757812 C 189.066406 21.628906 188.742188 21.53125 188.410156 21.464844 C 188.074219 21.398438 187.738281 21.363281 187.398438 21.363281 C 187.058594 21.363281 186.71875 21.398438 186.386719 21.464844 C 186.054688 21.53125 185.730469 21.628906 185.414062 21.757812 C 185.101562 21.886719 184.800781 22.046875 184.519531 22.238281 C 184.234375 22.425781 183.972656 22.640625 183.734375 22.882812 C 183.492188 23.121094 183.277344 23.386719 183.089844 23.667969 C 182.898438 23.949219 182.738281 24.25 182.609375 24.5625 C 182.480469 24.878906 182.382812 25.203125 182.316406 25.535156 C 182.25 25.871094 182.214844 26.207031 182.214844 26.546875 L 182.214844 47.289062 L 17.914062 47.289062 C 17.574219 47.289062 17.238281 47.324219 16.902344 47.390625 C 16.570312 47.457031 16.246094 47.554688 15.929688 47.683594 C 15.617188 47.816406 15.316406 47.972656 15.035156 48.164062 C 14.753906 48.351562 14.492188 48.566406 14.25 48.808594 C 14.007812 49.050781 13.792969 49.3125 13.605469 49.59375 C 13.417969 49.878906 13.257812 50.175781 13.125 50.492188 C 12.996094 50.804688 12.898438 51.128906 12.832031 51.464844 C 12.765625 51.796875 12.730469 52.132812 12.730469 52.476562 C 12.730469 52.816406 12.765625 53.152344 12.832031 53.488281 C 12.898438 53.820312 12.996094 54.144531 13.125 54.460938 C 13.257812 54.773438 13.417969 55.074219 13.605469 55.355469 C 13.792969 55.640625 14.007812 55.902344 14.25 56.140625 C 14.492188 56.382812 14.753906 56.597656 15.035156 56.785156 C 15.316406 56.976562 15.617188 57.136719 15.929688 57.265625 C 16.246094 57.394531 16.570312 57.496094 16.902344 57.5625 C 17.238281 57.628906 17.574219 57.660156 17.914062 57.660156 L 34.125 57.660156 L 34.125 249.515625 C 34.125 249.855469 34.15625 250.195312 34.222656 250.527344 C 34.289062 250.863281 34.390625 251.1875 34.519531 251.5 C 34.648438 251.816406 34.808594 252.113281 35 252.398438 C 35.1875 252.679688 35.402344 252.941406 35.644531 253.183594 C 35.882812 253.421875 36.144531 253.636719 36.429688 253.828125 C 36.710938 254.015625 37.007812 254.175781 37.324219 254.304688 C 37.636719 254.4375 37.960938 254.535156 38.296875 254.601562 C 38.628906 254.667969 38.96875 254.703125 39.308594 254.703125 L 109.039062 254.703125 L 63.976562 366.703125 C 63.847656 367.019531 63.75 367.34375 63.6875 367.679688 C 63.621094 368.015625 63.589844 368.351562 63.59375 368.695312 C 63.597656 369.035156 63.632812 369.371094 63.699219 369.707031 C 63.769531 370.039062 63.871094 370.363281 64.003906 370.679688 C 64.136719 370.992188 64.296875 371.289062 64.488281 371.574219 C 64.683594 371.855469 64.898438 372.113281 65.140625 372.355469 C 65.386719 372.59375 65.648438 372.804688 65.933594 372.992188 C 66.21875 373.179688 66.519531 373.335938 66.835938 373.464844 C 67.460938 373.707031 68.113281 373.832031 68.785156 373.839844 C 69.304688 373.871094 69.816406 373.824219 70.324219 373.703125 C 70.828125 373.578125 71.304688 373.386719 71.753906 373.117188 C 72.199219 372.851562 72.597656 372.527344 72.949219 372.140625 C 73.296875 371.753906 73.582031 371.324219 73.800781 370.851562 L 90.382812 329.742188 L 182.464844 300.082031 L 182.464844 330.574219 C 182.464844 330.914062 182.496094 331.25 182.5625 331.585938 C 182.628906 331.917969 182.726562 332.242188 182.859375 332.558594 C 182.988281 332.871094 183.148438 333.171875 183.335938 333.453125 C 183.527344 333.734375 183.742188 334 183.980469 334.238281 C 184.222656 334.480469 184.484375 334.695312 184.765625 334.882812 C 185.050781 335.074219 185.347656 335.234375 185.664062 335.363281 C 185.976562 335.492188 186.300781 335.589844 186.636719 335.65625 C 186.96875 335.722656 187.304688 335.757812 187.644531 335.757812 C 187.988281 335.757812 188.324219 335.722656 188.65625 335.65625 C 188.992188 335.589844 189.316406 335.492188 189.628906 335.363281 C 189.945312 335.234375 190.242188 335.074219 190.527344 334.882812 C 190.808594 334.695312 191.070312 334.480469 191.3125 334.238281 C 191.550781 334 191.765625 333.734375 191.957031 333.453125 C 192.144531 333.171875 192.304688 332.871094 192.433594 332.558594 C 192.566406 332.242188 192.664062 331.917969 192.730469 331.582031 C 192.796875 331.25 192.828125 330.914062 192.828125 330.574219 L 192.828125 299.875 L 284.992188 329.660156 L 301.574219 370.644531 C 301.636719 371.035156 301.738281 371.410156 301.886719 371.777344 C 302.035156 372.144531 302.222656 372.488281 302.445312 372.8125 C 302.671875 373.136719 302.933594 373.429688 303.226562 373.691406 C 303.519531 373.957031 303.835938 374.183594 304.179688 374.375 C 304.527344 374.566406 304.886719 374.71875 305.265625 374.828125 C 305.644531 374.933594 306.03125 375 306.425781 375.019531 C 306.820312 375.039062 307.210938 375.015625 307.597656 374.949219 C 307.988281 374.878906 308.363281 374.765625 308.726562 374.613281 C 309.089844 374.457031 309.429688 374.265625 309.746094 374.03125 C 310.066406 373.800781 310.355469 373.535156 310.613281 373.234375 C 310.871094 372.9375 311.09375 372.613281 311.277344 372.265625 C 311.460938 371.917969 311.601562 371.550781 311.703125 371.167969 C 311.804688 370.789062 311.863281 370.402344 311.875 370.007812 C 311.886719 369.613281 311.855469 369.222656 311.777344 368.835938 C 311.703125 368.449219 311.582031 368.074219 311.421875 367.714844 C 311.257812 367.355469 311.058594 367.015625 310.820312 366.703125 L 265.753906 254.703125 L 335.53125 254.703125 C 335.871094 254.703125 336.207031 254.667969 336.539062 254.601562 C 336.875 254.535156 337.199219 254.4375 337.511719 254.304688 C 337.828125 254.175781 338.125 254.015625 338.410156 253.828125 C 338.691406 253.636719 338.953125 253.421875 339.195312 253.183594 C 339.433594 252.941406 339.648438 252.679688 339.839844 252.398438 C 340.027344 252.113281 340.1875 251.816406 340.316406 251.5 C 340.449219 251.1875 340.546875 250.863281 340.613281 250.527344 C 340.679688 250.195312 340.710938 249.855469 340.710938 249.515625 L 340.710938 57.410156 L 356.882812 57.410156 C 357.222656 57.410156 357.558594 57.378906 357.890625 57.3125 C 358.226562 57.246094 358.550781 57.148438 358.863281 57.015625 C 359.179688 56.886719 359.476562 56.726562 359.761719 56.539062 C 360.042969 56.347656 360.304688 56.132812 360.546875 55.894531 C 360.785156 55.652344 361 55.390625 361.191406 55.105469 C 361.378906 54.824219 361.539062 54.523438 361.667969 54.210938 C 361.800781 53.894531 361.898438 53.570312 361.964844 53.238281 C 362.03125 52.902344 362.0625 52.566406 362.0625 52.226562 C 362.0625 51.886719 362.03125 51.546875 361.964844 51.214844 C 361.898438 50.878906 361.800781 50.554688 361.667969 50.242188 C 361.539062 49.925781 361.378906 49.628906 361.191406 49.34375 C 361 49.0625 360.785156 48.800781 360.546875 48.558594 C 360.304688 48.320312 360.042969 48.105469 359.761719 47.914062 C 359.476562 47.726562 359.179688 47.566406 358.863281 47.4375 C 358.550781 47.304688 358.226562 47.207031 357.890625 47.140625 C 357.558594 47.074219 357.222656 47.039062 356.882812 47.039062 Z M 182.214844 288.964844 L 95.152344 317.171875 L 120.234375 254.703125 L 182.421875 254.703125 Z M 279.726562 317.171875 L 192.664062 288.964844 L 192.664062 254.703125 L 254.851562 254.703125 Z M 279.726562 317.171875" /></g></svg>
                                     </div>
+                                    <h4 className='fw-300 text-center'>Pentest as a Service
+                                        <br></br>
+                                        (PTaaS)</h4>
+
                                 </Link>
                             </Fade>
                         </div>
                         <div className='col-md-4'>
                             <Fade>
-                                <Link to='/develop'>
-                                    <div className='card mb-3'>
-                                        <div className='image mb-4'>
-                                            <img src={PentestasaService} />
-                                        </div>
-                                        <h4 className='fw-700 text-center'>Application Security Posture
+                                <Link className='card mb-3' to='/develop'>
 
-                                            Management (ASPM)</h4>
+                                    <div className='image mb-4'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="375" viewBox="0 0 375 375" height="375" version="1.0"><path fill="#FD7B33" d="M 57.851562 281.453125 C 39.816406 281.453125 25.144531 296.136719 25.144531 314.1875 C 25.144531 332.234375 39.816406 346.921875 57.851562 346.921875 C 75.886719 346.921875 90.5625 332.234375 90.5625 314.1875 C 90.5625 296.136719 75.886719 281.453125 57.851562 281.453125 Z M 57.851562 338.765625 C 44.308594 338.765625 33.292969 327.738281 33.292969 314.1875 C 33.292969 300.632812 44.308594 289.609375 57.851562 289.609375 C 71.394531 289.609375 82.414062 300.632812 82.414062 314.1875 C 82.414062 327.738281 71.394531 338.765625 57.851562 338.765625 Z M 57.851562 338.765625" /><path fill="#FD7B33" d="M 357.3125 289.695312 L 249.023438 181.324219 L 288.722656 137.441406 C 292.523438 138.097656 296.332031 138.4375 300.117188 138.4375 C 317.570312 138.4375 334.449219 131.570312 347.082031 118.929688 C 366.027344 99.96875 371.769531 71.664062 361.714844 46.808594 C 361.613281 46.554688 361.484375 46.308594 361.328125 46.078125 C 361.023438 45.617188 360.636719 45.234375 360.191406 44.9375 C 360.082031 44.867188 359.964844 44.816406 359.851562 44.753906 C 359.734375 44.691406 359.621094 44.621094 359.496094 44.566406 C 359.367188 44.515625 359.234375 44.480469 359.101562 44.441406 C 358.980469 44.40625 358.867188 44.363281 358.742188 44.335938 C 358.617188 44.3125 358.492188 44.308594 358.367188 44.292969 C 358.230469 44.277344 358.09375 44.253906 357.957031 44.253906 C 357.824219 44.253906 357.691406 44.277344 357.554688 44.289062 C 357.425781 44.300781 357.300781 44.300781 357.171875 44.324219 C 356.648438 44.421875 356.140625 44.625 355.683594 44.929688 C 355.449219 45.085938 355.238281 45.257812 355.046875 45.453125 L 307.824219 92.707031 L 279.167969 64.023438 L 326.386719 16.773438 C 326.578125 16.582031 326.753906 16.367188 326.90625 16.132812 C 327.214844 15.671875 327.414062 15.164062 327.511719 14.640625 C 327.535156 14.523438 327.535156 14.40625 327.546875 14.285156 C 327.5625 14.144531 327.585938 14 327.582031 13.855469 C 327.582031 13.722656 327.558594 13.59375 327.546875 13.464844 C 327.53125 13.332031 327.527344 13.199219 327.503906 13.070312 C 327.480469 12.953125 327.433594 12.84375 327.402344 12.730469 C 327.359375 12.589844 327.328125 12.449219 327.269531 12.316406 C 327.222656 12.199219 327.15625 12.09375 327.097656 11.984375 C 327.03125 11.863281 326.976562 11.738281 326.902344 11.621094 C 326.605469 11.175781 326.222656 10.789062 325.761719 10.484375 C 325.53125 10.332031 325.289062 10.203125 325.039062 10.101562 C 300.199219 0.0351562 271.914062 5.78125 252.964844 24.742188 C 237.589844 40.125 230.765625 61.8125 234.453125 83.167969 L 166.765625 144.484375 L 76.835938 54.488281 L 65.5 25.03125 C 65.121094 24.042969 64.375 23.242188 63.414062 22.796875 L 28.738281 6.703125 C 27.1875 5.984375 25.351562 6.308594 24.144531 7.519531 L 4.671875 27.007812 C 3.460938 28.21875 3.136719 30.054688 3.855469 31.605469 L 19.9375 66.308594 C 20.382812 67.269531 21.183594 68.019531 22.167969 68.398438 L 51.601562 79.734375 L 140.277344 168.472656 L 20.71875 276.746094 C 20.691406 276.769531 20.671875 276.800781 20.648438 276.828125 C 20.625 276.847656 20.601562 276.859375 20.578125 276.882812 C 0.0273438 297.453125 0.0273438 330.917969 20.578125 351.488281 C 30.855469 361.769531 44.355469 366.910156 57.851562 366.910156 C 71.351562 366.910156 84.847656 361.769531 95.125 351.488281 C 95.148438 351.464844 95.160156 351.4375 95.183594 351.414062 C 95.210938 351.386719 95.242188 351.367188 95.269531 351.335938 L 181.867188 255.574219 L 286.640625 360.421875 C 296.074219 369.867188 308.621094 375.066406 321.964844 375.066406 C 335.316406 375.066406 347.867188 369.863281 357.304688 360.414062 C 366.742188 350.972656 371.941406 338.414062 371.945312 325.058594 C 371.945312 311.699219 366.75 299.140625 357.3125 289.695312 Z M 241.617188 87.679688 C 241.65625 87.644531 241.683594 87.601562 241.71875 87.5625 C 241.800781 87.480469 241.875 87.394531 241.953125 87.304688 C 242.054688 87.1875 242.152344 87.070312 242.238281 86.945312 C 242.296875 86.859375 242.34375 86.769531 242.394531 86.683594 C 242.476562 86.542969 242.554688 86.402344 242.617188 86.257812 C 242.660156 86.160156 242.6875 86.058594 242.722656 85.957031 C 242.773438 85.8125 242.820312 85.667969 242.855469 85.519531 C 242.878906 85.40625 242.890625 85.292969 242.90625 85.175781 C 242.921875 85.03125 242.941406 84.886719 242.945312 84.738281 C 242.949219 84.625 242.9375 84.507812 242.929688 84.390625 C 242.917969 84.238281 242.910156 84.085938 242.882812 83.9375 C 242.875 83.894531 242.878906 83.855469 242.867188 83.816406 C 238.816406 64.425781 244.746094 44.496094 258.726562 30.503906 C 273.855469 15.367188 295.777344 9.828125 316.023438 15.613281 L 270.523438 61.140625 C 268.933594 62.730469 268.933594 65.3125 270.523438 66.90625 L 304.945312 101.351562 C 305.707031 102.117188 306.746094 102.546875 307.824219 102.546875 C 308.90625 102.546875 309.941406 102.117188 310.707031 101.355469 L 356.203125 55.824219 C 361.980469 76.085938 356.449219 98.023438 341.320312 113.164062 C 327.339844 127.15625 307.425781 133.085938 288.050781 129.03125 C 288.007812 129.023438 287.964844 129.023438 287.921875 129.015625 C 287.789062 128.996094 287.660156 128.984375 287.527344 128.976562 C 287.386719 128.964844 287.246094 128.953125 287.105469 128.957031 C 286.996094 128.960938 286.890625 128.976562 286.785156 128.988281 C 286.628906 129.003906 286.46875 129.019531 286.316406 129.054688 C 286.222656 129.074219 286.132812 129.109375 286.039062 129.136719 C 285.878906 129.1875 285.722656 129.234375 285.574219 129.300781 C 285.488281 129.339844 285.40625 129.390625 285.320312 129.433594 C 285.171875 129.515625 285.019531 129.597656 284.882812 129.695312 C 284.8125 129.746094 284.746094 129.800781 284.679688 129.855469 C 284.53125 129.972656 284.394531 130.09375 284.265625 130.230469 C 284.246094 130.253906 284.222656 130.265625 284.203125 130.289062 L 243.257812 175.546875 L 235.25 167.535156 C 234.484375 166.769531 233.449219 166.34375 232.367188 166.34375 C 231.289062 166.34375 230.253906 166.773438 229.488281 167.535156 L 209.644531 187.394531 L 172.535156 150.257812 Z M 56.746094 73.351562 C 56.734375 73.339844 56.71875 73.332031 56.707031 73.320312 C 56.644531 73.257812 56.566406 73.207031 56.5 73.148438 C 56.359375 73.027344 56.21875 72.90625 56.066406 72.808594 C 56.058594 72.804688 56.050781 72.800781 56.042969 72.796875 C 55.816406 72.652344 55.578125 72.53125 55.335938 72.4375 C 55.332031 72.4375 55.332031 72.433594 55.328125 72.433594 L 26.636719 61.382812 L 12.445312 30.757812 L 27.890625 15.300781 L 58.488281 29.5 L 69.523438 58.183594 C 69.703125 58.667969 69.984375 59.117188 70.355469 59.519531 C 70.375 59.539062 70.390625 59.5625 70.410156 59.585938 C 70.421875 59.597656 70.433594 59.617188 70.449219 59.632812 L 203.882812 193.160156 L 190.175781 206.875 Z M 89.335938 345.742188 C 71.960938 363.105469 43.710938 363.097656 26.339844 345.71875 C 8.976562 328.339844 8.96875 300.070312 26.3125 282.675781 L 146.046875 174.242188 L 184.417969 212.640625 L 164.574219 232.5 C 162.980469 234.089844 162.980469 236.671875 164.574219 238.265625 L 176.097656 249.800781 Z M 351.542969 354.648438 C 343.644531 362.554688 333.140625 366.910156 321.964844 366.910156 C 310.796875 366.910156 300.296875 362.558594 292.402344 354.65625 L 184.464844 246.644531 C 184.464844 246.640625 184.460938 246.636719 184.457031 246.632812 C 184.457031 246.632812 184.457031 246.632812 184.457031 246.628906 L 173.214844 235.382812 L 232.367188 176.1875 L 351.554688 295.460938 C 359.449219 303.363281 363.796875 313.875 363.796875 325.054688 C 363.792969 336.234375 359.441406 346.746094 351.542969 354.648438 Z M 351.542969 354.648438" /><path fill="#FD7B33" d="M 214.21875 230.933594 C 212.628906 229.34375 210.046875 229.34375 208.457031 230.933594 C 206.867188 232.527344 206.867188 235.109375 208.457031 236.699219 L 311.402344 339.722656 C 312.195312 340.519531 313.238281 340.914062 314.28125 340.914062 C 315.324219 340.914062 316.367188 340.519531 317.164062 339.722656 C 318.753906 338.128906 318.753906 335.546875 317.164062 333.957031 Z M 214.21875 230.933594" /><path fill="#FD7B33" d="M 233.683594 211.453125 C 232.09375 209.859375 229.515625 209.859375 227.925781 211.453125 C 226.332031 213.042969 226.332031 215.625 227.925781 217.21875 L 330.875 320.242188 C 331.667969 321.039062 332.710938 321.4375 333.753906 321.4375 C 334.796875 321.4375 335.839844 321.039062 336.636719 320.242188 C 338.226562 318.652344 338.226562 316.070312 336.636719 314.480469 Z M 233.683594 211.453125" /></svg>
                                     </div>
+                                    <h4 className='fw-300 text-center'>Product Security Posture Management (PSPM)</h4>
+
                                 </Link>
                             </Fade>
                         </div>
@@ -515,149 +390,15 @@ function Home() {
                 </div>
             </section>
 
-            {/* <section className='north-star py-5'>
+            <section className='py-5 color-bg-primary color-white'>
                 <div className='container'>
                     <div className='row mb-5'>
-                        <div className='col-md-12 text-center'>
-                            <h1 className='fw-700'>
-                                Our North Star
-                            </h1>
-
-                            <h2>
-                                Securing the Platform Development Lifecycle
-                            </h2>
-                            <p className='mute'>
-                                To protect your SDLC, we become an extension of it
-                            </p>
-
-                        </div>
-                    </div>
-
-                    <div className='row'>
-                        <div className='col-md-12'>
-                            <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-                                <Row>
-
-                                    <Col sm={{ span: 5, offset: 1 }} offset>
-                                        <Tab.Content>
-                                            <Tab.Pane eventKey="first">
-                                                <div className='d-flex justify-content-center'>
-                                                    <img src={ShiftLefts} alt='ShiftLefts' className='img-fluid' />
-                                                </div>
-                                            </Tab.Pane>
-                                            <Tab.Pane eventKey="second">
-                                                <div className='d-flex justify-content-center'>
-                                                    <img src={CapabilityGap} alt='CapabilityGap' className='img-fluid' />
-                                                </div>
-                                            </Tab.Pane>
-                                            <Tab.Pane eventKey="third">
-                                                <div className='d-flex justify-content-center'>
-                                                    <img src={ActionableIntel} alt='ActionableIntel' className='img-fluid' />
-                                                </div>
-                                            </Tab.Pane>
-                                        </Tab.Content>
-                                    </Col>
-                                    <Col sm={5}>
-                                        <Nav variant="pills" className="flex-column">
-                                            <Nav.Item>
-                                                <Nav.Link eventKey="first">
-                                                    <div className='tabs-list'>
-                                                        <div className='image'>
-                                                            <img src={ShiftLeftlogo} />
-                                                        </div>
-                                                        <div className='content'>
-                                                            <h3>Shift Left</h3>
-                                                            <p>Bring security to the table on day one
-                                                                to help build in security</p>
-                                                        </div>
-                                                    </div>
-                                                </Nav.Link>
-                                            </Nav.Item>
-                                            <Nav.Item>
-                                                <Nav.Link eventKey="second">
-                                                    <div className='tabs-list'>
-                                                        <div className='image'>
-                                                            <img src={CapabilityGaplogo} />
-                                                        </div>
-
-                                                        <div className='content'>
-                                                            <h3>Capability Gap</h3>
-                                                            <p>Most organizations cant get past the
-                                                                capability gap, we can help you.</p>
-                                                        </div>
-                                                    </div>
-                                                </Nav.Link>
-                                            </Nav.Item>
-                                            <Nav.Item>
-                                                <Nav.Link eventKey="third">
-                                                    <div className='tabs-list'>
-                                                        <div className='image'>
-                                                            <img src={ActionableIntelligencelogo} />
-                                                        </div>
-
-                                                        <div className='content'>
-                                                            <h3>Actionable Intelligence</h3>
-                                                            <p>Findings come with actionable data that
-                                                                allows for efficient remediation</p>
-                                                        </div>
-                                                    </div>
-                                                </Nav.Link>
-                                            </Nav.Item>
-                                        </Nav>
-                                    </Col>
-                                </Row>
-                            </Tab.Container>
-                        </div>
-
-                    </div>
-
-
-
-                </div>
-            </section> */}
-
-            {/* <section className='clients py-5'>
-                <div className='container'>
-                    <div className='row mb-5'>
-                        <div className='col-md-12 text-center'>
-                            <h1 className='fw-400'>
-                                Built By The Team That Has Helped Secure:
-                            </h1>
-                        </div>
-                    </div>
-                    <div className='row mb-5'>
-                        <div className='col-md-8 text-center offset-md-2'>
-                            <div className='client-slider'>
-                                <div class="img">
-                                    <img src={AwsImage} className='img-fluid' />
-                                </div>
-
-                                <div class="img">
-                                    <img src={GoogleImage} className='img-fluid' />
-                                </div>
-
-                                <div class="img">
-                                    <img src={NintendoImage} className='img-fluid' />
-                                </div>
-
-                                <div class="img">
-                                    <img src={OracleImage} className='img-fluid' />
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> */}
-
-            <section className='py-5'>
-                <div className='container'>
-                    <div className='row mb-5'>
-                        <div className='col-md-12 text-center'>
-                            <h1 className='fw-700'>
+                        <div className='col-md-12 text-center flex-column d-flex justify-content-center align-items-center'>
+                            <h1 className='fw-300'>
                                 By The Numbers
                             </h1>
-                            <p className='mute'>Secure your technology stack today.</p>
+                            <hr className='hr-white' />
+                            <p className=''>Secure your technology stack today.</p>
                         </div>
                     </div>
                     <div className='row mb-5'>
@@ -710,7 +451,7 @@ function Home() {
                         </div>
 
                         <div className='col-12 mt-5 d-flex align-items-center justify-content-center'>
-                            <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-primary btn-lg'>
+                            <a href='https://calendly.com/securestate/lets-talk-security?month=2022-03' target="_blank" className='btn btn-light btn-lg'>
                                 Schedule a Demo Today
                             </a>
                         </div>
@@ -718,10 +459,9 @@ function Home() {
                 </div>
             </section>
 
-
-
         </div>
     )
+   
 }
 
 export default Home
