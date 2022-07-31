@@ -8,10 +8,10 @@ import TextTransition, { presets } from "react-text-transition";
 import Banner from '../../assets/images/landing/banner.png'
 import PlatformThreat from '../../assets/images/landing/platform.png'
 import Accordion from 'react-bootstrap/Accordion';
-import ThreatModelasaServiceLogo from '../../assets/images/icons/ThreatModelasaServiceLogo.svg'
-import ASPMlogo from '../../assets/images/icons/ASPMlogo.svg'
-import ManagPlatform from '../../assets/images/home/ManagedPlatform.svg'
-import PentestasaService from '../../assets/images/icons/PentestasaService.svg'
+// import ThreatModelasaServiceLogo from '../../assets/images/icons/ThreatModelasaServiceLogo.svg'
+// import ASPMlogo from '../../assets/images/icons/ASPMlogo.svg'
+// import ManagPlatform from '../../assets/images/home/ManagedPlatform.svg'
+// import PentestasaService from '../../assets/images/icons/PentestasaService.svg'
 import icon1 from '../../assets/images/landing/icon1.png'
 import icon2 from '../../assets/images/landing/icon2.png'
 import icon3 from '../../assets/images/landing/icon3.png'
@@ -74,19 +74,27 @@ function Home() {
                     <Fade>
                         <div className='row'>
                             <div className='col-md-10 heading offset-md-1'>
-                                <h1 className='d-flex justify-content-center color-primary fw-400'>
+                                
+                                {/* <h1 className='d-flex justify-content-center color-primary fw-400'>
                                     Platform Security,&nbsp;<TextTransition
                                         text={BannerText[index % BannerText.length]}
                                         springConfig={presets.wobbly}
                                     />
+                                </h1> */}
+
+                                <h1 className='d-flex justify-content-center color-primary fw-400'>
+                                    Enterprise Grade Product Security for Startups
                                 </h1>
 
-                                <p className='d-flex justify-content-center text-center'>
+                                {/* <p className='d-flex justify-content-center text-center'>
                                     SecureState Cloud Security Platform makes the complex simple with customized vetted strategies that identify risks, detect threats, and implement security controls through a data driven framework
+                                </p> */}
+
+                                <p className='d-flex justify-content-center text-center'>
+                                    Introduce enterprise-grade security from day one.  Leverage the power of data and a community of security engineers to design, develop and operate secure platforms at scale
                                 </p>
 
                                 <img src={Banner} className="banner-image" />
-
 
                             </div>
 
@@ -279,7 +287,7 @@ function Home() {
                                     </Accordion.Header>
                                     <Accordion.Body>
                                         <strong className='mb-2'>
-                                        Affordable, Transparent Pricing
+                                            Affordable, Transparent Pricing
                                         </strong>
 
                                         <p>
@@ -295,9 +303,9 @@ function Home() {
                                         </div>
                                     </Accordion.Header>
                                     <Accordion.Body>
-                                      
+
                                         <strong className='mb-2'>
-                                        Simple, Efficient Onboarding
+                                            Simple, Efficient Onboarding
                                         </strong>
 
                                         <p>
@@ -314,7 +322,7 @@ function Home() {
                                         </div>
                                     </Accordion.Header>
                                     <Accordion.Body>
-                                     
+
 
                                         <strong className='mb-2'>Integrate Tools, Centralize Data</strong>
 
@@ -461,7 +469,7 @@ function Home() {
 
         </div>
     )
-   
+
 }
 
 export default Home
