@@ -73,7 +73,7 @@ function Home() {
                 <div className='container'>
                     <Fade>
                         <div className='row'>
-                            <div className='col-md-10 heading offset-md-1'>
+                            <div className='col-md-6 heading offset-md-3'>
                                 
                                 {/* <h1 className='d-flex justify-content-center color-primary fw-400'>
                                     Platform Security,&nbsp;<TextTransition
@@ -82,15 +82,15 @@ function Home() {
                                     />
                                 </h1> */}
 
-                                <h1 className='d-flex justify-content-center color-primary fw-400'>
-                                    Enterprise Grade Product Security for Startups
+                                <h1 className='d-flex justify-content-center fw-700 text-center'>
+                                    Enterprise Grade Product<br/>Security for Startups
                                 </h1>
 
                                 {/* <p className='d-flex justify-content-center text-center'>
                                     SecureState Cloud Security Platform makes the complex simple with customized vetted strategies that identify risks, detect threats, and implement security controls through a data driven framework
                                 </p> */}
 
-                                <p className='d-flex justify-content-center text-center'>
+                                <p className='d-flex justify-content-center text-center mute'>
                                     Introduce enterprise-grade security from day one.  Leverage the power of data and a community of security engineers to design, develop and operate secure platforms at scale
                                 </p>
 
