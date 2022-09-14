@@ -35,7 +35,7 @@ function Home() {
                                     Startups trust SecureState to help introduce enterprise-grade product security. Leverage a highly skilled team of security engineers and a robust DevSecOps platform as your security partner of choice.
                                 </p>
 
-                                <button className='btn btn-primary btn-lg mb-4'>Request A Demo</button>
+                                <a href='https://calendly.com/securestate/lets-talk-security' className='btn btn-primary btn-lg mb-4'>Request A Demo</a>
                             </span>
                         </div>
                         <div className='col-md-7'>
@@ -50,7 +50,7 @@ function Home() {
                     <div className='row'>
                         <div className='col-8 text-center offset-2'>
                             <h1 className='mb-3 fw-700'>Get a Free Product Security Risk Assessment Today!</h1>
-                            <button className='btn btn-primary btn-lg'>Get A Free Assessment</button>
+                            <a href='https://yt754yiloe6.typeform.com/to/flmCjEku' className='btn btn-primary btn-lg'>Get A Free Assessment</a>
                         </div>
                     </div>
                 </div>
@@ -257,7 +257,7 @@ function Home() {
                                 </h1>
                                
 
-                                <button className='btn btn-primary btn-lg'>Request A Demo</button>
+                                <a href='https://calendly.com/securestate/lets-talk-security' className='btn btn-primary btn-lg'>Request A Demo</a>
                             </span>
                         </div>
                         <div className='col-md-7'>

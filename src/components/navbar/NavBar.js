@@ -43,10 +43,8 @@ function NavBar() {
                         <Link to='/' className='mx-4'>
                             <a className="btn btn-secondary border-gradient border-gradient-purple btn-block w-100 px-3">Sign In</a>
                         </Link>
+                        <a href='https://calendly.com/securestate/lets-talk-security' className="btn btn-primary d-none d-sm-block px-3">Request a Demo</a>
 
-                        <Link to='/'>
-                            <a className="btn btn-primary d-none d-sm-block px-3">Request a Demo</a>
-                        </Link>
                     </div>
 
 
@@ -71,7 +69,7 @@ function NavBar() {
                         </div>
 
                         <div className='mobile'>
-                           
+
                             <div className='menu'>
 
                                 <div className='nav-items'>
@@ -93,9 +91,9 @@ function NavBar() {
                                     <a className="btn btn-secondary border-gradient border-gradient-purple px-3 mb-3">Sign In</a>
                                 </Link>
 
-                                <Link to='/'>
-                                    <a className="btn btn-primary px-3">Request a Demo</a>
-                                </Link>
+
+                                <a href='https://calendly.com/securestate/lets-talk-security' className="btn btn-primary px-3">Request a Demo</a>
+
                             </div>
                         </div>
 
