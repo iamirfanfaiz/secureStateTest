@@ -2,7 +2,9 @@ import React, { useState } from 'react'
 import './NavBar.scss';
 import { NavLink, Link } from 'react-router-dom';
 import mainLogo from '../../assets/images/logo-new.png';
-
+import ThreatModelasaServiceLogo from '../../assets/images/icons/ThreatModelasaServiceLogo.svg'
+import ASPMlogo from '../../assets/images/icons/ASPMlogo.svg'
+import PentestasaService from '../../assets/images/icons/PentestasaService.svg'
 
 function NavBar() {
     const [click, setClick] = useState(false);
@@ -29,6 +31,86 @@ function NavBar() {
                             <NavLink to='/platform' className='nav-item' activeClassName="selected">
                                 Products
                             </NavLink>
+                            <div className='sub-items'>
+                                <div className='row'>
+                                    <div className='col-md-6'>
+                                        <p className='fs-md'>PRODUCTS</p>
+                                        <Link to='/design'>
+                                            <a className="sub-item">
+                                                <div className='icon'>
+                                                    <img src={ThreatModelasaServiceLogo} alt='theat model service' />
+                                                </div>
+                                                <div className='content'>
+                                                    <h1>Threat Model as a Service (TMaaS)</h1>
+                                                    <p>Build secure products from Day One and eliminate bugs before they make it to production</p>
+                                                </div>
+                                            </a>
+                                        </Link>
+                                        <Link to='/operate'>
+                                            <a className="sub-item">
+                                                <div className='icon'>
+                                                    <img src={ASPMlogo} alt='' />
+                                                </div>
+                                                <div className='content'>
+                                                    <h1>Pentest as a Service (PTaaS)</h1>
+                                                    <p>Perform targeted penetration testing to uncover critical vulnerabilities and satisfy compliance requirements</p>
+                                                </div>
+                                            </a>
+                                        </Link>
+                                        <Link to='/develop'>
+                                            <a className="sub-item">
+                                                <div className='icon'>
+                                                    <img src={PentestasaService} />
+                                                </div>
+                                                <div className='content'>
+                                                    <h1>Product Security Posture Management (PSPM)</h1>
+                                                    <p>Manage end to end security of your products from a single platform</p>
+                                                </div>
+                                            </a>
+                                        </Link>
+                                    </div>
+
+                                    <div className='col-md-6'>
+                                        <p className='fs-md'>SOLUTIONS</p>
+                                        <Link to='/operate'>
+                                            <a className="sub-item">
+                                                <div className='icon'>
+                                                    <img src={ThreatModelasaServiceLogo} />
+                                                </div>
+                                                <div className='content'>
+                                                    <h1>Supply Chain Security</h1>
+                                                    <p>Secure open source components, 3rd party libraries, and plug-ins to protect your products against supply chain attacks</p>
+                                                </div>
+                                            </a>
+                                        </Link>
+                                        <Link to='/operate'>
+                                            <a className="sub-item">
+                                                <div className='icon'>
+                                                    <img src={ASPMlogo} />
+                                                </div>
+                                                <div className='content'>
+                                                    <h1>Vendor Security & Privacy Standards</h1>
+                                                    <p>Bet out your competitors by showing your commitment to security and privacy through our VSP Framework and compliance reporting</p>
+                                                </div>
+                                            </a>
+                                        </Link>
+                                        <Link to='/operate' >
+                                            <a className="sub-item">
+                                                <div className='icon'>
+                                                    <img src={PentestasaService} />
+                                                </div>
+                                                <div className='content'>
+                                                    <h1>DevSecOps Orchestration</h1>
+                                                    <p>Centralize all product security data and processes into a single platform and create a high security posture</p>
+                                                </div>
+                                            </a>
+                                        </Link>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
                         </div>
 
                         <div className='nav-items'>
@@ -103,8 +185,8 @@ function NavBar() {
                 </div>
 
 
-            </nav>
-        </div>
+            </nav >
+        </div >
     )
 }
 

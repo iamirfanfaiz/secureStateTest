@@ -118,11 +118,11 @@ $dark-color: #29323d;
         display: none;
         position: fixed;
         width: 100%;
-        max-width: 800px;
+        max-width: 740px;
         margin: auto;
         top: 54px;
         right: 0;
-        // left: 0;
+        left: 0;
         background-color: #fff;
         box-shadow: 0px 2px 4px rgb(204 204 204 / 17%);
         padding: 15px;
@@ -316,4 +316,8 @@ $dark-color: #29323d;
       display: block;
     }
   }
+}
+
+.fs-md{
+  font-size: 14px;
 }
