@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Fade } from "react-awesome-reveal";
 import { Link } from 'react-router-dom';
+import { Player } from 'video-react';
 import banner from '../../assets/main-banner.svg'
 import security_one from '../../assets/security/one.svg'
 import security_two from '../../assets/security/two.svg'
@@ -19,6 +20,16 @@ import power_six from '../../assets/power/power-six.svg'
 import power_seven from '../../assets/power/power-seven.svg'
 import power_eight from '../../assets/power/power-eight.svg'
 import scale from '../../assets/scale.svg'
+import webapp from '../../assets/images/home/webapp.svg'
+import mobileapp from '../../assets/images/home/mobileapp.svg'
+import sslaptop from '../../assets/images/home/sslaptop.svg'
+import people from '../../assets/images/home/people.svg'
+import iterate from '../../assets/images/home/iterate.svg'
+import graph from '../../assets/images/home/graph.svg'
+
+import plus from '../../assets/images/home/plus.svg'
+import equal from '../../assets/images/home/equal.svg'
+
 
 function Home() {
 
@@ -29,10 +40,13 @@ function Home() {
                     <div className='row'>
                         <div className='col-md-5 d-flex align-items-center flex-column justify-content-around'>
                             <span>
-                                <h1 className='mb-4 fw-700'>Take The First Step
-                                    Toward <span className='highlight'>Security</span></h1>
+                                {/* <h1 className='mb-4 fw-700'>Take The First Step
+                                    Toward <span className='highlight'>Security</span></h1> */}
+                                <h1>
+                                    Integrate Security at Every Phase of the Development Lifecycle
+                                </h1>
                                 <p className='mt-1'>
-                                    Startups trust SecureState to help introduce enterprise-grade product security. Leverage a highly skilled team of security engineers and a robust DevSecOps platform as your security partner of choice.
+                                    Gain access to a dedicated product security engineer available through slack and a robust DevSecOps platform to build an enterprise grade development program at scale.
                                 </p>
 
                                 <a href='https://calendly.com/securestate/lets-talk-security' className='btn btn-primary btn-lg mb-4'>Request A Demo</a>
@@ -48,9 +62,87 @@ function Home() {
             <section className='py-5'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-8 text-center offset-2'>
-                            <h1 className='mb-3 fw-700'>Get a Free Product Security Risk Assessment Today!</h1>
+                        <div className='col-12 text-center'>
+                            <h2 className='mb-3 fw-700'>Get a Free Product Security Risk Assessment Today!</h2>
                             <a href='https://yt754yiloe6.typeform.com/to/flmCjEku' className='btn btn-primary btn-lg'>Get A Free Assessment</a>
+                        </div>
+                    </div>
+
+                    <div className='cols'>
+                        <div className='center-row'>
+                            <div className='icons'>
+                                <img className='img-fluid' src={plus} />
+                            </div>
+
+                            <div className='icons'>
+                                <img className='img-fluid' src={equal} />
+                            </div>
+                        </div>
+                        <div className='col-one'>
+                            <h3>Your platform...</h3>
+                            <div className='figure'>
+                                <img src={webapp} />
+                                <p>Web Applications</p>
+                            </div>
+
+                            <div className='figure'>
+                                <img src={mobileapp} />
+                                <p>Mobile Applications</p>
+                            </div>
+                        </div>
+                        <div className='col-two'>
+                            <h3>...our engineers and security platform</h3>
+                            <div className='figure'>
+                                <img src={sslaptop} />
+                                <p>Cloud Security Platform</p>
+                            </div>
+
+                            <div className='figure'>
+                                <img src={people} />
+                                <p>Analysts & Engineers</p>
+                            </div>
+                        </div>
+                        {/* <div className='equal'>
+
+                        </div> */}
+                        <div className='col-three'>
+                            <h3>Simplifying cybersecurity</h3>
+                            <div className='figure'>
+                                <img src={iterate} />
+                                <p>End to End Security Coverage</p>
+                            </div>
+
+                            <div className='figure'>
+                                <img src={graph} />
+                                <p>At a fraction of the cost</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section className='py-5'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-12 text-center mb-4'>
+                            <h3>HOW IT WORKS</h3>
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div className='col-12'>
+                            {/* <Player>
+                                poster="/assets/poster.png"
+                                <source src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33dcdbf6-1308-4002-ad34-e7b605108f10/Final_Website_Upload-1080p-221101.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221120%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221120T164358Z&X-Amz-Expires=86400&X-Amz-Signature=1c863a709d74bc0f05110a0c52fc39c505361bad6caec733ab54a91d4c39ddd3&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Final%2520Website%2520Upload-1080p-221101.mp4%22&x-id=GetObject" />
+                            </Player> */}
+
+                            <Player
+                                playsInline
+                                poster="/assets/images/home/graph.svg"
+                                src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+                            />
+
                         </div>
                     </div>
                 </div>
@@ -113,8 +205,8 @@ function Home() {
                             <img src={feature_two} className='img-fluid mb-3' />
                         </div>
                         <div className='col-md-6'>
-                            <h2 className='mb-2 fw-600'>Thousands of Dollars Saved, to Invest in Scaling Your Business</h2>
-                            <p>Product security teams involve significant investment in people and infrastructure. SecureState provides the same value at a fraction of the cost through a DevSecOps platform that scales with your business.</p>
+                            <h2 className='mb-2 fw-600'>Targeted Security Services Following a Risk-Based Approach</h2>
+                            <p>We integrate security into every phase of the development lifecycle by providing targeted security services to maximize coverage of the attack surface.  They are delivered by highly expierenced security engineers.</p>
                         </div>
 
                     </div>
@@ -122,7 +214,7 @@ function Home() {
                     <div className='row d-flex align-items-center py-4 col-reverse text-center-xs'>
                         <div className='col-md-6'>
                             <h2 className='mb-2 fw-600'>Fix Issues Quickly With Real-Time Alerts</h2>
-                            <p>Maintain product security with ease. Our reactive software and proactive scanning notify you when there’s a vulnerability, so you can fix it quickly. Get detailed guidance for correcting each issue so you know you’ve done it right.</p>
+<p>Maintain product security with ease. Our reactive software and proactive scanning notify you when there’s a vulnerability, so you can fix it quickly. Get detailed guidance for correcting each issue so you know you’ve done it right.</p>
                         </div>
 
                         <div className='col-md-6'>
@@ -138,8 +230,8 @@ function Home() {
                         </div>
 
                         <div className='col-md-6'>
-                            <h2 className='mb-2 fw-600'>Support From Product Security Experts</h2>
-                            <p>Get support from our team of product security engineers. We strive to respond to questions in 1 business day or less.</p>
+                            <h2 className='mb-2 fw-600'>Actively Engage with Product Security Experts</h2>
+                           <p>Get support from a dedicated product security engineer through Slack.  Security is continous, so is our engagement with your team. As you design, develop and deploy software, we enable you to ask questions and get feedback to integrate security at every step.</p>
                         </div>
                     </div>
 
@@ -171,9 +263,9 @@ function Home() {
                         </div>
                         <div className='col-md-3'>
                             <div className='box red'>
-                            <div className='icon red-gradient'>
-                                  <div className='img'>
-                                    <img src={power_two} />
+                                <div className='icon red-gradient'>
+                                    <div className='img'>
+                                        <img src={power_two} />
                                     </div>
                                 </div>
                                 <div className='content'>
@@ -253,9 +345,9 @@ function Home() {
                         <div className='col-md-5 d-flex align-items-center flex-column justify-content-around'>
                             <span>
                                 <h1 className='mb-4 fw-700'>
-                                Ready To Scale With Security?
+                                    Ready To Scale With Security?
                                 </h1>
-                               
+
 
                                 <a href='https://calendly.com/securestate/lets-talk-security' className='btn btn-primary btn-lg'>Request A Demo</a>
                             </span>

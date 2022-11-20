@@ -113,11 +113,11 @@ function NavBar() {
 
                         </div>
 
-                        <div className='nav-items'>
+                        {/* <div className='nav-items'>
                             <NavLink to='/pricing' className='nav-item' activeClassName="selected">
                                 Pricing
                             </NavLink>
-                        </div>
+                        </div> */}
 
                     </div>
 
@@ -160,11 +160,11 @@ function NavBar() {
                                     </NavLink>
                                 </div>
 
-                                <div className='nav-items'>
+                                {/* <div className='nav-items'>
                                     <NavLink to='/pricing' className='nav-item' activeClassName="selected">
                                         Pricing
                                     </NavLink>
-                                </div>
+                                </div> */}
 
                             </div>
 
