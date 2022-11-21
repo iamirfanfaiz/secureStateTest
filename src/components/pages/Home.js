@@ -140,7 +140,7 @@ function Home() {
                             <Player
                                 playsInline
                                 poster="/assets/images/home/graph.svg"
-                                src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+                                src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33dcdbf6-1308-4002-ad34-e7b605108f10/Final_Website_Upload-1080p-221101.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221121%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221121T190132Z&X-Amz-Expires=86400&X-Amz-Signature=522b1bf359438949013e5e0e38063c73dec2d40d8dcbc8e65ba071b4f9f421c6&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Final%2520Website%2520Upload-1080p-221101.mp4%22&x-id=GetObject"
                             />
 
                         </div>
